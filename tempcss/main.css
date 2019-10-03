@@ -12,5 +12,6 @@ header, footer {
 
 header img {
     float: right;
-    margin: 5px
+    margin: 5px;
+    padding: 5px;
 }
