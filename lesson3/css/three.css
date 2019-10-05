@@ -28,7 +28,7 @@ nav {
 nav ul {
         display: flex;
         flex-flow: row wrap;
-				margin: 5;
+				margin: 0;
 				}
 
 p {
