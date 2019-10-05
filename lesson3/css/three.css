@@ -19,11 +19,17 @@ h2 {
     }
 
 nav {
+		background-color: #247BA0;
 		font-size:1.2em;
 		line-height:3em;
 		margin-top:-5em;
 		padding-left:200px;
 		}		
+
+nav a { 
+		color: #C4f0ff;
+		padding: 1em 1em;
+}
 
 nav ul {
         display: flex;
