@@ -45,6 +45,10 @@ p {
 			font-family: 'PT Sans', 'Roboto', 'sans-serif';
 			color: black;
 }
+
+body {
+			padding: 1.25rem;
+}
 /*font-family: 'Roboto', sans-serif;
 font-family: 'PT Sans', sans-serif;
 font-family: 'Crete Round', serif;
