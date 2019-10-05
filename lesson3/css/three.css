@@ -12,6 +12,13 @@ h2 {
     color: #50514F; 
     }
 
+nav {
+		font-size:1.2em;
+		line-height:3em;
+		margin-top:-5em;
+		padding-left:200px;
+		}		
+
 nav ul {
         display:flex;
         flex-flow:row wrap;
