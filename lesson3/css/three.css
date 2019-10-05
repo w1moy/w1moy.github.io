@@ -1,55 +1,30 @@
 header, footer {
     background-color: #FFEC6D;
     color:#50514F;
-		text-align: center;
 		font-family: 'viga', 'sans-serif';
-		padding: 1.25rem;
-		display: flex;
 		}
 		
 h1 {
 		font-family: 'viga', 'crete round', 'sans-serif';
 		color: #50514F;
-}
+		}
 
 h2 {
     text-decoration-line: underline;
-    padding: 10px;
-    margin: 50px;
 		color: #50514F; 
 		font-family: 'viga', 'crete round', 'sans-serif';
     }
 
 nav {
 		background-color: #247BA0;
-		margin: 50px;
-		/*margin: 0 auto;*/
-		padding: 0.3em;
 		}
 
-nav a {
-		line-height:3em;
-		padding: .5em .5em;
-		}		
-
 nav li { 
-		list-style-type: none;
 		font-family: 'viga', 'sans-serif';
 		font-size: 1.2em;
 		color: #C4f0ff;
-		display: flex;
-		flex: 1 1 100%;
-		text-decoration: none;
-		text-align: center;
-}
-
-nav ul {
-        display: flex;
-        flex-flow: row wrap;
-				margin: 0;
-				padding: 0;
-				}
-
+		}
+		
 p {
 			font-family: 'PT Sans', 'Roboto', 'sans-serif';
 			color: black;
