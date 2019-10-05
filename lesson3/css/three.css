@@ -9,7 +9,8 @@ h2 {
     text-decoration-line: underline;
     padding: 10px;
     margin: 50px;
-    color: #50514F; 
+		color: #50514F; 
+		font-family: 'Viga', 'Crete Round', 'sans-serif';
     }
 
 nav {
@@ -25,7 +26,11 @@ nav ul {
 				margin: 5;
 				}
 
-body {
-			font-family: 'PT Sans', sans-serif;
+p {
+			font-family: 'PT Sans', 'Roboto', 'sans-serif';
 			color: black;
 }
+/*font-family: 'Roboto', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Crete Round', serif;
+font-family: 'Viga', sans-serif; */
