@@ -29,6 +29,7 @@ nav {
 	
 nav a {
 			padding: 1em 1em;
+			list-style: none;
 }
 
 nav ul { 
