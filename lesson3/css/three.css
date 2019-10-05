@@ -31,6 +31,10 @@ nav ul {
 				margin: 0;
 				}
 
+li { 
+		list-style-type: none;
+}
+
 p {
 			font-family: 'PT Sans', 'Roboto', 'sans-serif';
 			color: black;
