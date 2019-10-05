@@ -31,9 +31,8 @@ nav a {
 }
 
 nav ul { 
-		/*display: flex;
-		flex: 1 1 100%;*/
-		display: block;
+		display: flex;
+		flex: 1 1 100%;
 		margin: 0;
 		font-family: 'viga', 'sans-serif';
 		font-size: 1.2em;
