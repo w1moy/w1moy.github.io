@@ -3,7 +3,12 @@ header, footer {
     color:#50514F;
     text-align: center;
     padding: 1.25rem;
-    }
+		}
+		
+h1 {
+		font-family: 'Viga', 'sans-serif';
+		color: #50514F;
+}
 
 h2 {
     text-decoration-line: underline;
