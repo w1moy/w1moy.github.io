@@ -27,20 +27,28 @@ nav {
 		line-height: 3em;
 		}
 	
-nav a {
-			padding: 1em 1em;
+nav li a {
+		display: block;
+		color: #C4f0ff;
+		text-align: center;
+		padding: 0.75rem;
+		text-decoration: none;
+		font-size: 0.95rem;
 }
 
 nav ul { 
-		display: flex;
-		flex: 1 1 100%;
-		display: block;
+		list-style-position: none;
 		margin: 0;
-		font-family: 'viga', 'sans-serif';
-		font-size: 1.2em;
-		color: #C4f0ff;
-		text-align: center;
-		}
+		padding: 0;
+		overflow: hidden;
+}
+
+@media only screen and (min-width: 37.5em) {
+	nav ul {
+		display: grid;
+		grid-template-columns: repeat (auto-fill, minmax(130px, 1fr))
+	}
+}
 
 p {
 			font-family: 'PT Sans', 'Roboto', 'sans-serif';
