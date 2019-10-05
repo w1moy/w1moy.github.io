@@ -1,6 +1,6 @@
 header, footer {
 		display: flex;
-		height: 55px;
+		height: 100px;
 		width: 100%;
 		justify-content: center;
     background-color: #FFEC6D;
