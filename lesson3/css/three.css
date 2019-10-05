@@ -48,7 +48,6 @@ nav ul {
         flex-flow: row wrap;
 				margin: 0;
 				padding: 0;
-				overflow: hidden;
 				}
 
 p {
@@ -58,6 +57,7 @@ p {
 
 main {
 			padding: 1em;
+			margin: 50px;
 }
 /*font-family: 'Roboto', sans-serif;
 font-family: 'PT Sans', sans-serif;
