@@ -36,6 +36,9 @@ nav li a {
 		font-size: 0.95rem;
 }
 
+nav a:hover {
+	background: blue;
+}
 nav ul { 
 		list-style-position: none;
 		margin: 0;
