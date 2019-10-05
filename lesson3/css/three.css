@@ -1,4 +1,8 @@
 header, footer {
+		display: flex;
+		height: 55px;
+		width: 100%;
+		justify-content: center;
     background-color: #FFEC6D;
     color:#50514F;
 		font-family: 'viga', 'sans-serif';
@@ -13,18 +17,28 @@ h2 {
     text-decoration-line: underline;
 		color: #50514F; 
 		font-family: 'viga', 'crete round', 'sans-serif';
+		padding: 10px;
     }
 
 nav {
 		background-color: #247BA0;
+		font-size: 1.2em;
+		line-height: 3em;
 		}
+	
+nav a {
+			padding: 1em 1em;
+}
 
-nav li { 
+nav ul { 
+		display: flex;
+		flex: 1 1 100%;
+		margin: 0;
 		font-family: 'viga', 'sans-serif';
 		font-size: 1.2em;
 		color: #C4f0ff;
 		}
-		
+
 p {
 			font-family: 'PT Sans', 'Roboto', 'sans-serif';
 			color: black;
