@@ -11,3 +11,9 @@ h2 {
     margin: 50px;
     color: #50514F; 
     }
+
+nav ul {
+        display:flex;
+        flex-flow:row wrap;
+				margin:0;
+				}
