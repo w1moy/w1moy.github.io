@@ -1,9 +1,9 @@
 header, footer {
-    background-color: #247ba0;
-    color: #50514F;
+    background-color:#247ba0;
+    color:#50514F;
     text-align: center;
     padding: 1.25rem;
-}
+    }
 
 h2 {
     text-decoration-line: underline;
