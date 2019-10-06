@@ -28,7 +28,9 @@ nav {
 		}
 	
 nav li a {
-		display: block;
+		display: flex;
+		flex-direction: row;
+		/*display: block;*/
 		color: #C4f0ff;
 		text-align: center;
 		padding: 0.75rem;
