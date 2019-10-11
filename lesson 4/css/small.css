@@ -27,3 +27,11 @@ nav ul li a {
 
 nav ul li.active a {background-color: rgba(0,0,0,.4); color: #c4f0ff}
 nav ul li a:hover {background-color: rgba(0,0,0,.7);}
+nav ul.hide {display: none;}
+
+/*-----Clear fix : force an element not to collapse*/
+.clearfix:after{
+    content:" ";
+    display: table;
+    clear: both;
+}
