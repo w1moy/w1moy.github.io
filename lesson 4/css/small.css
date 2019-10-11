@@ -35,3 +35,20 @@ nav ul.hide {display: none;}
     display: table;
     clear: both;
 }
+
+header {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    background-color: #FFEC6D;
+    color:#50514F;
+    font-family: 'viga', 'sans-serif';
+    }
+
+h1 {
+    font-family: 'viga', 'crete round', 'sans-serif';
+    color: #50514F;
+    }
+
