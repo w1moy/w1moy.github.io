@@ -47,7 +47,7 @@ header {
     font-family: 'viga', 'sans-serif';
     }
 
-h1 {
+h1, h2, h4 {
     font-family: 'viga', 'crete round', 'sans-serif';
     color: #50514F;
     }
