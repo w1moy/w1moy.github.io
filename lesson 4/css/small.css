@@ -73,8 +73,8 @@ footer {
 .box {
     display: block;
     margin: 10px auto;
-    padding: 10px;
-    border: 10px dashed #c4f0ff;
+    padding: 5px;
+    border: 2px solid #50514F;
     justify-content: center;
 }
 
