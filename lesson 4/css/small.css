@@ -19,7 +19,7 @@ nav ul {
 
 nav ul li a {
     display: block;
-    padding: .8rem 2%;
+    padding: 1rem 2%;
     text-decoration: none;
     color: #50514f;
     border-top: 1px solid rgba(255,255,255,0.5);
