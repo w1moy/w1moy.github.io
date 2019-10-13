@@ -55,11 +55,22 @@ header {
     display: flex;
     height: 100px;
     width: 100%;
+    align-items: center;
     justify-content: center;
     text-align: center;
     background-color: #FFEC6D;
     color: #50514F;
     font-family: 'viga', 'sans-serif';
+}
+
+header img {
+    width: 80%;
+    height: auto;
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
 }
 
 h1,
@@ -95,7 +106,6 @@ footer {
     display: block;
     margin: 10px auto;
     padding: 5px;
-    /*border: 2px solid #50514F;*/
     justify-content: center;
 }
 

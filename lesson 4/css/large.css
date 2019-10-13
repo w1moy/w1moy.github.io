@@ -1,6 +1,11 @@
 /*64em is also 1028px when basefont is 16px */
 @media only screen and (min-width: 64rem) {
 
-    nav ul li a {padding: .6rem 1rem;}
+		nav ul li a {padding: .6rem 1rem;}
+		
+		header img {
+			width: 100%;
+			height: auto;
+		}
 
 } /*end large */
