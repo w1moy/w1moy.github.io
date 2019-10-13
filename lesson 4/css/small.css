@@ -59,6 +59,10 @@ h1, h2, h4 {
 
 h2 {text-align: center;}
 
+h3 {
+    margin: .25rem;
+}
+
 footer {
     display: flex;
 	height: 100px;
