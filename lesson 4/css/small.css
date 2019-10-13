@@ -7,8 +7,9 @@ nav button {
 }
 
 nav {
-    background-color: #70c1b3;
+    background-color: #FFEC6D;
     font-family: Vera, sans-serif;
+
 }
 
 nav ul {
@@ -22,16 +23,16 @@ nav ul li a {
     padding: 1rem 2%;
     text-decoration: none;
     color: #50514f;
-    border-top: 1px solid rgba(0, 0, , 0, .1);
+    border-top: 1px solid rgba(128, 128, 128, .1);
 }
 
 nav ul li.active a {
-    background-color: rgba(0, 0, 0, .2);
+    background-color: rgba(128, 128, 128, .2);
     color: #50514F
 }
 
 nav ul li a:hover {
-    background-color: rgba(0, 0, 0, .3);
+    background-color: rgba(128, 128, 128, .3);
 }
 
 nav ul.hide {
@@ -100,6 +101,8 @@ footer {
     color: #50514F;
     font-family: 'viga', 'sans-serif';
     padding: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .box {
@@ -119,3 +122,10 @@ footer {
     background-color: #c4f0ff;
 }
 span {font-weight: 700;}
+
+main {
+    background-color: #70c1b3;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 0;
+}
