@@ -66,3 +66,10 @@ footer {
     color:#50514F;
 	font-family: 'viga', 'sans-serif';
 }
+
+.box {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    border: 10px;
+}
