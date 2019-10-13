@@ -67,7 +67,7 @@ footer {
 	text-align: center;
     background-color: #FFEC6D;
     color:#50514F;
-	font-family: 'viga', 'sans-serif';
+    font-family: 'viga', 'sans-serif';
 }
 
 .box {
@@ -75,5 +75,6 @@ footer {
     margin: 10px auto;
     padding: 10px;
     border: 10px dashed #c4f0ff;
-    content: center;
+    justify-content: center;
 }
+
