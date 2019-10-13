@@ -83,8 +83,16 @@ footer {
     display: block;
     margin: 10px auto;
     padding: 5px;
+    /*border: 2px solid #50514F;*/
+    justify-content: center;
+}
+
+.content {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
     border: 2px solid #50514F;
     justify-content: center;
-
+    text-align: center;
 }
 
