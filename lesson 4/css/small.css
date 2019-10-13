@@ -7,7 +7,7 @@ nav button {
 }
 
 nav {
-    background-color: #ffec6d;
+    background-color: #70c1b3;
     font-family: Vera, sans-serif;
 }
 
@@ -27,7 +27,7 @@ nav ul li a {
 
 nav ul li.active a {
     background-color: rgba(0, 0, 0, .2);
-    color: #c4f0ff
+    color: #50514F
 }
 
 nav ul li a:hover {
