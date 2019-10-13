@@ -35,7 +35,10 @@ nav ul.hide {display: none;}
     display: table;
     clear: both;
 }
-
+#logo {
+    position: relative;
+    margin-left: 1em;
+}
 header {
     display: flex;
     height: 100px;
@@ -60,5 +63,5 @@ footer {
 	text-align: center;
     background-color: #FFEC6D;
     color:#50514F;
-		font-family: 'viga', 'sans-serif';
+	font-family: 'viga', 'sans-serif';
 }
