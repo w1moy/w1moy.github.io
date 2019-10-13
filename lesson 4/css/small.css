@@ -36,11 +36,13 @@ nav ul.hide {display: none;}
     display: table;
     clear: both;
 }
+
 #logo {
     position: relative;
     margin-left: -1em;
     padding: 1em;
 }
+
 header {
     display: flex;
     height: 100px;
