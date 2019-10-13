@@ -60,7 +60,9 @@ h1, h2, h4 {
 h2 {text-align: center;}
 
 h3 {
-    margin: .25rem;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    padding: 10px;
 }
 
 footer {
