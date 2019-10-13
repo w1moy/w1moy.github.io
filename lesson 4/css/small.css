@@ -6,6 +6,7 @@ nav button {
     font-size: 1.6rem;
     color: #50514f;
 }
+
 nav {
     background-color: #ffec6d;
     font-family: Vera, sans-serif;
@@ -71,5 +72,5 @@ footer {
     display: block;
     margin: 10px auto;
     padding: 10px;
-    border: 10px;
+    border: 10px dashed #c4f0ff;
 }
