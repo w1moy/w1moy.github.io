@@ -72,6 +72,7 @@ header img {
 .headings {
     display: flex;
     flex-direction: column;
+    background-color: #c4f0ff;
 }
 
 h1,
