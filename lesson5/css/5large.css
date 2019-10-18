@@ -24,14 +24,13 @@
 		nav ul {margin-left: 0%}
 
 		nav ul li {
-			float: left;
+			float: center;
 		}
 
 		nav ul li a {
 			border: none;
 			border-right: 1px solid rgba(0,0,0,.30);
 			padding: .6rem 1rem;
-			width: 100%;
 			text-align: center;
 		}
 
