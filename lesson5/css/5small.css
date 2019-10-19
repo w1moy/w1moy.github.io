@@ -24,6 +24,7 @@ header img {
 h1 {
     font-size: 27pt;
     text-align: center;
+    padding: 20px;
 }
 
 nav button {
@@ -83,12 +84,14 @@ h4 {
 
 h2 {
     text-align: center;
+    font-size: 24pt;
+    padding: 10px;
 }
 
 h3 {
-    margin-top: 20px;
+    margin-top: 15px;
     margin-bottom: 2px;
-    padding: 10px;
+    padding: 5px;
     font-size: 12pt;
 }
 
@@ -100,10 +103,31 @@ main {
 }
 
 .herophoto {
-    /*margin: 10px auto;*/
+    margin: 10px auto;
     border: 10px solid #50514f;
+    width: 100%;
+    height: 250px;
+    /*width: 1000px;
+    height: auto;*/
+}
+
+.hero {
+    margin: 10px auto;
+    position: relative;
+    border: 1px dashed blue;
     width: 1000px;
-    height: auto;
+    height: 250px;
+}
+
+.weathersummary{
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    background-color: #70c1b3;
+    color: #50514f;
+    border: 1px #50514f;
+    padding: .5rem;
+    box-shadow: 0 0 30px #777;
 }
 .box {
     display: block;
