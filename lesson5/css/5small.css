@@ -8,7 +8,6 @@ header {
     justify-content: center;
     color: #50514F;
     font-family: 'viga', 'sans-serif';
-    font-size: 27pt;
 }
 
 header img {
@@ -20,6 +19,11 @@ header img {
     display: flex;
     flex-direction: column;
     /*background-color: #c4f0ff;*/
+}
+
+h1 {
+    font-size: 27pt;
+    text-align: center;
 }
 
 nav button {
@@ -85,6 +89,7 @@ h3 {
     margin-top: 20px;
     margin-bottom: 2px;
     padding: 10px;
+    font-size: 12pt;
 }
 
 main {
