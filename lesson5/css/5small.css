@@ -24,7 +24,7 @@ header img {
 h1 {
     font-size: 27pt;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
 }
 
 nav button {
@@ -89,7 +89,7 @@ h2 {
 }
 
 h3 {
-    margin-top: 15px;
+    margin-top: 5px;
     margin-bottom: 2px;
     padding: 5px;
     font-size: 12pt;
