@@ -3,6 +3,10 @@
 
 	header {
 		background-color: #c4f0ff;
+		padding: 5px 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
 	}
 	header img {
 		width: 100px;
@@ -11,7 +15,18 @@
 
 	.headings {
 		display: flex;
-		flex-direction: colum;
+		flex-direction: column;
+	}
+
+	.headings h1 {
+		font-size: 1.6rem;
+		margin: 0 0 0 17px;
+	}
+
+	.moto {
+		font-size: .9rem;
+		font-style: italic;
+		letter-spacing: 1pt;
 	}
 
 	nav{
