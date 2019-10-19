@@ -95,8 +95,8 @@ main {
 }
 
 .herophoto {
-    margin: 10px auto;
-    border: 1px solid #50514f;
+    /*margin: 10px auto;*/
+    border: 10px solid #50514f;
     width: 100px;
     height: auto;
 }
