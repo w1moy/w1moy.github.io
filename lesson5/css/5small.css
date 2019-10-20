@@ -56,7 +56,7 @@ nav ul li a {
 }
 
 nav ul li.active a {
-    background-color: rgba(128, 128, 128, .2);
+    background-color: rgba(245, 244, 244, 0.2);
     color: #50514F
 }
 
