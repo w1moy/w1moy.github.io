@@ -8,6 +8,7 @@
 		align-items: center;
 		justify-content: center;
 	}
+
 	header img {
 		width: 100px;
 		height: auto;
@@ -23,24 +24,36 @@
 		margin: 0 0 0 17px;
 	}*/
 
-	nav{width: 100%;}
+	nav {
+		width: 100%;
+	}
 
-	nav button { display: none;}
+	nav button {
+		display: none;
+	}
 
-	nav ul.hide {display: block;}
-
-		nav ul {margin-left: 0%}
-
-		nav ul li {float: left;}
-
-		nav ul li a {
-			border: none;
-			border-right: 1px solid rgba(0,0,0,.30);
-			padding: .6rem 1rem;
-		}
-
-	main.fivedate { 
+	nav ul.hide {
 		display: block;
 	}
 
-} /*end large */
+	nav ul {
+		margin-left: 0%
+	}
+
+	nav ul li {
+		float: left;
+	}
+
+	nav ul li a {
+		border: none;
+		border-right: 1px solid rgba(0, 0, 0, .30);
+		padding: .6rem 1rem;
+	}
+
+	main.fivedate {
+		display: block;
+	}
+
+}
+
+/*end large */
