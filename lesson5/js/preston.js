@@ -34,3 +34,5 @@ let fulldate = dayName + ", " + monthName + " " + d.getDate() + ", " + d.getFull
 document.getElementById("currentdate").textContent = fulldate;
 
 
+
+
