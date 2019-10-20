@@ -15,6 +15,10 @@ header img {
     height: auto;
 }
 
+.moto {
+    padding: 2px;
+    margin: 0,
+}
 .headings {
     display: flex;
     flex-direction: column;
@@ -93,6 +97,10 @@ h3 {
     margin-bottom: 2px;
     padding: 5px;
     font-size: 12pt;
+}
+
+h4 { 
+    border: 1pt #50514f;
 }
 
 main {
