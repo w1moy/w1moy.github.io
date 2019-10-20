@@ -145,6 +145,11 @@ main {
     justify-content: center;
 }
 
+.fivedate {
+    display: none;
+
+}
+
 .articalphoto{
     float: right;
 }
