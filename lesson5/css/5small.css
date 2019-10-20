@@ -145,6 +145,9 @@ main {
     justify-content: center;
 }
 
+.articalphoto{
+    float: right;
+}
 .content {
     display: block;
     margin: 10px auto;
