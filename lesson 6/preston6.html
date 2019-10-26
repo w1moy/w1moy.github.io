@@ -7,18 +7,20 @@
 	<title>Future Forcast Weather Website</title>
 	<meta name="Description" content="Preston Town Weather Site">
 	<link rel="stylesheet" content="css/normalize.css">
-	<link rel="stylesheet" href="">
-	<link rel="stylesheet" href="">
-	<link rel="stylesheet" href="">
-	<link rel="shortcut icon" href="favcon/favicon">
-	<link href="https://fonts.googleapis.com/css?family=Crete+Round|PT+Sans|Roboto|Viga&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/small.css">
+	<link rel="stylesheet" href="css/medium.css">
+	<link rel="stylesheet" href="css/large.css">
+	<link rel="shortcut icon" href="favicon">
+	<!--<link href="https://fonts.googleapis.com/css?family=Crete+Round|PT+Sans|Roboto|Viga&display=swap" rel="stylesheet">-->
 </head>
 
 <body>
 	<header>
-		<img src="images/" alt="Future Forcast Logo" />
-		<h1>Future Forcast</h1>
-		<h4>"...there is no such thing as bad weather, only different kinds of good weather." John Ruskin</h4>
+		<div id="logo"><img src="images/iconfinder_icon-59_667368.png" alt="Future Forcast Logo" /></div>
+		<section class="headings">
+			<h1>Future Forcast</h1>
+			<h5>"...there is no such thing as bad weather,<br> only different kinds of good weather." John Ruskin</h5>
+		</section>
 	</header>
 
 	<nav class="clearfix">
@@ -38,26 +40,16 @@
 		<div class="box">
 			<div class="content">Hero Image/Weather Summary</div>
 			<div class="content">
-					<div class="fivedate">
-							<table>
-								<tr>
-									<th>Wed</th>
-									<th>Thur</th>
-									<th>Fri</th>
-									<th>Sat</th>
-									<th>Sun</th>
-								</tr>
-								<tr>
-									<td>55</td>
-									<td>59</td>
-									<td>53</td>
-									<td>54</td>
-									<td>60</td>
-								</tr>
-							</table>
-						</div>
+				<div class="fivedate">
+					<div class="box1">Wed <br>55°F<br><img src="images/iconfinder_sun 2_11132.png" alt="sun icon"></img></div>
+					<div class="box2">Thur <br>59°F<br><img src="images/iconfinder_sun 2_11132.png" alt="sun icon"></img> </div>
+					<div class="box3">Fri <br>53°F<br><img src="images/iconfinder_sun 2_11132.png" alt="sun icon"></img> </div>
+					<div class="box4">Sat <br>54°F<br><img src="images/iconfinder_sun 2_11132.png" alt="sun icon"></img></div>
+					<div class="box5">Sun <br>60°F<br><img src="images/iconfinder_sun 2_11132.png" alt="sun icon"></img> </div>
+				</div>
 			</div>
 			<div class="content">
+				<div class="articalphoto"><img src="" alt="Women at bonfire." /></div>
 
 				<p> Lorem ipsum dolor sit amet, cum malis alienum no, natum modus at mea. Fugit democritum ad est. Ei
 					mea elit volutpat. At qui magna platonem euripidis, et nibh convenire mei, in mei audire senserit
@@ -72,10 +64,18 @@
 					laoreet veritus electram ad, iusto argumentum percipitur usu id. Ex vix essent nostro constituam, in
 					quo placerat complectitur. Vim in partem complectitur, id soluta constituto quo, solet placerat mel
 					ea. Harum nullam feugait ne pri, ex doming pertinax cum, mea malis primis vituperata ei.</p>
-
 			</div>
 
-			<div class="content">Contact Information</div>
+			<div class="content">Contact Information
+				<div class="map">
+					<img src="images/Preston Map.png" alt="Preston Map"></img>
+				</div>
+				<div class="social">
+					<a href="https://www.facebook.com"><img src="" alt="facebook icon"></a>
+					<a href="https://www.youtube.com"><img src="" alt="youtube icon"></a>
+					<a href="https://www.instagram.com"><img src="" alt="instagram icon"></a>
+				</div>
+			</div>
 		</div>
 
 	</main>
@@ -87,6 +87,7 @@
 	</footer>
 	<script src="js/preston6.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+	<script src="js/webfont.js"></script>
 
 </body>
 
