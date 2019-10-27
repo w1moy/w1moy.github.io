@@ -41,17 +41,20 @@
 			<div class="content">
 				<div class="hero">
 					<picture>
-						<source srcset="/images/Hero Image Large.jpg" alt="Hero Image Large" media="(min-width: 960px)">
-						<source srcset="/images/Hero Image Med.jpg" alt="Hero Image Medium" media="(min-width: 500px)">
+						<source srcset="/images/Hero Image Large.jpg" media="(min-width: 960px)">
+						<source srcset="/images/Hero Image Med.jpg" media="(min-width: 500px)">
 						<img src="images/Hero Image Small.jpg" alt="Hero Image Small">
 					</picture>
 					<section class="weathersummary">
 						<h3>Weather Summary</h3>
-						<p>Currently:Sunny</p>
-						<p>Temperature:55°F</p>
-						<p>Wind Chill:</p>
-						<p>Humidity:2%</p>
-						<p>Wind Speed:10mph</p>
+						<ul>
+							<li>Currently: Sunny</li>
+							<li>Temperature: <span id="temp">55</span>&#176;F</li>
+							<li>Wind Chill: <span id="chill"></span>&#176;F</li>
+							<li>Humidyity: 2%</li>
+							<li>Percipitation: 0 inches</li>
+							<li>Wind Speed: <span id="speed">10</span>mph</li>
+						</ul>
 					</section>
 				</div>
 			</div>
