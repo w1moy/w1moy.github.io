@@ -1,4 +1,5 @@
 @media only screen and (max-width: 518px) {
+    
     nav button {
         margin: .2rem 2%;
         background-color: transparent;
@@ -66,7 +67,7 @@
     }
     
     header img {
-        width: 10%;
+        width: 15%;
         height: auto;
     }
     
