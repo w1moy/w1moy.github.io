@@ -2,8 +2,12 @@ h1 {
     text-align: center;
 }
 
-img {
+picture {
     display: grid;
+}
+
+img {
+    grid-column: 2;
     width: 400px;
     height: 300px;
 }
