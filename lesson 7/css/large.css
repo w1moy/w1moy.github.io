@@ -30,8 +30,9 @@
 
         h1{
             color: #50514f;
-            padding: 5px;
-            margin: 20px; 
+            padding: 50px;
+            margin: 100px; 
+            border: red;
         }
 
 } /*end large */
