@@ -4,6 +4,8 @@ h1 {
 
 picture {
     display: grid;
+    padding: 5px;
+    margin: 5px;
 }
 
 img {
