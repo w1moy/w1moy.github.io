@@ -4,7 +4,10 @@ h1 {
 
 img {
     display: grid;
-    align-items: center;
     width: 400px;
     height: 300px;
+}
+
+body {
+    align-content: center;
 }
