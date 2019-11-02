@@ -48,8 +48,8 @@
 
 		img {
 			display: grid;
-			grid-column: 400px 400px 400px;
-			grid-row: 300px 300px 300px;
+			grid-template-columns: repeat(3, 3fr);
+			grid-template-rows: repeat(3, 3fr);
 			grid-gap: 20px;
 		}
         
