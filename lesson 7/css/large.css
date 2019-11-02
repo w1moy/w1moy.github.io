@@ -45,6 +45,13 @@
 			border-right: 1px solid rgba(0,0,0,.30);
 			padding: .6rem 1rem;
 		}
+
+		main figure.galphoto img {
+			display: grid;
+			grid-column: 400px 400px 400px;
+			grid-row: 300px 300px 300px;
+			grid-gap: 20px;
+		}
         
 } /*end large */
 
