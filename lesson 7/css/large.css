@@ -1,4 +1,4 @@
-@media only screen and (min-width: 60em){
+@media only screen and (min-width: 60em) {
 
 	header {
 		font-family: Viga, sans-serif;
@@ -30,44 +30,51 @@
 
 	.headings h5 {
 		font-size: 12pt;
-		margin: 0px 0px 0px 25px ;
+		margin: 0px 0px 0px 25px;
 	}
 
-	nav{
+	nav {
 		width: 100%;
 	}
-	nav button { display: none;}
 
-		nav ul.hide {display: block;}
+	nav button {
+		display: none;
+	}
 
-		nav ul {margin-left: 0%}
+	nav ul.hide {
+		display: block;
+	}
 
-		nav ul li {
-			float: left;
-		}
+	nav ul {
+		margin-left: 0%
+	}
 
-		nav ul li a {
-			align-items: stretch;
-			border: none;
-			border-right: 1px solid rgba(0,0,0,.30);
-			padding: .6rem 1rem;
-		}
+	nav ul li {
+		float: left;
+	}
 
-		main figure.galphoto {
-			display: grid;
-			grid-template-columns: 3fr 3fr 3fr;
-			grid-template-rows: 3fr 3fr 3fr;
-			grid-gap: 10px;
-			max-width: 300px;
-		} 
+	nav ul li a {
+		align-items: stretch;
+		border: none;
+		border-right: 1px solid rgba(0, 0, 0, .30);
+		padding: .6rem 1rem;
+	}
 
-		main figure.galphoto figcaption {
-			text-align: center;
-			font-size: 25pt;
-			color: #50514f;
-			background-color: #FFEC6D;
-		}
-        
-} /*end large */
+	.container {
+		display: grid;
+		grid-template-columns: 3fr 3fr 3fr;
+		grid-template-rows: 3fr 3fr 3fr;
+		grid-gap: 10px;
+		max-width: 300px;
+	}
 
-    
+	figcaption {
+		margin-top: 0px;
+		font-size: 25pt;
+		color: #50514f;
+		background-color: #FFEC6D;
+	}
+
+}
+
+/*end large */
