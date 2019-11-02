@@ -9,6 +9,7 @@ nav button {
     border: none;
     font-size: 1.6rem;
     color: #50514f;
+    align-items: center;
 }
 
 nav {
@@ -70,7 +71,7 @@ header {
 }
 
 header img {
-    width: 15%;
+    width: 25%;
     height: auto;
 }
 
@@ -129,7 +130,7 @@ footer {
 
 span {font-weight: 700;}
 
-figure {
+main figure {
     display: grid;
     padding: 5px;
     margin: 5px;
@@ -145,7 +146,7 @@ main figure.galphoto img {
     width: 100%;
 }
 
-main figure.galphoto figcaption{
+main figure.galphoto figcaption {
     text-align: center;
     font-size: .75rem;
 }
