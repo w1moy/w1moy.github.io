@@ -46,7 +46,7 @@
 			padding: .6rem 1rem;
 		}
 
-		 .galphoto {
+		 figure {
 			display: grid;
 			grid-template-columns: repeat(autofit, minmax(300px, 3fr));
 			grid-template-rows: repeat(autofit, minmax(300px, 3fr)) ;
