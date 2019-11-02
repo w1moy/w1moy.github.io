@@ -64,6 +64,8 @@
 		main figure.galphoto figcaption {
 			text-align: center;
 			font-size: 25pt;
+			color: #50514f;
+			background: #FFEC6D;
 		}
         
 } /*end large */
