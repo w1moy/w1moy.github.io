@@ -136,7 +136,7 @@ figure {
 }
 
 main figure.galphoto {
-    width: 75%;
+    width: 80%;
     margin: 0 0 0 2%;
 }
 
@@ -145,6 +145,7 @@ main figure.galphoto img {
     width: 100%;
 }
 
-figure figcaption{
-
+main figure.galphoto figcaption{
+    text-align: center;
+    font-size: .75rem;
 }
