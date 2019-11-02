@@ -46,7 +46,7 @@
 			padding: .6rem 1rem;
 		}
 
-		img {
+		 .galphoto {
 			display: grid;
 			grid-template-columns: repeat(3, 3fr);
 			grid-template-rows: repeat(3, 3fr);
