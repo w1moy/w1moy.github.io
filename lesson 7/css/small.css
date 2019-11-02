@@ -78,6 +78,8 @@ header img {
 .headings {
     display: flex;
     flex-direction: column;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
 }
 
 h1,
@@ -109,13 +111,6 @@ footer {
     padding: 10px;
     margin-left: 100px;
     margin-right: 100px;
-}
-
-.box {
-    display: block;
-    margin: 10px auto;
-    padding: 5px;
-    justify-content: center;
 }
 
 .content {
