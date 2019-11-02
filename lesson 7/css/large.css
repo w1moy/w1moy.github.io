@@ -48,8 +48,7 @@
 
 		 .galphoto {
 			display: grid;
-			grid-template-columns: repeat(3, 3fr);
-			grid-template-rows: repeat(3, 3fr);
+			grid-template-columns: repeat(autofit, minmax(300px, 1fr));
 			grid-gap: 20px;
 		}
         
