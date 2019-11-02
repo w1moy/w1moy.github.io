@@ -126,14 +126,8 @@ footer {
     text-align: center;
     background-color: #c4f0ff;
 }
-span {font-weight: 700;}
 
-main {
-    background-color: #70c1b3;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 0;
-}
+span {font-weight: 700;}
 
 figure {
     display: grid;
@@ -141,8 +135,16 @@ figure {
     margin: 5px;
 }
 
-figure img {
+main figure.galphoto {
+    width: 75%;
+
+}
+
+main figure.galphoto img {
     grid-column: 2;
-    width: 300px;
-    height: auto;
+    width: 100%;
+}
+
+figure figcaption{
+
 }
