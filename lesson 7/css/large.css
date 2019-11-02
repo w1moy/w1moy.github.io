@@ -6,10 +6,10 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		background-color: #FFEC6D;
 		color: #50514f;
 		text-align: center;
 		padding: 10px;
+		height: 150px;
 	}
 
 	header img {
@@ -23,12 +23,14 @@
 	}
 
 	.headings h1 {
-		font-size: 36pt;
-		margin: 0px 10px 0 0px;
+		font-size: 72pt;
+		margin: 25px 0px 0px 0px;
+		padding: 0px;
 	}
 
 	.headings h5 {
 		font-size: 12pt;
+		margin: 0px 0px 0px 25px ;
 	}
 
 	nav{
@@ -45,17 +47,23 @@
 		}
 
 		nav ul li a {
+			align-items: stretch;
 			border: none;
 			border-right: 1px solid rgba(0,0,0,.30);
 			padding: .6rem 1rem;
 		}
 
-		 figure.galphoto {
+		main figure.galphoto {
 			display: grid;
-			grid-template-columns: 3fr 3fr 3fr;
+			grid-columns: 3fr 3fr 3fr;
 			grid-row: 3fr 3fr 3fr;
-			/*grid-gap: 10px;*/
-			/*max-width: 1200px;*/
+			grid-gap: 10px;
+			max-width: 1200px;
+		} 
+
+		main figure.galphoto figcaption {
+			text-align: center;
+			font-size: 50pt;
 		}
         
 } /*end large */
