@@ -23,8 +23,12 @@
 	}
 
 	.headings h1 {
-		font-size: 1.5rem;
+		font-size: 36pt;
 		margin: 0 0 0 17px;
+	}
+
+	.headings h5 {
+		font-size: 12pt;
 	}
 
 	nav{
