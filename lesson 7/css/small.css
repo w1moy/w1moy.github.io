@@ -15,7 +15,6 @@ nav button {
 nav {
     background-color: #FFEC6D;
     font-family: Vera, sans-serif;
-
 }
 
 nav ul {
@@ -52,12 +51,6 @@ nav ul.hide {
     clear: both;
 }
 
-/*#logo {
-    position: relative;
-    margin-left: -1em;
-    padding: 1em;*/
-
-
 header {
     display: flex;
     height: 100px;
@@ -82,6 +75,11 @@ header img {
     margin: 0 0 0 0;
 }
 
+.headings h1 {
+    font-size: 24pt;
+    margin: 75px 0px 0px 0px;
+    padding: 0px;
+}
 h1,
 h2,
 h4 {

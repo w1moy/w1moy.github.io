@@ -62,10 +62,16 @@
 
 	.container {
 		display: grid;
-		grid-template-columns: 3fr 3fr 3fr;
-		grid-template-rows: 3fr 3fr 3fr;
+		grid-template-columns: 400px 400px 400px;
+		grid-template-rows: 400px 400px 400px;
 		grid-gap: 10px;
-		max-width: 300px;
+		text-align: center;
+		align-content: center;
+	}
+
+	.galphoto:hover {
+		box-shadow: 10px 10px 10px #333;
+
 	}
 
 	figcaption {
