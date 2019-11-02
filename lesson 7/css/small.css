@@ -135,7 +135,14 @@ main {
     margin-bottom: 0;
 }
 
-.picture {
-    width: 50%;
+figure {
+    display: grid;
+    padding: 5px;
+    margin: 5px;
+}
+
+figure img {
+    grid-column: 2;
+    width: 300px;
     height: auto;
 }
