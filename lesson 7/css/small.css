@@ -1,6 +1,5 @@
 html {
     background-color: #c4f0ff;
-    ;
 }
 
 nav button {
@@ -9,12 +8,12 @@ nav button {
     border: none;
     font-size: 1.6rem;
     color: #50514f;
-    align-items: center;
 }
 
 nav {
     background-color: #FFEC6D;
     font-family: Vera, sans-serif;
+
 }
 
 nav ul {
