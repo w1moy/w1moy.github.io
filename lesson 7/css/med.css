@@ -16,7 +16,7 @@
 		display: grid;
 		grid-template-columns: 400px 400px;
 		grid-template-rows: 400px 400px;
-		grid-gap: 30px;
+		grid-gap: 45px;
 		text-align: center;
 		align-content: center;
 		text-align: center;
@@ -31,6 +31,11 @@
 		color: #50514f;
 		background-color: #FFEC6D;
 		padding: 5px
+	}
+
+	footer {
+		margin-top: 20px;
+		padding: 25px;
 	}
 
 
