@@ -123,11 +123,11 @@ footer {
 
 span {font-weight: 700;}
 
-main figure {
+/*main figure {
     display: grid;
     padding: 5px;
     margin: 5px;
-}
+}*/
 
 main figure.galphoto {
     width: 80%;
