@@ -3,14 +3,14 @@ table {
 }
 
 caption {
-background-color: #7fb9c2;
-font-family: Ubuntu, sans-serif;
-font-style: bold;
-color: black; 
+    background-color: #7fb9c2;
+    font-family: Ubuntu, sans-serif;
+    font-style: bold;
+    color: black;
 }
 
 thead {
-    background-color:#628ca6;
+    background-color: #628ca6;
     font-family: Ubuntu, sans-serif;
     font-style: bold;
     color: white
@@ -20,6 +20,7 @@ tbody {
     text-align: center;
     font-family: sans-serif;
 }
+
 tbody:nth-child(odd) {
     background-color: #e7f0ed;
 }
