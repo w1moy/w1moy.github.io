@@ -17,9 +17,11 @@ thead {
 }
 
 tbody {
-    background-color: #e7f0ed;
     text-align: center;
     font-family: sans-serif;
+}
+tbody:nth-child(odd) {
+    background-color: #e7f0ed;
 }
 
 tfoot {
