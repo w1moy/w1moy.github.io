@@ -1,0 +1,27 @@
+caption {
+background-color: #7fb9c2;
+font-family: Ubuntu, sans-serif;
+font-style: bold;
+color: black; 
+}
+
+thead {
+    background-color:#628ca6;
+    font-family: Ubuntu, sans-serif;
+    font-style: bold;
+    color: white
+}
+
+tbody {
+    background-color: #e7f0ed;
+    text-align: center;
+}
+
+tfoot {
+    background-color: #7fb9c2;
+    font-family: Ubuntu, sans-serif;
+}
+
+#bgcolor {
+    background-color: #e7ffed;
+}
