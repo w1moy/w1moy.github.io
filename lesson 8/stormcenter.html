@@ -38,50 +38,48 @@
 
 	<main>
 		<h1>Storm Center</h1>
-		<form>
-			<label for="your-name">
-			<h3>Full Name</h3>
-			<input id="your-name" name="your-name" type="text" pattern="[A-Za-z]{25}">	
-			</label>
+		<form method="get" action="thanks.html">
+			<fieldset>
+				<legend>Personal Information</legend>
+				<label class="person"> Full Name *
+					<input type="text" name="fullname" pattern="[A-Za-z]{3,}" required>
+				</label>
 
-			<label for="your-email">
-				<h3>Email</h3>
-				<input id="email" name="email" type="email" placeholder="example@email.com">
-			</label>
+				<label class="person"> Email
+					<input name="email" type="email" placeholder="example@email.com">
+				</label>
 
-			<label for="phone number">
-				<h3>Phone Number</h3>
-				<input id="phone-number" name="phone-number" type="tel" required>
-			</label>
+				<label class="person"> Phone Number *
+					<input name="phone-number" type="tel" required>
+				</label>
 
-			<label for="zip-code">
-				<h3>Zip-Code</h3>
-				<input id="zip-code" name="zip-code" type="number" required>
-			</label>
+				<label class="person"> Zip Code *
+					<input name="zip-code" type="number" required>
+				</label>
+			</fieldset>
 
-			<label for="storm-date">
-				<h3>Storm Date</h3>
-				<input id="storm-date" name="storm-date" type="date" required>
-			</label>
+			<fieldset>
+				<legend>Storm Information</legend>
+				<label class="storm"> Storm Date * <br>
+					<input name="storm-date" type="date" required>
+				</label>
 
-			<label for="storm-type"></label>
-				<h3>Storm Type</h3>
+				<label class="storm">Storm Type</label>
 				<input list="storm-type" list="storms">
 				<datalist id="storm-type">
+					<option value="Blizzard">
 					<option value="Flash Flood">
 					<option value="Hail">
 					<option value="Thunderstorm">
 					<option value="Tornado">
-					<option value="Blizzard">
 				</datalist>
 
-			<label for="storm-severity">
-				<h3>Storm Severity</h3>
-				<input id="storm-severity" name="storm-severity" type="range">
-			</label>
+				<label class="storm">Storm Serverity (1 - 10) <br>
+					<input name="storm-severity" type="range" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" 
+					onchange="adjustRatin(this.value)"><span id="ratingvalue">5</span>
+				</label>
 
-			<label for="storm-region"></label>
-				<h3>Storm Region</h3>
+				<label class="storm">Storm Region</label>
 				<select name="storm-region" id="storm-region">
 					<option value=" ">Please Choose Your Region</option>
 					<option value="Preston">Preston</option>
@@ -89,32 +87,34 @@
 					<option value="Fish Haven">Fish Haven</option>
 				</select>
 
-			<label for="danger-level">
-				<h3>Danger Level</h3>
-				<input id="danger-level" name="maybe" type="radio" value="maybe"> Maybe <br>
-				<input id="danger-level" name="yes" type="radio" value="yes"> Yes <br>
-				<input id="danger-level" name="no" type="radio" value="no"> No <br>
-			</label>
+				<label class="storm"> Are You in Danger? <br>
+					<input id="danger-level" name="maybe" type="radio" value="maybe"> Maybe <br>
+					<input id="danger-level" name="yes" type="radio" value="yes"> Yes <br>
+					<input id="danger-level" name="no" type="radio" value="no"> No <br>
+				</label>
+			</fieldset>
 
-			<label for="comments">
-				<h3>Additional Information</h3>
-			</label>
+			<fieldset>
+				<legend>Additional Information</legend>
+				<textarea class="info" name="additional information" rows="6" cols="50"></textarea> <br>
 
-			<textarea id="comments" name="additional information" rows="5" cols="35"></textarea>
+			
 
-			<label for="submit"></label>
-			<button type="submit">
-				Submit
-			</button>
+				<label class="subButton">
+					<button type="submit">
+						Send
+					</button>
+				</label>
+			</fieldset>
 		</form>
-	
+
 
 	</main>
 
 </body>
 <footer>
-	&copy; Future Forcast | Attribution | Wendy Moyle |
-	<br>
+	&copy; Future Forcast | Attribution | Wendy Moyle| 
+
 	<span id="currentdate"></span>
 </footer>
 <script src="js/storm.js"></script>

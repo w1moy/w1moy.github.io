@@ -17,11 +17,35 @@
 		height: auto;
     }
     
-    nav ul li a {
+    nav {
+		width: 100%;
+	}
+
+	nav button {
+		display: none;
+	}
+
+	nav ul.hide {
+		display: block;
+	}
+
+	nav ul {
+		margin-left: 0%
+	}
+
+	nav ul li {
+		float: left;
+	}
+
+	nav ul li a {
 		align-items: stretch;
 		border: none;
 		border-right: 1px solid rgba(0, 0, 0, .30);
 		padding: .6rem 1rem;
+	}
+
+    form label.storm{
+        padding: .4rem 0;
     }
     
 
