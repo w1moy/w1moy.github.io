@@ -13,6 +13,9 @@
         padding: 0px;
     }
     
+    .town:nth-child(odd) {
+        float: right;
+    }
     
 
 
