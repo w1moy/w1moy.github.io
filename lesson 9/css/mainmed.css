@@ -13,8 +13,12 @@
         padding: 0px;
     }
     
-    .town:nth-child(odd) {
+    .town:nth-child(odd) div.p {
         float: right;
+    }
+
+    .town:nth-child(odd) div.img {
+        float: left;
     }
     
 
