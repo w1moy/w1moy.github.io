@@ -1,0 +1,25 @@
+@media only screen and (min-width:35em) {
+
+
+    header img {
+        width: 20%;
+        height: auto;
+        margin: 10px 10px 0px 0px;
+    }
+    
+    .headings h1 {
+        font-size: 24pt;
+        margin: 25px 0px 0px 0px;
+        padding: 0px;
+    }
+    
+    
+
+
+    footer {
+        margin-top: 20px;
+        padding: 25px;
+    }
+    
+    
+    }

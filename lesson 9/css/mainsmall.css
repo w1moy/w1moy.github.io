@@ -1,0 +1,149 @@
+html {
+    background-color: #c4f0ff;
+}
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #50514f;
+}
+
+nav {
+    background-color: #FFEC6D;
+    font-family: Vera, sans-serif;
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 1rem 2%;
+    text-decoration: none;
+    color: #50514f;
+    border-top: 1px solid rgba(128, 128, 128, .1);
+}
+
+nav ul li.active a {
+    background-color: rgba(128, 128, 128, .2);
+    color: #50514F
+}
+
+nav ul li a:hover {
+    background-color: rgba(128, 128, 128, .3);
+}
+
+nav ul.hide {
+    display: none;
+}
+
+/*-----Clear fix : force an element not to collapse*/
+.clearfix:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+header {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #FFEC6D;
+    color: #50514F;
+    font-family: 'viga', 'sans-serif';
+}
+
+header img {
+    width: 25%;
+    height: auto;
+    margin: 10px 0px 0px 0px;
+}
+
+.town {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap:7px;
+}
+
+.town section {
+    justify-content: center;
+    text-align: center;
+    background-color: #70c1b3;
+    border: 2px solid #50514f;
+    border-radius: .5em;
+}
+
+.town h2 {
+    text-align: center;
+    color: #FFEC6D;
+    /*font-family: ;*/
+}
+
+.town h3 {
+    text-align: center;
+    color: #50514f;
+}
+
+.town p {
+    text-align: center;
+    color: #50514f;
+}
+
+.town img {
+    width: 100%;
+    max-width: 60%;
+    margin: 10px;
+}
+
+.article  {
+    display: block;
+    background-color: #70c1b3;
+    border: 2px solid #50514f;
+    border-radius: .5em;  
+    margin: 5px;
+    justify-content: center;
+}
+
+.article h3{
+    color: #50514f;
+    text-align: center;
+}
+
+.article p{
+    color: black;
+    text-align: left;
+    margin: 2px;
+    padding: 5px;
+}
+
+.article img {
+    display: inline-block;
+    width: 100%;
+    max-width: 40%;
+    margin: 2px;
+    padding: 5px;
+}
+
+
+footer {
+    display: flex;
+    height: 50px;
+    width: 80%;
+    justify-content: center;
+    text-align: center;
+    background-color: #FFEC6D;
+    color: #50514F;
+    font-family: 'viga', 'sans-serif';
+    padding: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
