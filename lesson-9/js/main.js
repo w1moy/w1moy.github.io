@@ -5,10 +5,11 @@ fetch(requestURL)
 		return response.json();
 	})
 
-	.then(function (jsonObject) {
+	.then(function(jsonObject) {
 		const towns = jsonObject['towns'];
-		for (let i = 0; i <towns.length; i++) {
-			if (towns[i].name === "Preston" || towns[i].name === "Soda Springs" || towns[i].name === "Fish Haven");
+		for (let i = [0]; i<towns.length; i++) 
+		if (towns[i].name === "Fish Haven" || towns[i].name === "Preston" || towns[i].name === "Soda Springs"){
+
 			let town = document.createElement('section');
 			let h2 = document.createElement('h2');
 			let motto = document.createElement('h3');

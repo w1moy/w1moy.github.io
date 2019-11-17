@@ -12,15 +12,35 @@
         margin: 25px 0px 0px 0px;
         padding: 0px;
     }
-    
-    .town:nth-child(odd) div.p {
-        float: right;
+
+    div.town{
+        display:block;
     }
 
-    .town:nth-child(odd) div.img {
-        float: left;
+    div.town section{
+        width:100%;
+        display: grid;
+        grid-gap: .5em;
+        grid-template-columns: auto;
+        grid-template-areas: "content image";
+        justify-content: center;
+        align-items: center;
     }
-    
+
+    div.town section div{
+        grid-area: content;
+    }
+
+    div.town section img{
+        grid-area: content;
+    }
+    div.town section:nth-child(odd){
+        grid-template-columns: auto;
+        grid-template-areas: "image content";
+    }
+    div.town section img{
+        width:100%;
+    }   
 
 
     footer {

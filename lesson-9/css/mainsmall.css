@@ -96,6 +96,8 @@ header img {
 .town p {
     text-align: center;
     color: #50514f;
+    padding: 0;
+    margin: 0;
 }
 
 .town img {
