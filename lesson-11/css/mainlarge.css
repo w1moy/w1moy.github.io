@@ -1,0 +1,60 @@
+@media only screen and (min-width: 60em) {
+
+	header {
+		font-family: Viga, sans-serif;
+		padding: 1.5rem;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: #50514f;
+		text-align: center;
+		padding: 10px;
+		height: 150px;
+	}
+
+	header img {
+		width: 100px;
+		height: auto;
+    }
+    
+    nav {
+		width: 100%;
+	}
+
+	nav button {
+		display: none;
+	}
+
+	nav ul.hide {
+		display: block;
+	}
+
+	nav ul {
+		margin-left: 0%
+	}
+
+	nav ul li {
+		float: left;
+	}
+
+	nav ul li a {
+		align-items: stretch;
+		border: none;
+		border-right: 1px solid rgba(0, 0, 0, .30);
+		padding: .6rem 1rem;
+	}
+
+	div.town {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto;
+		grid-gap: 5px;
+		padding: 10px;
+    }
+    
+
+    footer {
+		margin: 25px;
+		padding-top: 10px;
+	}
+}

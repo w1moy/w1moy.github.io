@@ -1,0 +1,42 @@
+@media only screen and (min-width:35em) {
+
+	header img {
+		width: 20%;
+		height: auto;
+		margin: 10px 10px 0px 0px;
+	}
+
+	.headings h1 {
+		font-size: 24pt;
+		margin: 25px 0px 0px 0px;
+		padding: 0px;
+	}
+
+	.container {
+		display: grid;
+		grid-template-columns: 400px 400px;
+		grid-template-rows: 400px 400px;
+		grid-gap: 45px;
+		text-align: center;
+		align-content: center;
+		text-align: center;
+		margin: 10px 10px 10px 10px;
+		padding-bottom: 10px;
+	}
+
+	figcaption {
+		margin-top: 0px;
+		font-size: 25pt;
+		font: Vera, serif ;
+		color: #50514f;
+		background-color: #FFEC6D;
+		padding: 5px
+	}
+
+	footer {
+		margin-top: 20px;
+		padding: 25px;
+	}
+
+
+}

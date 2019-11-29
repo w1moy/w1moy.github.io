@@ -1,0 +1,52 @@
+@media only screen and (min-width:35em) {
+
+
+    header img {
+        width: 20%;
+        height: auto;
+        margin: 10px 10px 0px 0px;
+    }
+    
+    .headings h1 {
+        font-size: 24pt;
+        margin: 25px 0px 0px 0px;
+        padding: 0px;
+    }
+
+    div.town{
+        display:block;
+    }
+
+    div.town section{
+        width:100%;
+        display: grid;
+        grid-gap: .5em;
+        grid-template-columns: auto;
+        grid-template-areas: "content image";
+        justify-content: center;
+        align-items: center;
+    }
+
+    div.town section div{
+        grid-area: content;
+    }
+
+    div.town section img{
+        grid-area: content;
+    }
+    div.town section:nth-child(odd){
+        grid-template-columns: auto;
+        grid-template-areas: "image content";
+    }
+    div.town section img{
+        width:100%;
+    }   
+
+
+    footer {
+        margin-top: 20px;
+        padding: 25px;
+    }
+    
+    
+    }
