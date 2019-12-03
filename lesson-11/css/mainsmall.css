@@ -1,5 +1,6 @@
-html {
-    background-color: #c4f0ff;
+nav {
+    background-color: #FFEC6D;
+    font-family: viga, sans-serif;
 }
 
 nav button {
@@ -10,12 +11,6 @@ nav button {
     color: #50514f;
 }
 
-nav {
-    background-color: #FFEC6D;
-    font-family: Vera, sans-serif;
-
-}
-
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -24,7 +19,7 @@ nav ul {
 
 nav ul li a {
     display: block;
-    padding: 1rem 2%;
+    padding: 1rem /*2%*/;
     text-decoration: none;
     color: #50514f;
     border-top: 1px solid rgba(128, 128, 128, .1);
@@ -52,12 +47,12 @@ nav ul.hide {
 
 header {
     display: flex;
-    height: 100px;
+    height: 150px;
     width: 100%;
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: #FFEC6D;
+    background-color: #c4f0ff;
     color: #50514F;
     font-family: 'viga', 'sans-serif';
 }
@@ -139,7 +134,6 @@ header img {
 footer {
     display: flex;
     height: 50px;
-    width: 80%;
     justify-content: center;
     text-align: center;
     background-color: #FFEC6D;
