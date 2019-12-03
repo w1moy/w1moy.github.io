@@ -13,19 +13,4 @@ fetch(apiURL)
 		document.getElementById('current-temp').textContent = jsObject.main.temp;
 		document.getElementById('humidity').textContent = jsObject.main.humidity;
 		document.getElementById('wind-Chill').textContent = wchill;
-
-
-
-		/*function windChill(tempF, speed) {
-	
-			if (tempF > 50 || speed <= 3) {
-				var s = Math.pow(speed, .16);
-				var wchill = 35.74 + (0.6215 * tempF) - (35.75 * s) + (.4275 * tempF * s);
-				return wchill;
-			} else {
-				return "N/A";
-			}
-		}*/
-
-
 	});

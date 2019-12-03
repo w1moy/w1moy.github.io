@@ -1,3 +1,8 @@
+.prestonPancakes {
+    background-color: #FFEC6D;
+    color: #50514F;
+}
+
 header {
     background-color: #c4f0ff;
     padding: 5px 0;
@@ -7,7 +12,7 @@ header {
     align-items: center;
     justify-content: center;
     color: #50514F;
-    font-family: 'viga', 'sans-serif';
+    font-family: 'viga', 'sans-serif', 'crete';
 }
 
 header img {
