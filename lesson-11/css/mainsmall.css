@@ -1,145 +1,162 @@
-nav {
-    background-color: #FFEC6D;
-    font-family: viga, sans-serif;
-}
-
-nav button {
-    margin: .2rem 2%;
-    background-color: transparent;
-    border: none;
-    font-size: 1.6rem;
-    color: #50514f;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-nav ul li a {
-    display: block;
-    padding: 1rem /*2%*/;
-    text-decoration: none;
-    color: #50514f;
-    border-top: 1px solid rgba(128, 128, 128, .1);
-}
-
-nav ul li.active a {
-    background-color: rgba(128, 128, 128, .2);
-    color: #50514F
-}
-
-nav ul li a:hover {
-    background-color: rgba(128, 128, 128, .3);
-}
-
-nav ul.hide {
-    display: none;
-}
-
 /*-----Clear fix : force an element not to collapse*/
 .clearfix:after {
-    content: " ";
-    display: table;
-    clear: both;
+	content: " ";
+	display: table;
+	clear: both;
 }
 
 header {
-    display: flex;
-    height: 150px;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-color: #c4f0ff;
-    color: #50514F;
-    font-family: 'viga', 'sans-serif';
+	display: flex;
+	height: 100px;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	background-color: #c4f0ff;
+	color: #50514F;
+	font-family: 'viga', 'sans-serif';
 }
 
 header img {
-    width: 25%;
-    height: auto;
-    margin: 10px 0px 0px 0px;
+	width: 25%;
+	height: auto;
+	margin: 10px 0px 0px 0px;
+}
+
+.headings {
+	display: flex;
+	flex-direction: column;
+	padding: 5px 5px 5px 5px;
+	margin: 0px 0px 10px 0px;
+}
+
+.headings h1 {
+	font-size: 24pt;
+	margin: 50px 0px 0px 0px;
+	padding: 0px;
+}
+
+.headings h5 {
+	font-size: 12pt;
+	margin: 0px 0px 0px 5px;
+}
+
+nav {
+	background-color: #FFEC6D;
+	font-family: 'viga', 'sans-serif';
+}
+
+nav button {
+	margin: .2rem 2%;
+	background-color: transparent;
+	border: none;
+	font-size: 1.6rem;
+	color: #50514f;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+nav ul li a {
+	display: block;
+	padding: 1rem 2%;
+	text-decoration: none;
+	color: #50514f;
+	border-top: 1px solid rgba(128, 128, 128, .1);
+}
+
+nav ul li.active a {
+	background-color: rgba(128, 128, 128, .2);
+	color: #50514F
+}
+
+nav ul li a:hover {
+	background-color: rgba(128, 128, 128, .3);
+}
+
+nav ul.hide {
+	display: none;
 }
 
 .town {
-    display: grid;
-    grid-template-columns: auto;
-    grid-gap:7px;
+	display: grid;
+	grid-template-columns: auto;
+	grid-gap: 7px;
 }
 
 .town section {
-    justify-content: center;
-    text-align: center;
-    background-color: #70c1b3;
-    border: 2px solid #50514f;
-    border-radius: .5em;
+	justify-content: center;
+	text-align: center;
+	background-color: #70c1b3;
+	border: 2px solid #50514f;
+	border-radius: .5em;
 }
 
 .town h2 {
-    text-align: center;
-    color: #FFEC6D;
-    /*font-family: ;*/
+	text-align: center;
+	color: #FFEC6D;
+	/*font-family: ;*/
 }
 
 .town h3 {
-    text-align: center;
-    color: #50514f;
+	text-align: center;
+	color: #50514f;
 }
 
 .town p {
-    text-align: center;
-    color: #50514f;
-    padding: 0;
-    margin: 0;
+	text-align: center;
+	color: #50514f;
+	padding: 0;
+	margin: 0;
 }
 
 .town img {
-    width: 100%;
-    max-width: 60%;
-    margin: 10px;
+	width: 100%;
+	max-width: 60%;
+	margin: 10px;
 }
 
-.article  {
-    display: block;
-    background-color: #70c1b3;
-    border: 2px solid #50514f;
-    border-radius: .5em;  
-    margin: 5px;
-    justify-content: center;
+.article {
+	display: block;
+	background-color: #70c1b3;
+	border: 2px solid #50514f;
+	border-radius: .5em;
+	margin: 5px;
+	justify-content: center;
 }
 
-.article h3{
-    color: #50514f;
-    text-align: center;
+.article h3 {
+	color: #50514f;
+	text-align: center;
 }
 
-.article p{
-    color: black;
-    text-align: left;
-    margin: 2px;
-    padding: 5px;
+.article p {
+	color: black;
+	text-align: left;
+	margin: 2px;
+	padding: 5px;
 }
 
 .article img {
-    display: inline-block;
-    width: 100%;
-    max-width: 40%;
-    margin: 2px;
-    padding: 5px;
+	display: inline-block;
+	width: 100%;
+	max-width: 40%;
+	margin: 2px;
+	padding: 5px;
 }
 
 
 footer {
-    display: flex;
-    height: 50px;
-    justify-content: center;
-    text-align: center;
-    background-color: #FFEC6D;
-    color: #50514F;
-    font-family: 'viga', 'sans-serif';
-    padding: 10px;
-    margin-left: 50px;
-    margin-right: 50px;
+	display: flex;
+	height: 50px;
+	justify-content: center;
+	text-align: center;
+	background-color: #FFEC6D;
+	color: #50514F;
+	font-family: 'viga', 'sans-serif';
+	padding: 10px;
+	margin-left: 100px;
+	margin-right: 100px;
 }

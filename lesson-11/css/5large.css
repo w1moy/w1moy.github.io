@@ -3,26 +3,21 @@
 
 	header {
 		background-color: #c4f0ff;
-		padding: 5px 0;
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		font-family: Viga, sans-serif;
+		padding: 1.5rem;
+		color: #50514f;
+		text-align: center;
+		padding: 7px;
+		height: 150px;
 	}
 
 	header img {
 		width: 100px;
 		height: auto;
 	}
-
-	.headings {
-		display: flex;
-		flex-direction: column;
-	}
-
-	/*.headings h1 {
-		font-size: 1.6rem;
-		margin: 0 0 0 17px;
-	}*/
 
 	nav {
 		width: 100%;
@@ -48,6 +43,11 @@
 		border: none;
 		border-right: 1px solid rgba(0, 0, 0, .30);
 		padding: .6rem 1rem;
+	}
+
+	.headings {
+		display: flex;
+		flex-direction: column;
 	}
 
 	main.fivedate {

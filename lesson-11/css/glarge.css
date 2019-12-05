@@ -1,36 +1,21 @@
 @media only screen and (min-width: 60em) {
 
 	header {
-		font-family: Viga, sans-serif;
-		padding: 1.5rem;
+		background-color: #c4f0ff;
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		font-family: Viga, sans-serif;
+		padding: 1.5rem;
 		color: #50514f;
 		text-align: center;
-		padding: 10px;
+		padding: 7px;
 		height: 150px;
 	}
 
 	header img {
 		width: 100px;
 		height: auto;
-	}
-
-	.headings {
-		display: flex;
-		flex-direction: column;
-	}
-
-	.headings h1 {
-		font-size: 72pt;
-		margin: 25px 0px 0px 0px;
-		padding: 0px;
-	}
-
-	.headings h5 {
-		font-size: 12pt;
-		margin: 0px 0px 0px 25px;
 	}
 
 	nav {
@@ -58,6 +43,22 @@
 		border: none;
 		border-right: 1px solid rgba(0, 0, 0, .30);
 		padding: .6rem 1rem;
+	}
+
+	.headings {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.headings h1 {
+		font-size: 72pt;
+		margin: 25px 0px 0px 0px;
+		padding: 0px;
+	}
+	
+	.headings h5 {
+		font-size: 12pt;
+		margin: 0px 0px 0px 25px;
 	}
 
 	.container {
