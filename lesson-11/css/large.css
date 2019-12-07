@@ -1,7 +1,7 @@
 @media only screen and (min-width: 60em) {
 
 	header {
-		font-family: viga, sans-serif;
+		font-family: 'viga', 'sans-serif';
 		padding: 1.5rem;
 		display: flex;
 		align-items: center;
@@ -63,6 +63,7 @@
 		padding: .6rem 1rem;
 	}
 
+	/*start of home page*/
 	div.town {
 		display: grid;
 		grid-template-columns: auto auto auto;
@@ -70,6 +71,49 @@
 		grid-gap: 10px;
 		padding: 10px;
 	}
+
+	/*end of home page*/
+
+	/*start of town pages*/
+
+	main.fivedate {
+		display: block;
+	}
+	/*end of town pages*/
+
+	/*start of gallery*/
+	.container {
+		display: grid;
+		grid-template-columns: auto auto auto;
+		grid-template-rows: auto auto auto;
+		grid-gap: 45px;
+		text-align: center;
+		align-content: center;
+		margin: 10px 10px 10px 10px;
+		padding-bottom: 30px;
+	}
+
+	.galphoto:hover {
+		box-shadow: 10px 10px 10px #333;
+		width: 100%;
+		height: 100%;
+	}
+
+	figcaption {
+		margin-top: 0px;
+		font-size: 25pt;
+		color: #50514f;
+		background-color: #FFEC6D;
+		padding: 5px;
+		margin-bottom: 15px;
+	}
+		/*end of gallery*/
+
+		/*start of storm center*/
+		form label.storm {
+			padding: .4rem 0;
+		}
+		/*end of storm*/
 
 	footer {
 		margin: 25px;

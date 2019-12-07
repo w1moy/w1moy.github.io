@@ -73,7 +73,7 @@ nav ul.hide {
     display: none;
 }
 
-main {
+main.storm {
     padding: 0 2%;
     min-height: 20rem;
 }

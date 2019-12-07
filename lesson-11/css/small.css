@@ -8,7 +8,7 @@ nav button {
 
 nav {
 	background-color: #FFEC6D;
-	font-family: 'viga', sans-serif, 'crete';
+	font-family: 'viga', 'sans-serif', 'crete';
 
 }
 
@@ -152,6 +152,7 @@ header img {
 /*End of Home Page*/
 
 /*start of Town Pages*/
+h1,
 h2,
 h4 {
 	font-family: 'viga', 'crete round', 'sans-serif';
@@ -191,10 +192,8 @@ main.townp {
 }
 
 .herophoto {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 10%;
+	max-width: 100%;
+	height: auto;
 }
 
 .weathersummary {
@@ -242,6 +241,110 @@ span {
 }
 
 /*end of town pages*/
+
+/*start of gallery page*/
+.content {
+	display: block;
+	margin: 10px auto;
+	padding: 10px;
+	border: 2px solid #50514F;
+	justify-content: center;
+	text-align: center;
+	background-color: #c4f0ff;
+}
+
+span {
+	font-weight: 700;
+}
+
+main figure.galphoto {
+	width: 100%;
+	height: 100%;
+	margin: 0 0 0 2%;
+}
+
+main figure.galphoto img {
+	grid-column: 1fr;
+	width: 100%;
+	height: 100%;
+}
+
+main figure.galphoto figcaption {
+	text-align: center;
+	font-size: 1rem;
+	padding-bottom: 20px;
+	background-color: #70c1b3;
+}
+/*end of gallery page*/
+
+/*start of storm center*/
+main.storm {
+	padding: 0 2%;
+	min-height: 20rem;
+}
+
+form fieldset {
+	margin: 2rem 0;
+	border: 2px solid #50514F;
+	border-radius: 10px;
+	padding: .5rem 2%;
+}
+
+form legend {
+	color: #50514F;
+	margin: 0 1rem;
+	padding: 0 .5rem;
+}
+
+form label.person {
+	display: block;
+	padding-top: 1rem;
+	color: #50514F;
+	font-size: .8rem;
+}
+
+form label.person input, form textarea.info {
+	display: block;
+	font-size: 1rem;
+	border: solid 1px #999;
+	border-radius: 4px;
+	padding: .75rem;
+	color: #555;
+	width: 100%;
+	max-width: 20rem;
+	background-color: rgba(0, 0, 0, .1);
+}
+
+form label.storm {
+	display: block;
+	padding: .75rem;
+	color:#555;
+}
+
+form label.subButton {
+	border: none;
+	background-color: #FFEC6D;
+	color: #50514F;
+	border-radius: .5rem;
+	padding: .75rem 1.5rem;
+	margin: 0 0 2rem 2%;
+	width: 96%;
+	max-width: 20rem;
+}
+
+form label.person input:required {
+	border-left: #FFEC6D solid 6px;
+}
+
+form label.person input:required:valid {
+	border-left: green solid 6px;
+}
+
+p {
+	font-size: 24pt;
+	color: #50514F;
+}
+/*end of strom center*/
 
 
 footer {
