@@ -152,7 +152,6 @@ header img {
 /*End of Home Page*/
 
 /*start of Town Pages*/
-h1,
 h2,
 h4 {
 	font-family: 'viga', 'crete round', 'sans-serif';
@@ -275,6 +274,7 @@ main figure.galphoto figcaption {
 	padding-bottom: 20px;
 	background-color: #70c1b3;
 }
+
 /*end of gallery page*/
 
 /*start of storm center*/
@@ -303,7 +303,8 @@ form label.person {
 	font-size: .8rem;
 }
 
-form label.person input, form textarea.info {
+form label.person input,
+form textarea.info {
 	display: block;
 	font-size: 1rem;
 	border: solid 1px #999;
@@ -318,7 +319,7 @@ form label.person input, form textarea.info {
 form label.storm {
 	display: block;
 	padding: .75rem;
-	color:#555;
+	color: #555;
 }
 
 form label.subButton {
@@ -344,6 +345,7 @@ p {
 	font-size: 24pt;
 	color: #50514F;
 }
+
 /*end of strom center*/
 
 
