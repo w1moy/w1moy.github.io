@@ -1,0 +1,1 @@
+const requestURL = 'https://w1moy.github.io/templeinn/js/temples.json';
