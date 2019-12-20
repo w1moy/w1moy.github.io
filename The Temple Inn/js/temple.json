@@ -1,0 +1,54 @@
+{
+	"temples": [
+		{
+			"name": "Salt Lake Temple",
+			"address": "50W North Temple St., Salt Lake City UT 84150-9709, United States",
+			"phone": "1-801-240-2640",
+			"email": "saltlaketemple@lds.org",
+			"services": "Clothing Rental, Cafeteria, Distribution Center Near By",
+			"schedule": "Baptism: 5am - 7pm, Session: 6am-7pm every hour, Initiatory: 6am-8pm, Sealings: 7am-8pm",
+			"history": "Announced: 7/28/1847, Ground Breaking: 7/14/1853, Dedicated: 4/6/1893",
+			"imageurl":""
+		},
+		{
+			"name":"Lisbon Portugal Temple",
+			"address": "Avenida Dom Joao II, Lote 4.72.00, Parque Das Nacoes, 1990-36 Moscavide, Portugal",
+			"phone": "351-308-811-650",
+			"email": "lisbontemple@lds.org",
+			"services": "None",
+			"schedule": "Baptism: 9am-11am & 3pm-5pm by appointment, Session: 9am-5pm every 2 hours, Initiatory: 9am-12pm & 2pm-5pm, Sealing: 9am-12pm & 2pm-5:30pm",
+			"history": "Announced: 10/02/2010, Ground Breaking: 12/05/2015, Dedicated: 09/15/2019",
+			"imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/lisbon-portugal/1280x800/03-045a97e8471a9f581e927698521a1d184f4b3753.jpeg"
+		},
+		{
+			"name":"Fort Collins Colorado Temple",
+			"address": "2180 Majestic Dr., Fort Collins, CO 80528, United States",
+			"phone": "1-970-797-4630",
+			"email": "fortcollinstemple@lds.org",
+			"services": "None",
+			"schedule": "Baptism: 6am-8:30pm, Session: 8am-7pm, Initiatory: 8am-8:30pm, Sealings: 8am-8:30pm",
+			"history": "Announced: 04/02/2011, Groundbreaking: 8/24/2013, Dedication: 10/16/2016",
+			"imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/fort-collins-colorado/2018/1280x800/Fort-Collins-Temple10.jpg"
+		},
+		{
+			"name":"Nauvoo Illinois Temple",
+			"address": "50 N Wells St., Nauvoo, IL 62354, United States",
+			"phone": "1-217-453-6252",
+			"email": "nauvootemple.lds.org",
+			"services": "Clothing Rental Avaliable",
+			"schedule": "Baptism: 3pm-6pm, Sessions: 3pm-6pm every hour, Initiatory: 3pm-7:30pm, Sealings: 3pm-8pm",
+			"history": "Announce: 04/04/1999, Ground Breaking: 10/24/1999, Dedicated: 06/27/2002",
+			"imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/nauvoo-illinois/1280x800/nauvoo-illinois-mormon-temple-925501-wallpaper.jpg"
+		},
+		{
+			"name":"Kona Hawaii Temple",
+			"address": "75-230 Kalani St, Kailua-Kona, HI 96740-1833, Unites States",
+			"phone": "1-808-331-8504",
+			"email": "konatemple@lds.org",
+			"services": "None",
+			"schedule": "Baptism: 7:30am-5:30pm, Session: 8am, 10am, & 6:30pm, Initiatory: 8-9am, 10-11:15am & 6-7:15pm, Sealings: 10am-12pm & 6:30pm-7:30pm",
+			"history": "Announced: 05/07/1998, ",
+			"imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/kona-hawaii/1280x800/kona-hawaii-mormon-temple-941461-wallpaper.jpg"
+		}
+	]
+}
