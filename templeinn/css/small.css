@@ -102,3 +102,18 @@ h2 {
 	font-family: 'Arima Madurai' ,'Fira Mono','sans-serif';
 	color:#042038;
 }
+
+
+/*footer*/
+footer {
+	display: flex;
+	height: 50px;
+	justify-content: center;
+	text-align: center;
+	background-color:#C79308;
+	color: #042038;
+	font-family: 'Fira Mono', 'sans-serif';
+	padding: 10px;
+	margin-left: 100px;
+	margin-right: 100px;
+}

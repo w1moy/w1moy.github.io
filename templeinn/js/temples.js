@@ -9,18 +9,19 @@ fetch(requestURL)
         const temples = jsonObject['temples'];
         for (let i=0; i< temples.length; i++){
             let temple = document.createElement ('section');
-            let h3 = document.createElement('h2');
+            let h3 = document.createElement('h3');
             let name = document.createElement ('p');
             let services = document.createElement ('p');
             let schedule = document.createElement ('p');
             let history = document.createElement ('p');
             let img = document.createElement ('mg');
 
-            //h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
-            //bdate.textContent = "Date of Birth:" + " " + prophets[i].birthdate;
-            //bplace.textContent = "Place of Birth:" + " " + prophets[i].birthplace;
-            //img.setAttribute('src',prophets[i].imageurl);
-            //img.setAttribute('alt', prophets [i].name + ' ' + prophets[i].lastname, + '-' + prophets[i].order);
+            h3.textContent = temples[i].name;
+            services.textContent = "Services" + " " + temples[i].services;
+            schedule.textContent = "Schedule:" + " " + temples[i].schedule;
+            history.textContent = "History:" + " " + temples[i].history;
+            img.setAttribute('src',temples[i].imageurl);
+            img.setAttribute('alt', temples [i].name;
 
             temple.appendChild(h3);
             temple.appendChild(name);
