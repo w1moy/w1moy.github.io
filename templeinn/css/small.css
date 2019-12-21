@@ -1,31 +1,31 @@
 nav button {
-    margin: .2rem 2%;
-    background-color: transparent;
-    border: none;
+	margin: .2rem 2%;
+	background-color: transparent;
+	border: none;
 }
 
-nav { 
-    background-color: #C79308;
-    font-family: 'Fira Mono', 'sans-serif';
+nav {
+	background-color: #C79308;
+	font-family: 'Fira Mono', 'sans-serif';
 }
 
 Nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin:0;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
 }
 
 nav ul li a {
-    display: block;
-    padding: 1rem 2%;
-    text-decoration: none;
-    color:#042038;
-    border-top: 1px solid rgba(128, 128, 128, .1);
+	display: block;
+	padding: 1rem 2%;
+	text-decoration: none;
+	color: #042038;
+	border-top: 1px solid rgba(128, 128, 128, .1);
 }
 
 nav ul li.active a {
-    background-color: rgba(128, 128, 128, .2);
-    color: #042038;
+	background-color: rgba(128, 128, 128, .2);
+	color: #042038;
 }
 
 nav ul li a:hover {
@@ -35,6 +35,7 @@ nav ul li a:hover {
 nav ul.hide {
 	display: none;
 }
+
 /*-----Clear fix : force an element not to collapse*/
 .clearfix:after {
 	content: " ";
@@ -43,34 +44,61 @@ nav ul.hide {
 }
 
 header {
-    display: flex;
-    height: 200px;
-    align-items: center;
-    justify-content: center;
-    background-color:#a2aebb;
-    color: #042038;
-    font-family: 'Arima Madurai', 'Fira Mono','sans-serif';
+	display: flex;
+	height: 200px;
+	align-items: center;
+	justify-content: center;
+	background-color: #a2aebb;
+	color: #042038;
+	font-family: 'Arima Madurai', 'Fira Mono', 'sans-serif';
 }
 
 header img {
-    width: 30%;
-    height: auto;
-    margin: 10px, 0px, 0px, 0px;
+	width: 30%;
+	height: auto;
+	margin: 10px, 0px, 0px, 0px;
 }
 
 h1 {
-    font-size: 10pt;
+	font-size: 10pt;
 }
 
 /*home page*/
 .subButtom {
-    display: flex;
-    height: 20px;
-    background-color:#870000;
-    color:#042038;
-    padding: .75rem 1.5rem;
-    margin: 0 0 2rem 2%;
-    width:96%;
-    max-width: 20rem;
+	display: flex;
+	height: 20px;
+	background-color: #870000;
+	color: #042038;
+	padding: .75rem 1.5rem;
+	margin: 0 0 2rem 2%;
+	width: 96%;
+	max-width: 20rem;
 }
 
+.templephoto {
+	display: flex;
+	width: 100%;
+	max-width: 40%;
+	margin: 2px;
+	padding: 5px;
+}
+
+summary {
+	display: block;
+	margin: 5px;
+	padding: 5px;
+}
+
+summary.p {
+	color: #042038;
+	font-family: 'Fira Mono', 'sans-serif';
+}
+
+
+
+
+/*confirmation page*/
+h2 {
+	font-family: 'Arima Madurai' ,'Fira Mono','sans-serif';
+	color:#042038;
+}
