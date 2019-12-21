@@ -1,4 +1,4 @@
-const requestURL = 'https://cit230/w1moy.github.io/templeinn/js/temples.json';
+const requestURL = 'https:w1moy.github.io/templeinn/js/temples.json';
 
 fetch(requestURL)
     .then(function (response){
@@ -16,12 +16,12 @@ fetch(requestURL)
             let history = document.createElement ('p');
             let img = document.createElement ('mg');
 
-            h3.textContent = temples[i].name;
-            services.textContent = "Services" + " " + temples[i].services;
-            schedule.textContent = "Schedule:" + " " + temples[i].schedule;
-            history.textContent = "History:" + " " + temples[i].history;
-            img.setAttribute('src',temples[i].imageurl);
-            img.setAttribute('alt', temples [i].name;
+            h3.textContent = temple[i].name;
+            services.textContent = "Services" + " " + temple[i].services;
+            schedule.textContent = "Schedule:" + " " + temple[i].schedule;
+            history.textContent = "History:" + " " + temple[i].history;
+            img.setAttribute('src',temple[i].imageurl);
+            img.setAttribute('alt', temple [i].name;
 
             temple.appendChild(h3);
             temple.appendChild(name);
