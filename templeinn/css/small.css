@@ -1,0 +1,55 @@
+header {
+    display: flex;
+    height: 125px;
+    align-items: center;
+    justify-content: center;
+    background-color:#a2aebb;
+    color: #042038;
+    font-family: 'Arima Madurai', 'Fira Mono','sans-serif';
+}
+
+header img {
+    width: 30%;
+    height: auto;
+    margin: 10px, 0px, 0px, 0px;
+}
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+}
+
+nav { 
+    background-color: #C79308;
+    font-family: 'Fira Mono', 'sans-serif';
+}
+
+Nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 1rem 2%;
+    text-decoration: none;
+    color:#042038;
+    border-top: 1px solid rgba(128, 128, 128, .1);
+}
+
+nav ul li.active a {
+    background-color: rgba(128, 128, 128, .2);
+    color: #042038;
+}
+
+nav ul li a:hover {
+	background-color: rgba(128, 128, 128, .3);
+}
+
+nav ul.hide {
+	display: none;
+}
+
+
