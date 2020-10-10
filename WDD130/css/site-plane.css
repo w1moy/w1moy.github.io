@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
 
 :root {
-    --primary-color: #002855;
-    --secondary-color: #33415c;
-    --accent1-color: #0353a4;
-    --accent2-color: #979dac;
+    --primary-color: #394053;
+    --secondary-color: #62929E;
+    --accent1-color: #4E4A59;
+    --accent2-color: #C6C5B9;
     --heading-font: "IM Fell French Canon SC";
     --paragraph-font: Lato, Helvetica, sans-serif
 }
 
 html {
-    background-color: var(#002855)
+    background-color: var(#fdfdff)
 }
 
 body {
@@ -26,23 +26,23 @@ img {
 
 h1, h2, h3, h4, h5,h6 {
     font-family: var(poppins);
-    color:#0353a4;
+    color:#4E4A59;
 }
 
 header {
     padding: 1em;
     text-align: center;
-    color: var(#979dac);
+    color: var(#C6C5B9);
     background-color:
 }
 
 header>h1 {
-    color:#0353a4;
+    color:#62929E;
 }
 
 p {
     font-family: var(inter);
-    color:#33415c;
+    color:#4E4A59;
     padding: 1em
 }
 
@@ -63,19 +63,19 @@ p {
 }
 
 .primary {
-    background-color: var(#002855)
+    background-color: var(#394053)
 }
 
 .secondary {
-    background-color: var(#0353a4)
+    background-color: var(#62929E)
 }
 
 .accent1 {
-    background-color: var(#33415c)
+    background-color: var(#4e4a59)
 }
 
 .accent2 {
-    background-color: var(#979dac)
+    background-color: var(#c6c5b9)
 }
 
 nav {
@@ -97,10 +97,10 @@ nav a {
 
 nav a:link,
 nav a:visited {
-    color:#0353a4;
+    color:#C6C5B9;
 }
 
 nav a:hover {
-    color:#979dac;
-    background-color: #33415c;
+    color:#62929E;
+    background-color: #4E4A59;
 }
