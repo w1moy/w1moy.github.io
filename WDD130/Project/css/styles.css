@@ -3,16 +3,18 @@ body {
     content: center;
 }
 h1 {
-    font-size: 24px;
+    font-size: 48px;
     font-style: bold;
     color: #394053;
 }
 
 li {
     display: inline-block;
+    background-color: #4E4A59;
+
 }
 
 p {
+    font-family: ;
     background-color:#62929E;
-
 }
