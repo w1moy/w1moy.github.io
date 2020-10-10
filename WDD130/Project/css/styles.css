@@ -2,8 +2,10 @@ body {
     background-color: #C6C5B9;
     content: center;
 }
+
 h1 {
-    font-size: 48px;
+    font-size: 50px;
+    font-family: poppins, sans-serif;
     font-style: bold;
     color: #394053;
 }
@@ -16,6 +18,16 @@ li {
 }
 
 p {
-    font-family: ;
-    background-color:#62929E;
+    font-family:inter, sans-serif ;
+    background-color: #62929E;
+}
+
+div {
+    display: inline;
+}
+
+div.social {
+    margin: 5px;
+    width: 5px;
+    height:5px;
 }
