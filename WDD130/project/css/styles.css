@@ -20,7 +20,7 @@ header img {
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 3rem;
     margin: 0;
     font-family: poppins, Arial, sans-serif;
     font-style: oblique;
@@ -28,13 +28,25 @@ h1 {
 }
 
 nav {
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: #62929E;
     display: flex;
-    background-color: #394053;
+    background-color: #4E4A59;
     padding: 15px;
     margin: 5px;
     align-items: center;
+}
+
+nav a {
+    color: #394053;
+}
+
+nav a:visited {
+    color: #62929E;
+}
+
+nav a:hover {
+    background-color: #C6C5B9;
 }
 
 li {
@@ -44,14 +56,14 @@ li {
 }
 
 h2 {
-    font-size: 1rem;
+    font-size: 2rem;
     font-family: poppins, Arial, sans-serif;
     color: #62929E;
-    margin:10px;
+    margin: 10px;
 }
 
 p {
-    font-size: .75rem;
+    font-size: 1rem;
     font-family: inter, Arial, sans-serif;
     background-color: #62929E;
     padding: 25px;
@@ -59,15 +71,39 @@ p {
     border: 10px;
 }
 
-footer {
-    background-color: #4E4A59;
-}
-div {
-    display: inline;
+.home p {
+    text-align: left;
 }
 
-div .social {
-    width: 1px;
+.home img {
+    width: 250px;
     height: auto;
+    padding: 10px;
+    margin: 5px;
+}
+
+.wedding img {
+    width: 250px;
+    height: auto;
+    padding:10px;
+    margin:5px;
+}
+
+footer {
+    background-color: #4E4A59;
+    display: block;
+    padding: 5px;
+    margin: 5px;
+    border: 5px;
+}
+
+#copy {
+    text-align: center;
+}
+
+.social img {
+    width: 50px;
+    height: auto;
+    padding: 10px;
     margin: 5px;
 }
