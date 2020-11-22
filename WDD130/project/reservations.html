@@ -26,19 +26,28 @@
         <ul>
             <li>
                 <label for="name">Name:</label>
-                <input type="text" id="name" name="user_name">
+                <input type="text" id="name" name="user_name" required> 
             </li>
             <li>
                 <label for="mail">E-mail:</label>
-                <input type="email" id="mail" name="user_email">
+                <input type="email" id="mail" name="user_email" required>
+            </li>
+            <li>
+                <label for="phone">Phone Number</label>
+                <input type="phone" id="phone" name="user_phone" required>
             </li>
             <li>
                 <label for="arrival">Arrival Date:</label>
-                <input type="date" id="date" name="date">
+                <input type="date" id="date" name="date" required>
             </li>
             <li>
                 <label for="departure">Departure Date:</label>
-                <input type="date" id="date" name="date">
+                <input type="date" id="date" name="date" required>
+            </li>
+
+            <li>
+                <label for="adults">Numbe of Adults</label>
+                <input type="number" id="number" name="number-of-adults" required>
             </li>
 
             <h3>Bed Size:</h3>
@@ -70,31 +79,33 @@
         const feedbackElement = document.getElementById('feedback');
         // get the form element so we can read what was entered in it.
         const formElement = document.forms[0];
-        
-        // add a 'listener' to wait for a submission of our form. When that happens run the code below.
-        formElement.addEventListener('submit', function(e) {
-          // stop the form from doing the default action
-          e.preventDefault();
-          // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
-          feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your reservation. We will get back with you as soon as possible!';
-          // make the feedback element visible.
-          feedbackElement.style.display = "block";
-        });
-      </script>
 
-<footer>
-    <p>Temple Inn & Suites Headquarters<br>
-        355 Wisconsin Avenue<br>
-        Bethesda, MD 20814<br>
-        215-829-9999<br>
-        info@templinn.com<br>
-    </p>
-    <div class="social">
-        <a href="https://wwww.facebook.com/" target="_blank"><img src="images/facebook.png" alt="FaceBook"></a>
-        <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram.png" alt="Instagram"></a>
-        <a href="https://www.pinterest.com/" target="_blank"><img src="images/pinterest.png" alt="Pinterest"></a>
-    </div>
-    <p id="copy">Copyright 2020 Temple Inn & Suites | All Rights Reserved | Privacy and Cookie Statement | Wendy Moyle </p>
-</footer>
+        // add a 'listener' to wait for a submission of our form. When that happens run the code below.
+        formElement.addEventListener('submit', function (e) {
+            // stop the form from doing the default action
+            e.preventDefault();
+            // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
+            feedbackElement.innerHTML = 'Hello ' + formElement.user_name.value + '! Thank you for your reservation request. We will be with you shortly!';
+            // make the feedback element visible.
+            feedbackElement.style.display = "block";
+        });
+    </script>
+
+    <footer>
+        <p>Temple Inn & Suites Headquarters<br>
+            355 Wisconsin Avenue<br>
+            Bethesda, MD 20814<br>
+            215-829-9999<br>
+            info@templinn.com<br>
+        </p>
+        <div class="social">
+            <a href="https://wwww.facebook.com/" target="_blank"><img src="images/facebook.png" alt="FaceBook"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram.png" alt="Instagram"></a>
+            <a href="https://www.pinterest.com/" target="_blank"><img src="images/pinterest.png" alt="Pinterest"></a>
+        </div>
+        <p id="copy">Copyright 2020 Temple Inn & Suites | All Rights Reserved | Privacy and Cookie Statement | Wendy
+            Moyle </p>
+    </footer>
 </body>
+
 </html>
