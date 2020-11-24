@@ -62,8 +62,28 @@ nav li {
     color: #fdfdff;
 }
 
+.grid {
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.banner-box {
+    grid-column: 1 / 2;
+    grid-row: 1;
+}
+
 .action {
-    background-color: rgba(240, 240, 240, 0.8);
+    background-color: #909da2;
+    width: 20em;
+    border: #00527A solid;
+    text-align: center;
+    padding: 4px;
+    position: absolute;
+    top: 200px;
+    right: 900px;
 }
 
 .action button {
@@ -71,11 +91,38 @@ nav li {
     width: 10em;
     background-color: #00527A;
     font-size: 1.2em;
+    
 }
 
-.banner-box {
-    
-           }
+.home {
+    width: 500px;
+    grid-column: 1 / 2;
+    grid-row: 2;
+}
+
+.home_img {
+    grid-column: 2 / 3;
+    grid-row: 2;
+}
+
+.home_img, .wedding_img {
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin: 10px;
+    box-shadow: 5px 5px 5px #999;
+    width: 500px;
+}
+
+.wedding {
+    width:500px;
+    grid-column: 2 /3 ;
+    grid-row: 3;
+}
+
+.wedding_img {
+    grid-column:1 / 2 ;
+    grid-row:3;
+}
 
 h2 {
     font-size: 2rem;
@@ -90,13 +137,9 @@ p {
     padding: 25px;
     margin: 5px;
     border: 10px;
+    background-color: #bfb5af;
 }
 
-.home_img {
-    border: 1px solid #ccc;
-    padding: 10px;
-    box-shadow: 5px 5px 5px #999;
-}
 
 li {
     display: block;
@@ -108,24 +151,25 @@ footer {
     background-color: #bfb5af;
     display: block;
     padding: 5px;
-    margin: 5px;
+    margin: 10px;
     border: 5px;
+}
+
+.social img {
+    width: 50px;
+    height: auto;
+    padding: 5px;
+    margin: 5px;
+    float: right;
 }
 
 #copy {
     text-align: center;
 }
 
-.social img {
-    width: 50px;
-    height: auto;
-    padding: 10px;
-    margin: 5px;
-    float: right - top;
-}
 
 @media screen and (max-width: 550px) {
-    .______ {
+    main {
         display: block;
     }
 }
