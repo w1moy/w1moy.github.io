@@ -91,21 +91,22 @@ nav li {
     width: 10em;
     background-color: #00527A;
     font-size: 1.2em;
-    
+
 }
 
 .home {
     width: 500px;
     grid-column: 1 / 2;
-    grid-row: 2;
+    grid-row: 2 / 3;
 }
 
 .home_img {
     grid-column: 2 / 3;
-    grid-row: 2;
+    grid-row: 2 / 3;
 }
 
-.home_img, .wedding_img {
+.home_img,
+.wedding_img {
     border: 1px solid #ccc;
     padding: 5px;
     margin: 10px;
@@ -114,14 +115,14 @@ nav li {
 }
 
 .wedding {
-    width:500px;
-    grid-column: 2 /3 ;
-    grid-row: 3;
+    width: 500px;
+    grid-column: 2 /3;
+    grid-row: 3 / 4;
 }
 
 .wedding_img {
-    grid-column:1 / 2 ;
-    grid-row:3;
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
 }
 
 h2 {
@@ -136,7 +137,7 @@ p {
     font-size: 1rem;
     padding: 25px;
     margin: 5px;
-    border: 10px;
+    border: 2.5px #00527A solid;
     background-color: #bfb5af;
 }
 
@@ -147,12 +148,27 @@ li {
     margin: 5px;
 }
 
+
+.amenities_img {
+    display: inline-block;
+    box-align: center;
+}
+
+.breakfast, .workout, .pool, .play, .history {
+    width: 200px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin: 10px;
+    box-shadow: 5px 5px 5px #999;
+}
+
+
 footer {
     background-color: #bfb5af;
     display: block;
     padding: 5px;
     margin: 10px;
-    border: 5px;
+    border: 5px #00527A solid;
 }
 
 .social img {
@@ -167,9 +183,13 @@ footer {
     text-align: center;
 }
 
-
 @media screen and (max-width: 550px) {
-    main {
+
+    .home,
+    .wedding,
+    .family,
+    .home_img,
+    .wedding_img {
         display: block;
     }
 }
