@@ -38,7 +38,6 @@ h3 {
 
 nav {
     font-size: 1.5rem;
-    color: #292b2f;
     display: flex;
     background-color: #edebe9;
     padding: 15px;
@@ -47,9 +46,8 @@ nav {
 }
 
 nav a {
-    color: #edebe9;
+    color:#003652;
 }
-
 nav a:visited {
     color: #00527a;
 }
@@ -218,7 +216,7 @@ footer #copy {
     width: 50px;
     height: auto;
     padding: 5px;
-    margin: 5px;
+    margin: 10px;
     float: right;
 }
 
