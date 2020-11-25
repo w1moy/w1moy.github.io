@@ -26,6 +26,7 @@ h1 {
     font-style: oblique;
     text-align: center;
     font-family: poppins, Arial, sans-serif;
+    color: #292b2f;
 }
 
 h2, h3 {
@@ -58,8 +59,8 @@ nav a:hover {
 }
 
 nav a:active {
-    border: #292b2f;
-
+    background-color: #292b2f;
+    color: #bfb5af;
 }
 
 nav li {
