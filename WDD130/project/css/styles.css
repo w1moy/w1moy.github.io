@@ -23,10 +23,15 @@ header img {
 h1 {
     font-size: 3rem;
     margin: 0;
-    font-family: poppins, Arial, sans-serif;
     font-style: oblique;
-    color: #292b2f;
     text-align: center;
+    font-family: poppins, Arial, sans-serif;
+}
+
+h2, h3 {
+    font-family: poppins, Arial, sans-serif;
+    color: #BfB5AF;
+    margin: 10px;
 }
 
 nav {
@@ -106,7 +111,7 @@ nav li {
 }
 
 .home_img,
-.wedding_img {
+.wedding_img, .sunset, .fort {
     border: 1px solid #ccc;
     padding: 5px;
     margin: 10px;
@@ -125,13 +130,6 @@ nav li {
     grid-row: 3 / 4;
 }
 
-h2 {
-    font-size: 2rem;
-    font-family: poppins, Arial, sans-serif;
-    color: #BfB5AF;
-    margin: 10px;
-    text-align: center;
-}
 
 p {
     font-size: 1rem;
@@ -160,6 +158,20 @@ li {
     padding: 5px;
     margin: 10px;
     box-shadow: 5px 5px 5px #999;
+}
+
+.temple {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.sunset {
+    grid-column: 1 / 2;
+}
+
+.fort {
+    grid-column: 2 / 3 ;
 }
 
 
