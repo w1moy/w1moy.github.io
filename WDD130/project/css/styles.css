@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #dbd5d2;
+    background-color: #edebe9;
     padding: 5px 0;
     display: flex;
     align-items: center;
@@ -32,7 +32,7 @@ h1 {
 h2,
 h3 {
     font-family: poppins, Arial, sans-serif;
-    color: #dbd5d2;
+    color: #edebe9;
     margin: 10px;
 }
 
@@ -40,14 +40,14 @@ nav {
     font-size: 1.5rem;
     color: #292b2f;
     display: flex;
-    background-color: #dbd5d2;
+    background-color: #edebe9;
     padding: 15px;
     margin: 5px;
     align-items: center;
 }
 
 nav a {
-    color: #dbd5d2;
+    color: #edebe9;
 }
 
 nav a:visited {
@@ -56,12 +56,12 @@ nav a:visited {
 
 nav a:hover {
     background-color: #00527A;
-    color: #dbd5d2;
+    color: #edebe9;
 }
 
 nav a:active {
     background-color: #292b2f;
-    color: #dbd5d2;
+    color: #edebe9;
 }
 
 nav li {
@@ -70,7 +70,7 @@ nav li {
 }
 
 .action {
-    background-color: #dbd5d2;
+    background-color: #edebe9;
     width: 20em;
     border: #00527A solid;
     text-align: center;
@@ -144,7 +144,7 @@ p {
     padding: 25px;
     margin: 5px;
     border: 2.5px #00527A solid;
-    background-color: #dbd5d2;
+    background-color: #edebe9;
 }
 
 
@@ -190,7 +190,7 @@ form {
     padding: 1em;
     border: 7px solid #292b2f;
     border-radius: 1em;
-    background-color: #dbd5d2;
+    background-color: #edebe9;
 }
 
 form h3 {
@@ -199,11 +199,11 @@ form h3 {
 
 button {
     background-color: #00527a;
-    color: #dbd5d2;
+    color: #edebe9;
 }
 
 footer {
-    background-color: #dbd5d2;
+    background-color: #edebe9;
     display: block;
     padding: 5px;
     margin: 10px;
