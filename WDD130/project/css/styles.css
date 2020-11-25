@@ -29,7 +29,8 @@ h1 {
     color: #292b2f;
 }
 
-h2, h3 {
+h2,
+h3 {
     font-family: poppins, Arial, sans-serif;
     color: #BfB5AF;
     margin: 10px;
@@ -78,7 +79,8 @@ nav li {
     top: 200px;
     right: 900px;
 }
-.action h3{
+
+.action h3 {
     color: #00527a;
     font-size: 2rem;
 }
@@ -86,7 +88,6 @@ nav li {
 .action button {
     line-height: 2em;
     width: 10em;
-    background-color: #00527A;
     font-size: 1.2em;
 
 }
@@ -95,9 +96,10 @@ nav li {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    grid-gap:10px;
+    grid-gap: 10px;
 
 }
+
 .home {
     width: 500px;
     grid-column: 1 / 2;
@@ -110,7 +112,9 @@ nav li {
 }
 
 .home_img,
-.wedding_img, .sunset, .fort {
+.wedding_img,
+.sunset,
+.fort {
     border: 1px solid #ccc;
     padding: 5px;
     margin: 10px;
@@ -150,13 +154,16 @@ li {
     margin: 5px;
 }
 
-
 .amenities_img {
     display: inline-block;
     box-align: center;
 }
 
-.breakfast, .workout, .pool, .play, .history {
+.breakfast,
+.workout,
+.pool,
+.play,
+.history {
     width: 200px;
     border: 1px solid #ccc;
     padding: 5px;
@@ -175,7 +182,7 @@ li {
 }
 
 .fort {
-    grid-column: 2 / 3 ;
+    grid-column: 2 / 3;
 }
 
 form {
@@ -187,8 +194,13 @@ form {
     background-color: #bfb5af;
 }
 
-form h3, button {
+form h3 {
     color: #00527a;
+}
+
+button {
+    background-color: #00527a;
+    color: #bfb5af;
 }
 
 footer {
@@ -197,6 +209,10 @@ footer {
     padding: 5px;
     margin: 10px;
     border: 5px #00527A solid;
+}
+
+footer #copy {
+    border: none;
 }
 
 .social img {
