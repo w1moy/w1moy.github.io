@@ -102,7 +102,7 @@ nav li {
     position: absolute;
     z-index: 0;
     left: 0;
-    top: 90px;
+    top: 200px;
 }
 .services {
     display: grid;
@@ -130,7 +130,6 @@ nav li {
 
 .card button {
     width: 200px;
-    color: #DCF763;
     text-align: center;
 }
 
@@ -175,7 +174,7 @@ button {
     margin: 5px;
 }
 
-h2 {
+.apoint h2 {
     font-size: 1.5em;
     margin: 0 auto;
     padding: 1em;
@@ -234,6 +233,14 @@ p {
     padding: 5px;
     margin: 5px;
     border: #798086 solid 5px;
+}
+.meet h2 {
+    font-size: 1.5em;
+    margin: 0 auto;
+    padding: 1em;
+    background-color: #262322;
+    color: #d90368;
+    text-align: center;
 }
 
 footer {
