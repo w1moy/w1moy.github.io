@@ -97,8 +97,8 @@ nav li {
 .bar {
     width: 100%;
     height: 400px;
-    background: #f5edf0;
-    opacity: .3;
+    background: #798086;
+    opacity: .4;
     position: absolute;
     z-index: 0;
     left: 0;
@@ -131,6 +131,7 @@ li {
     padding: 1em;
     margin: 0 auto;
     text-align: center;
+    font-size: 1.5em;
 }
 
 button {
@@ -138,6 +139,67 @@ button {
     color: #D90368;
     padding: 5px;
     margin: 5px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 0 auto;
+    padding: 1em;
+    background-color: #262322;
+    color: #d90368;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.jack img {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.jack h3,
+p {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 400px;
+}
+
+.rose img {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.rose h3,
+p {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 400px;
+}
+
+.sam img {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+.sam h3,
+p {
+    grid-column: 2/2;
+    grid-row: 3/4;
+    width: 400px;
+}
+
+.about {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    padding: 5px;
+    margin: 5px;
+    border: #798086 solid 5px;
 }
 
 footer {
