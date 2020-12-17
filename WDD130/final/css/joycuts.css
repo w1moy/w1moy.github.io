@@ -104,6 +104,40 @@ nav li {
     left: 0;
     top: 90px;
 }
+.services {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 20px;
+}
+.card {
+    width: 250px;
+    box-shadow: 1px 1px 4px 1px #798086;
+    border-radius: 3px;
+    background-color: #f5edf0;
+    padding: 5px;
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    padding: 5px;
+    margin: 5px;
+    border: #798086 solid 5px;
+    align-self: center;
+}
+
+.card button {
+    width: 200px;
+    color: #DCF763;
+    text-align: center;
+}
+
+.card footer {
+    padding: 1px;
+    margin: 1px;
+}
 
 .containera {
     background-image: url(../images/backgrounda.jpg);
