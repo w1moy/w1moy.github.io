@@ -25,7 +25,77 @@
         </nav>
     </header>
     <main>
-        <button>Book NOW</button>
+        <div class="containera">
+            <h2 class="apoint">Book Your Appointment</h2>
+            <form action="/my-handling-form-page" method="post">
+                <ul>
+                    <li>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="user_name" required>
+                    </li>
+                    <li>
+                        <label for="phone">Phone Number:</label>
+                        <input type="phone" id="phone" name="user_phone" required>
+                    </li>
+                    <li>
+                        <label for="mail">E-mail:</label>
+                        <input type="email" id="mail" name="user_email" required>
+                    </li>
+
+                    <li>
+                        <label for="arrival">Date:</label>
+                        <input type="date" id="date" name="date" required>
+                    </li>
+                    <li>
+                        <label for="departure">Time:</label>
+                        <input type="time" id="time" name="time" required>
+                    </li>
+
+                    <h3>Select your Service:</h3>
+                    <div>
+                        <input type="checkbox" name="chkservices" value="wc" /> Womens Cut
+                    </div>
+                    <div>
+                        <input type="checkbox" name="chkservices" value="wc" /> Mens Cut
+                    </div>
+                    <div>
+                        <input type="checkbox" name="chkservices" value="wc"/> Kids Cut
+                    </div>
+                    <div>
+                        <input type="checkbox" name="chkservices" value="wc"/> All Over Color 
+                    </div>
+                    <div>
+                        <input type="checkbox" name="chkservices" value="wc"/> Special Occasion
+                    </div>
+
+                    <br />
+                    <br />
+                    <li>
+                        <label for="msg">Special Request:</label>
+                        <textarea id="msg" name="user_message"></textarea>
+                    </li>
+                    <li class="button">
+                        <button type="submit">Book Appointment</button>
+                    </li>
+                </ul>
+            </form>
+        </div>
+        <script>
+            // get the feedback div element so we can do something with it.
+            const feedbackElement = document.getElementById('feedback');
+            // get the form element so we can read what was entered in it.
+            const formElement = document.forms[0];
+
+            // add a 'listener' to wait for a submission of our form. When that happens run the code below.
+            formElement.addEventListener('submit', function (e) {
+                // stop the form from doing the default action
+                e.preventDefault();
+                // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
+                feedbackElement.innerHTML = 'Hello ' + formElement.user_name.value + '!We have booked your appointment.  Thank you.!';
+                // make the feedback element visible.
+                feedbackElement.style.display = "block";
+            });
+        </script>
     </main>
 
     <footer>

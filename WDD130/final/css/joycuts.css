@@ -1,5 +1,5 @@
 body {
-    background-color: #F5EDF0;
+    background-color: #f5edf0;
     padding: 5px;
     margin: 0px;
     font-family: sintony, Arial, Helvetica, sans-serif;
@@ -15,7 +15,8 @@ header {
 }
 
 header img {
-    background-color: #f5edf0;
+    background-color: #DCF763;
+    border-radius: 50%;
     width: 75px;
     height: auto;
     padding: 10px;
@@ -28,7 +29,7 @@ h1 {
     font-style: oblique;
     text-align: center;
     font-family: Enriqueta, Arial, Helvetica, sans-serif;
-    color: #262626;
+    color: #262322;
 }
 
 nav {
@@ -41,7 +42,7 @@ nav {
 }
 
 nav a {
-    color: #262626;
+    color: #262322;
 }
 
 nav a:visited {
@@ -49,13 +50,13 @@ nav a:visited {
 }
 
 nav a:active {
-    background-color: #262626;
+    background-color: #262322;
     color: #D90368;
 }
 
 nav li {
     display: inline-block;
-    color: #fdfdff;
+    color: #f5edf0;
 }
 
 .hero {
@@ -91,6 +92,52 @@ nav li {
 
 .hero img {
     width: 100%;
+}
+
+.bar {
+    width: 100%;
+    height: 400px;
+    background: #f5edf0;
+    opacity: .3;
+    position: absolute;
+    z-index: 0;
+    left: 0;
+    top: 90px;
+}
+
+.containera {
+    background-image: url(../images/backgrounda.jpg);
+    background-color: #262322;
+}
+
+form {
+    margin: 0 auto;
+    width: 500px;
+    padding: 1em;
+    border: 7px solid #262322;
+    background-color: #f5edf0;
+}
+
+li {
+    display: block;
+    padding: 10px;
+    margin: 5px;
+}
+
+.apoint {
+    width: 500px;
+    color: #D90368;
+    background-color: #262322;
+    padding: 1em;
+    margin: 0 auto;
+    text-align: center;
+}
+
+button {
+    background-color: #262322;
+    color: #D90368;
+    padding: 5px;
+    margin: 5px;
 }
 
 footer {
