@@ -124,6 +124,10 @@ h3 {
     margin: 5px;
 }
 
+.card a {
+    color:#DCF763;
+}
+
 .card img {
     width: 200px;
     height: 200px;
