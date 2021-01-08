@@ -5,6 +5,7 @@ header, body, main, footer {
     
     header, footer {
         background-color: navy;
+        border-radius: .5px;
         color: white;
         text-align: center;
         padding: 1.25rem;
