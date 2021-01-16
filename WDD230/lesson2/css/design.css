@@ -7,4 +7,9 @@ h1, h2{
     text-align: center;
     padding: 5px;
     margin: 5px;
+    font-family: 'Kufam', cursive;
+}
+
+p{
+    font-family: 'Spartan', sans-serif;
 }
