@@ -8,6 +8,9 @@
     header img {
         float: right;
         position: relative;
-        top: -90px;
+        top: -20px;
+        margin: 5px 0 0 5px;
+        padding: 5px 0 0 2.5px;
+        box-shadow:black 5px 5px 10px;
     }
 }
