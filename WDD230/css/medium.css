@@ -1,0 +1,13 @@
+@media (min-width:32.5em) {
+
+    header,
+    footer {
+        border-radius: 10px;
+    }
+
+    header img {
+        float: right;
+        position: relative;
+        top: -90px;
+    }
+}
