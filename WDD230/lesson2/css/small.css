@@ -1,0 +1,37 @@
+header {
+    background-color: #60A561;
+    color: white;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+h1,
+h2 {
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    font-family: 'Kufam', cursive;
+    color: white;
+}
+
+section h2 {
+    background-color: #053225;
+    border-radius: 5px;
+}
+
+section {
+    padding: 5px;
+}
+
+p {
+    font-family: 'Spartan', sans-serif;
+}
+
+footer {
+    background-color:#60A561;
+    text-align: center;
+    padding: 5px;
+}
