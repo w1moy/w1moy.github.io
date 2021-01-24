@@ -8,16 +8,61 @@
 /*font-family: 'Francois One', sans-serif;
 font-family: 'PT Sans', sans-serif;*/
 
+header {
+    background-color: #EAC435;
+    text-align: center;
+}
+
 nav {
     font-size: 1.5rem;
-    display: flex;
-    background-color: #edebe9;
-    padding: 15px;
+    font-family: PT Sans, sans-serif;
+    display: block;
+    background-color: #eac435;
+    padding: 5px;
     margin: 5px;
     align-items: center;
 }
-nav li {
-    display: inline-block;
-    color: #fdfdff;
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
+nav ul li a {
+    display: block;
+    color: #131200;
+    text-align: center;
+    padding: 5px;
+    font-size: 0.95rem;}
+
+h1 h2 h3 {
+        font-family: Francois One, sans-serif;
+        color: #131200;
+        padding: 5px;
+        margin: 5px;
+    }
+
+    main {
+        background-color: #A8D5E2;
+        padding: 5px;
+    }
+
+    p {
+        font-family: PT Sans, sans-serif;
+        padding: 5px;
+        margin: 5px;
+    }
+
+    img {
+        width: 500px;
+        height: auto;
+
+    }
+
+    footer {
+        background-color: #EAC435;
+        text-align: center;
+        padding: 5px;
+    }
