@@ -37,11 +37,17 @@ nav ul li a {
     padding: 5px;
     font-size: 0.95rem;}
 
-h1 h2 h3 {
+h1, h2, h3 {
         font-family: Francois One, sans-serif;
         color: #131200;
         padding: 5px;
         margin: 5px;
+    }
+
+    h2 {
+        text-align: center;
+        border: solid #637081;
+        padding: 5px;
     }
 
     main {
@@ -56,9 +62,15 @@ h1 h2 h3 {
     }
 
     img {
-        width: 500px;
+        width: 400px;
         height: auto;
+        padding:5px;
+        border: solid #637081;
+    }
 
+    .audi {
+        width: 250px;
+        height: auto;
     }
 
     footer {
