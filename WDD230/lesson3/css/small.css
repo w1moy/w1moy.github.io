@@ -1,0 +1,23 @@
+/* CSS HEX 
+--saffron: #eac435ff;
+--light-blue: #a8d5e2ff;
+--queen-blue: #456990ff;
+--dark-electric-blue: #637081ff;
+--black-chocolate: #131200ff;*/
+
+/*font-family: 'Francois One', sans-serif;
+font-family: 'PT Sans', sans-serif;*/
+
+nav {
+    font-size: 1.5rem;
+    display: flex;
+    background-color: #edebe9;
+    padding: 15px;
+    margin: 5px;
+    align-items: center;
+}
+nav li {
+    display: inline-block;
+    color: #fdfdff;
+}
+
