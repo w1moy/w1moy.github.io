@@ -1,0 +1,48 @@
+/* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 35rem) {
+
+    nav button {
+        display: none;
+    }
+
+    nav ul.hide {
+        display: flex;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 0;
+    }
+
+    nav ul li {
+        display: block;
+        flex: 1 1 100%;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+
+    nav a {
+        text-align: center;
+    }
+
+    .box {
+        background-color: green;
+        max-width: 760px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    h1 {
+        font-size: 36pt;
+    }
+
+    .moto {
+        font-size: 16pt;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 24pt;
+    }
+
+}
+
+/*end medium */
