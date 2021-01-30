@@ -65,8 +65,12 @@ nav ul.hide {
 }
 
 nav button {
+    padding: 10px;
+    padding-left: 75px;
+    padding-right: 75px;
     margin: 10px;
-    margin-left: 85px;
+    margin-left: 50px;
+    justify-content: center;
 }
 
 .clearfix:after {
