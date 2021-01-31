@@ -91,7 +91,7 @@ h2 {
 .box {
     border: solid #131200;
     padding: 5px;
-    margin: 5px;
+    margin: 10px;
     text-align: center;
     background-color: lightblue;
     font-family: 'PT Sans', sans-serif;
@@ -108,4 +108,7 @@ footer {
     text-align: center;
     padding: 20px;
     font-family: 'PT Sans', sans-serif;
+    max-width: 760px;
+    margin:auto;
+    
 }
