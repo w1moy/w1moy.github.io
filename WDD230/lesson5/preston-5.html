@@ -16,6 +16,7 @@
 </head>
 
 <body>
+    <aside> Banner </aside>
     <header>
         <img src="images/weather-logo.png" alt="weathered future logo" />
         <section class="headings">
@@ -27,7 +28,7 @@
         <button onclick="toggleMenu()">&#9776; Menu</button>
         <ul id="primaryNav" class="hide">
             <li class="menu"><a href="#">Home</a></li>
-            <li><a href="preston-4.html">Preston</a></li>
+            <li><a href="preston-5.html">Preston</a></li>
             <li><a href="#">Soda Springs </a></li>
             <li><a href="#">Fish Haven</a></li>
             <li><a href="#">Storm Center </a></li>
@@ -36,16 +37,68 @@
     </nav>
     <main>
         <h2>Preston, Idaho</h2>
-        <div class="box">Hero Image/Weather Summary</div>
-        <div class="box">5 Day Forecast</div>
-        <div class="box"> Article</div>
-        <div class="box">Contact Information</div>
+        <section class="hero">
+            <img src="images/prestonhero.jpg" alt="Preston Idaho image">
+            <div class="summary">
+                <p></p>
+
+            </div>
+
+        </section>
+        <section class="forcast">
+            <container>
+                <p>Wed</p>
+                <img src="images/sun:cloud.svg">
+                <p>43°</p>
+            </container>
+            <container>
+                <p>Thurs</p>
+                <img src="images/wind.svg">
+                <p>30°</p>
+            </container>
+            <container>
+                <p>Fri</p>
+                <img src="images/snow.svg">
+                <p>29°</p>
+            </container>
+            <container>
+                <p>Sat</p>
+                <img src="images/sun:cloud.svg">
+                <p>35°</p>
+            </container>
+            <container>
+                <p>Sun</p>
+                <img src="images/cloudy.svg">
+                <p>32°</p>
+            </container>
+        </section>
+
+        <section class="article">
+            <img src="images/prestonimg.jpg" alt="picnic">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, aperiam tempore? Eum dicta
+                reiciendis officiis delectus, numquam qui? Fugit quae, quam assumenda magni vero eaque, earum modi odit
+                pariatur tenetur numquam. Cumque nulla id non consequuntur ipsam expedita asperiores atque laudantium
+                hic quam sapiente quasi culpa suscipit, provident minus maiores.</p>
+        </section>
+
     </main>
+
     <footer>
-        &copy; Weathered Future | <a href="byui.edu">BYUi</a> | Wendy Moyle
+        <img src="images/prestonIDmap.jpg" alt="Preston, ID Map">
+        <p>
+            546 Washinton St. <br>
+            Preston, ID 81234<br><br>
+            &#9743; 208-345-9876 <br>
+            &#9993; info@weatheredfuture.com <br>
+        </p>
+        <section class="socialmedia">
+            <img src="images/Facebook.svg " alt="facebook">
+            <img src="images/instagram.svg" alt="instagram">
+            <img src="images/Twitter.svg" alt="twitter">
+        </section>
+        &copy; Weathered Future | Attributes | Wendy Moyle
         <br>
         <span id="currentdate"></span>
-
     </footer>
     <script src="js/scripts.js"></script>
 </body>
