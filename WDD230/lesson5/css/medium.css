@@ -41,6 +41,39 @@
         font-size: 24pt;
     }
 
-}
+    
+
+    .container {
+        display: grid;
+        grid-template-columns: 300px 300px;
+        grid-template-rows: 400px 200px;
+        border: crimson 2px dashed;
+
+    }
+
+    footer img {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        align-self: center;
+        border: crimson solid 2px;
+        margin: auto;
+    }
+
+    footer p {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        align-self: end;
+        border: crimson solid 2px;
+        margin: auto;
+    }
+
+    .socialmedia {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        align-self: start;
+        border: crimson solid 2px;
+        margin: 0;
+        padding: 0;
+    }
 
 /*end medium */

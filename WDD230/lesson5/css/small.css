@@ -88,15 +88,7 @@ h2 {
     padding: 5px;
 }
 
-.box {
-    border: solid #131200;
-    padding: 5px;
-    margin: 10px;
-    text-align: center;
-    background-color: lightblue;
-    font-family: 'PT Sans', sans-serif;
-    color: #131200;
-}
+
 
 p {
     font-family: 'PT Sans', sans-serif;
@@ -108,7 +100,20 @@ footer {
     text-align: center;
     padding: 20px;
     font-family: 'PT Sans', sans-serif;
-    max-width: 760px;
+    width: 100%;
     margin:auto;
-    
+}
+
+footer img {
+    width: 250px;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+}
+
+.socialmedia img {
+width: 50px;
+height: auto;
+margin: 5px;
+padding: 5px;
 }
