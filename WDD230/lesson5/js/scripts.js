@@ -1,3 +1,9 @@
+let d = new Date();
+let n = d.getDay();
+if (n == 5) {
+    document.querySelector (".banner").style.display = "block";
+}
+
 function toggleMenu() {
     document.getElementById("primaryNav").classList.toggle("hide");
 }

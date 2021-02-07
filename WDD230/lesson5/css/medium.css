@@ -23,11 +23,6 @@
         text-align: center;
     }
 
-    .box {
-        background-color: green;
-       
-    }
-
     h1 {
         font-size: 36pt;
     }
@@ -41,7 +36,51 @@
         font-size: 24pt;
     }
 
-    
+    .hero {
+        position: relative;
+    }
+
+    .summary {
+        position: absolute;
+        background-color: #EAC435;
+        top: 20px;
+        left: 25px;
+        opacity: .80;
+        box-shadow: 0 0 20px #456990;
+        padding: 20px;
+    }
+
+    .forcast {
+        display: flex;
+        color: #131200;
+        margin: 0 auto;
+        justify-content: space-evenly;
+        width: fit-content;
+    }
+
+    .day {
+        background-color: #A8D5E2;
+        border: solid #456990 2px;
+        color: #131200;
+        margin: auto;
+        padding: .5rem;
+        text-align: center;
+    }
+
+    .temp {
+        background-color: #A8D5E2;
+        border: solid #456990 2px;
+        color: #131200;
+        margin: auto;
+        padding: .5rem;
+        text-align: center;
+    }
+
+    .weathericon {
+        width: fit-content;
+        margin: 10px;
+        padding: 5px;
+    }
 
     .container {
         display: grid;
@@ -76,4 +115,4 @@
         padding: 0;
     }
 
-/*end medium */
+    /*end medium */
