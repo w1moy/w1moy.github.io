@@ -88,8 +88,31 @@ h2 {
     padding: 5px;
 }
 
+.summary {
+    background-color: #EAC435;
+    text-align: left;
+    margin: auto;
+}
+
+.summary p, h3{
+    padding: 10px;
+    margin: 10px;
+}
+
 .forecast {
     display: none;
+}
+
+.article {
+    width: fit-content;
+    height: auto;
+}
+
+.article img {
+ width: 250px;
+ height: auto;
+padding: 5px;
+margin: 5px;
 }
 
 p {
