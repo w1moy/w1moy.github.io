@@ -16,9 +16,9 @@
 </head>
 
 <body>
-    <div class="banner"> 
+    <div class="banner">
         <p>Saturday = Preston Pancakes in the Part! 9am Saturday at the city park pavilion.</p>
-</div>
+    </div>
     <header>
         <img src="images/weather-logo.png" alt="weathered future logo" />
         <section class="headings">
@@ -37,9 +37,13 @@
             <li><a href="#">Gallery</a></li>
         </ul>
     </nav>
-    <main>
+    <main class="clearfix">
         <section class="hero">
-            <img src="images/prestonhero.jpg" alt="Preston Idaho image">
+            <picture class="heroimg">
+                <source srcset="images/heroMed600.jpg" media="(min-width:500px) and (max-width: 799px)">
+                <source srcset="images/heroLarge1100.jpg" media="(min-width:800px)">
+                <img src="images/heroSmall.jpg" alt="View of mountain range near Preston ID">
+            </picture>
             <div class="summary">
                 <h3>Summary</h3>
                 <p> Currently: Partly Cloudy <br>
@@ -84,7 +88,7 @@
 
         <section class="article">
             <h3>Article Title</h3>
-            <img class ="picnic" src="images/prestonimg.jpg" alt="picnic">
+            <img class="picnic" src="images/prestonimg.jpg" alt="picnic">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, aperiam tempore? Eum dicta
                 reiciendis officiis delectus, numquam qui? Fugit quae, quam assumenda magni vero eaque, earum modi odit
                 pariatur tenetur numquam. Cumque nulla id non consequuntur ipsam expedita asperiores atque laudantium
@@ -115,6 +119,8 @@
         </section>
     </footer>
     <script src="js/scripts.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/font.js"></script>
 </body>
 
 </html>
