@@ -125,7 +125,7 @@ p {
     padding: 5px;
     margin: auto;
     display: grid;
-    grid-column: 1fr;
+    grid-column: 1;
     justify-content: center;
 }
 
@@ -134,7 +134,7 @@ figure img[data-src] {
 }
 
 figure img {
-    filter: blur(em);
+    filter: blur(0em);
     transition: (.5s);
 }
 
