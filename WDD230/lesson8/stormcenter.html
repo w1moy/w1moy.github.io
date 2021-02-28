@@ -42,12 +42,9 @@
             <form method="get" action="thanks.html">
                 <fieldset class="personal">
                     <legend>Enter Contact Information</legend>
-                
-                    <label for="fname">First Name</label>
-                    <input type="text" id="fname" name="firstname" placeholder="Your first name" required="required">
 
-                    <label for="lname">Last Name</label>
-                    <input type="text" required="required" id="lname" name="lastname" placeholder="Your last name">
+                    <label for="fname">Full Name</label>
+                    <input type="text" id="fname" name="fullname" placeholder="First and Last Name" required="required">
 
                     <label for="email">email</label>
                     <input type="email" id="email" name="email" placeholder="name@email.com">
@@ -65,44 +62,52 @@
                     <input type="number" id="date" name="date" placeholder="date">
 
                     <label for="stormtype">Storm Type</label>
-                    <input id="stormtype" list="stormtype" required="required" name="stormtype">
-                    
+                    <input list="stormtype" id="stormtype"  name="stormtype">
+
                     <datalist id="stormtype">
                         <option value="Thunderstorm">
-                        <option value="Tornado" >
+                        <option value="Flooding">
+                        <option value="High Winds">
+                        <option value="Tornado">
                         <option value="Hail Storm">
                         <option value="Ice Storm">
-                        <option value="Flooding">
                         <option value="Snow Storm">
-                        <option value="High Winds">
                     </datalist>
 
                     <label for="severity">Storm Severity</lable>
-                    <input type="range" id="severity" name="stromseverity" min="0" max="10">
+                        <input type="range" id="severity" name="stromseverity" min="0" max="10">
 
-                    <label for="region">Region</label>
-                    <select id="region" name="region">
-                        <option value="selectregion">Select Region</option>
-                        <option value="preston">Preston</option>
-                        <option value="sodasprings">Soda Springs</option>
-                        <option vlaue="Fish Haven">Fish Haven</option>
-                    </select>
+                        <label for="region">Region</label>
+                        <select id="region" name="region">
+                            <option selected disabled>Select Region</option>
+                            <option value="preston">Preston</option>
+                            <option value="sodasprings">Soda Springs</option>
+                            <option vlaue="Fish Haven">Fish Haven</option>
+                        </select>
 
-                    <div class="danger"> 
-                    <p>Are you in Danger?</p>
-                    <label for="yes">yes</label>
-                    <input type="radio" id="yes" name="yes" value="yes">
-                    <label for="maybe">maybe</label>
-                    <input type="radio" id="maybe" name="maybe" value="maybe">
-                    <label for="no">no</label>
-                    <input type="radio" id="no" name="no" vlaue="no">
-                    </div>
+                        <div class="danger">
+                            <legend>Are you in Danger?</legend>
+                            <div>
+                                <label for="yes">yes</label>
+                                <input type="radio" id="yes" name="yes" value="yes">
+                            </div>
+                            <div>
+                                <label for="maybe">maybe</label>
+                                <input type="radio" id="maybe" name="maybe" value="maybe">
+                            </div>
 
-                    <label for="comment">Additional Information</label>
-                    <textarea id="comment" name="comment" rows="5" cols="45"></textarea>
-                    <div class="button">
-                    <input type="submit" value="Report">
-                </div>
+                            <div>
+                                <label for="no">no</label>
+                                <input type="radio" id="no" name="no" vlaue="no">
+                            </div>
+
+                        </div>
+
+                        <label for="comment">Additional Information</label>
+                        <textarea id="comment" name="comment" rows="5" cols="45"></textarea>
+                        <div class="button">
+                            <input type="submit" value="Report">
+                        </div>
                 </fieldset>
 
             </form>
