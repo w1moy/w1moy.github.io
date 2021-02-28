@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weathered Future</title>
+    <meta name="Description" content="website detailing the weather forcast for south esstern idaho">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kufam&family=Spartan&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="shortcut icon" href="favicon.ico">
+</head>
+
+<body>
+    <span id="prestonPancakes"></span>
+    <header>
+        <img src="images/weather-logo.png" alt="weathered future logo" />
+        <section class="headings">
+            <h1>Weathered Future</h1>
+            <div class="moto">Out with the storm, in with the rainbow!</div>
+        </section>
+    </header>
+    <nav class="clearfix" id="navigation">
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="primaryNav" class="hide">
+            <li class="menu"><a href="#">Home</a></li>
+            <li><a href="preston-5.html">Preston</a></li>
+            <li><a href="#">Soda Springs </a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center </a></li>
+            <li><a href="gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main class="clearfix">
+
+        <div class="storm">
+            <h2>Storm Center - Report a Storm</h2>
+            <form method="get" action="thanks.html">
+                <fieldset class="personal">
+                    <legend>Enter Contact Information</legend>
+                
+                    <label for="fname">First Name</label>
+                    <input type="text" required="required" id="fname" name="firstname" placeholder="Your first name">
+
+                    <label for="lname">Last Name</label>
+                    <input type="text" required="required" id="lname" name="lastname" placeholder="Your last name">
+
+                    <label for="email">email</label>
+                    <input type="email" required="required" id="email" name="email" placeholder="email">
+
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" required="required" id="phone" name="phone" placeholder="Phone number">
+
+                    <label for="zipcode">Zip Code</label>
+                    <input type="number" id="zipcode" name="zipcode" placeholder="Zip Code">
+                </fieldset>
+
+                <fieldset class="storminfo">
+                    <legend>Enter Storm Information</legend>
+                    <label for="sdate">Date</label>
+                    <input type="number" id="date" name="date" placeholder="date">
+
+                    <label for="stormtype">Storm Type</label>
+                    <input id="stormtype" list="stormtype" required="required" name="stormtype">
+                    
+                    <datalist id="stormtype">
+                        <option value="Thunderstorm">
+                        <option value="Tornado" >
+                        <option value="Hail Storm">
+                        <option value="Ice Storm">
+                        <option value="Flooding">
+                        <option value="Snow Storm">
+                        <option value="High Winds">
+                    </datalist>
+
+                    <label for="severity">Storm Severity</lable>
+                    <input type="range" id="severity" name="stromseverity" min="0" max="10">
+
+                    <label for="region">Region</label>
+                    <select id="region" name="region">
+                        <option value="selectregion">Select Region</option>
+                        <option value="preston">Preston</option>
+                        <option value="sodasprings">Soda Springs</option>
+                        <option vlaue="Fish Haven">Fish Haven</option>
+                    </select>
+
+                    <div class="danger"> 
+                    <p>Are you in Danger?</p>
+                    <label for="yes">yes</label>
+                    <input type="radio" id="yes" name="yes" value="yes">
+                    <label for="maybe">maybe</label>
+                    <input type="radio" id="maybe" name="maybe" value="maybe">
+                    <label for="no">no</label>
+                    <input type="radio" id="no" name="no" vlaue="no">
+                    </div>
+
+                    <label for="comment">Additional Information:</label>
+                    <textarea id="comment" name="comment" rows="5" cols="45"></textarea>
+                    <div class="button">
+                    <input type="submit" value="Report">
+                </div>
+                </fieldset>
+
+            </form>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class=container>
+            <img src="images/prestonIDmap.jpg" alt="Preston, ID Map">
+            <p> Weathered Future Headquarters<br>
+                546 Washington St.<br>
+                Preston, ID 81234<br><br>
+                &#9743; 208-345-9876 <br>
+                &#9993; info@weatheredfuture.com <br>
+            </p>
+            <section class="socialmedia">
+                <img src="images/Facebook.svg " alt="facebook">
+                <img src="images/instagram.svg" alt="instagram">
+                <img src="images/Twitter.svg" alt="twitter">
+            </section>
+        </div>
+        <section class="bar">
+            &copy; Weathered Future | Attributes | Wendy Moyle
+            <br>
+            <span id="currentdate"></span>
+        </section>
+    </footer>
+    <script src="js/scripts.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/font.js"></script>
+</body>
+
+</html>
