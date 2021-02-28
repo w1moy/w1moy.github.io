@@ -131,6 +131,7 @@
 
     .personal label, .storminfo label {
         display: block;
+        font-size: 12px;
     }
 
     legend {
