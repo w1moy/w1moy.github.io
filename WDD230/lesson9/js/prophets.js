@@ -16,19 +16,20 @@ fetch(requestURL)
       let h2 = document.createElement('h2');
       let p = document.createElement('p');
       let p2 = document.createElement('p');
-      let image = document.createElement('img');
+      let img = document.createElement('img');
 
       //template literals
       h2.innerHTML = `${prophet.name}
       ${prophet.lastname}`;
       p.textContent = "Date of Birth: " + `${prophet.birthdate}` 
       p2.textContent = "Place of Birth: "  + `${prophet.birthplace}`;
-      image.setAttribute = ("src", `${prophet.imageurl}`);
+      img.src = `${prophet.imageurl}`;
 
       card.appendChild(h2);
       cards.appendChild(card);
       card.appendChild(p);
       card.appendChild(p2);
+      card.appendChild(img);
       
 
 
