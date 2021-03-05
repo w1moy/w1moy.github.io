@@ -24,12 +24,14 @@ fetch(requestURL)
       p.textContent = "Date of Birth: " + `${prophet.birthdate}` 
       p2.textContent = "Place of Birth: "  + `${prophet.birthplace}`;
       img.src = `${prophet.imageurl}`;
+      img.alt = `${prophet.name}` + `${prophet.lastname}`;
 
       card.appendChild(h2);
       cards.appendChild(card);
       card.appendChild(p);
       card.appendChild(p2);
       card.appendChild(img);
+  
       
 
 
