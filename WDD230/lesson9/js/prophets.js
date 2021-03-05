@@ -22,7 +22,7 @@ fetch(requestURL)
       h2.innerHTML = `${prophet.name}
       ${prophet.lastname}`;
       p.textContent = "Date of Birth: " + `${prophet.birthdate}` 
-      p2.textContent = "Place of Birth: "  + `${prophet.placeofbirth}`;
+      p2.textContent = "Place of Birth: "  + `${prophet.birthplace}`;
       image.setAttribute = ("src", `${prophet.imageurl}`);
 
       card.appendChild(h2);
