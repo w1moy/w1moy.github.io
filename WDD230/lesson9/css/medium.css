@@ -1,0 +1,142 @@
+/* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 35rem) {
+
+    nav button {
+        display: none;
+    }
+
+    nav ul.hide {
+        display: flex;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 0;
+    }
+
+    nav ul li {
+        display: block;
+        flex: 1 1 100%;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+
+    nav a {
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 36pt;
+    }
+
+    .moto {
+        font-size: 16pt;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 24pt;
+    }
+
+    .hero {
+        position: relative;
+    }
+
+    .summary {
+        position: absolute;
+        top: 20px;
+        left: 25px;
+        opacity: .80;
+        box-shadow: 0 0 20px #456990;
+        padding: 20px;
+    }
+
+    .forecast {
+        display: flex;
+        color: #131200;
+        margin: 0 auto;
+        justify-content: space-evenly;
+        width: fit-content;
+    }
+
+    .day {
+        background-color: #A8D5E2;
+        border: solid #456990 2px;
+        color: #131200;
+        margin: auto;
+        padding: .5rem;
+        text-align: center;
+    }
+
+    .temp {
+        background-color: #A8D5E2;
+        border: solid #456990 2px;
+        color: #131200;
+        margin: auto;
+        padding: .5rem;
+        text-align: center;
+    }
+
+    .weathericon {
+        width: fit-content;
+        margin: 10px;
+        padding: 5px;
+    }
+
+    .article {
+        padding: 5px;
+        margin: 5px;
+        width: fit-content;
+        height: auto;
+    }
+
+    .picnic {
+        float: right;
+
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+
+    }
+
+    .pics {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    footer img {
+        grid-column: 1/2;
+        grid-row: 1;
+        align-self: center;
+        margin: auto;
+    }
+
+    footer p {
+        grid-column: 2/3;
+        grid-row: 1;
+        align-self: start;
+        margin: auto;
+    }
+
+    .socialmedia {
+        grid-column: 2/3;
+        grid-row: 1;
+        align-self: end;
+        margin: 0;
+        padding: 0;
+    }
+
+    /*Storm Center*/
+
+    .personal label, .storminfo label {
+        display: block;
+        font-size: 12px;
+    }
+
+    legend {
+        font-size: 16px;
+        font-weight: bolder;
+    }
+
+    /*end medium */

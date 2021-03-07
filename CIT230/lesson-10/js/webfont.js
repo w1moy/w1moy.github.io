@@ -1,1 +1,0 @@
-WebFont.load({google: {families: [Crete+Round, PT+Sans, Roboto, Viga]}});
