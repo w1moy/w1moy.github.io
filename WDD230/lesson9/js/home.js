@@ -14,11 +14,11 @@ fetch(requestURL)
 
         towns.forEach(town => {
             let home = document.createElement('section');
-            let name = document.createElement ('name');
-            let moto = document.createElement ('moto');
-            let founded = document.createElement ('founded');
-            let population = document.createElement ('population');
-            let rainfall = document.createElement ('rainfall');
+            let name = document.createElement ('h2');
+            let moto = document.createElement ('h3');
+            let founded = document.createElement ('p');
+            let population = document.createElement ('p');
+            let rainfall = document.createElement ('p');
             let img = document.createElement ('img');
 
             name.textContent = `${town.name}`;
