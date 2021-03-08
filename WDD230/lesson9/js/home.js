@@ -15,22 +15,22 @@ fetch(requestURL)
         towns.forEach(town => {
             let home = document.createElement('section');
             let name = document.createElement ('h2');
-            let moto = document.createElement ('h3');
+            let motto = document.createElement ('h3');
             let founded = document.createElement ('p');
             let population = document.createElement ('p');
             let rainfall = document.createElement ('p');
             let img = document.createElement ('img');
 
             name.textContent = `${town.name}`;
-            moto.textContent = `${town.moto}`;
-            founded.textContent = `${town.yearFounded}`;
-            population.textContent = `${town.currentPopulation}`;
-            rainfall.textContent = `${town.averageRainfall}`;
-            img.src = `${img.photo}`;
+            motto.textContent = `${town.motto}`;
+            founded.textContent = "Founded:" +`${town.yearFounded}`;
+            population.textContent = "Population" +`${town.currentPopulation}`;
+            rainfall.textContent = "Rainfall/Year" + `${town.averageRainfall}`;
+            img.src = `images/${town.photo}`;
 
             card.appendChild(name);
             card.appendChild(home);
-            card.appendChild(moto);
+            card.appendChild(motto);
             card.appendChild(founded);
             card.appendChild(population);
             card.appendChild(rainfall);
