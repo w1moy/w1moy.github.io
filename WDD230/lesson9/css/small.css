@@ -240,31 +240,38 @@ h3 {
 }
 .headings, .bar, .socialmedia {
     border: none;
+    background-color: #A8D5E2;
 
 }
 section {
     display: inline;
     border: solid #456990 5px;
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 5px;
     margin: 5px;
+    background-color: #456990;
 }
 
-section p {
+section p, section h2, section h3 {
     text-align: center;
+    color: #A8D5E2;
 }
 
 section img {
-    justify-self: center;
-    border-radius: 20px;
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
+    border:#A8D5E2 solid 2px;
+    margin: 0;
+    padding: 0;
 }
 
-.home img {
+/*.home img {
     width: 300px;
     height: auto;
     margin: auto;
-    padding: 10px;
-    justify-self: center;
+    padding: 0px;
+    justify-self: center;*/
 }
 
 
@@ -273,5 +280,8 @@ section img {
     height: auto;
     margin: auto;
     padding: 5px;
+    align-self: center;
+    justify-self: center;
+
 
 }
