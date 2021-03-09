@@ -232,7 +232,7 @@ h3 {
 
 .home p{
     padding:2px;
-    margin: auto;
+    margin-left:25px;
     align-self: center;
     /*border: #EAC435 dotted 5px;*/
 }
@@ -243,8 +243,8 @@ h3 {
     margin: auto;
     padding: 10px;
     justify-self: center;
-    /*border: firebrick solid 2px;*/
 }
+
 
 .windarticle img{
     width: 300px;

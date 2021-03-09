@@ -12,6 +12,19 @@
         box-shadow: 0 0 50px #333;
     }
 
+    /*home page*/
+
+    div {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+
+
+    .windarticle {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
 /*end large */

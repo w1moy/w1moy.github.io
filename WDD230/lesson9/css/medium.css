@@ -152,7 +152,9 @@
         flex-direction: row-reverse;
     }
     
-
+    div h2, div h3, div p {
+        display: block;
+    }
     img {
         width: 400px;
         height: auto;
