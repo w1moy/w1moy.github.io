@@ -5,15 +5,18 @@ fetch(requestURL)
         return response.json();
     })
     .then(function (jsonObject){
-        console.table(jsonObject);
+        //console.table(jsonObject);
         const towns = jsonObject['towns'];
-        //for (let i = [0]; i<towns.length; i++)
-        //if (towns[i].name === "Fish Haven" || town[i].name === "Preston" || towns[i].name === "Soda Springs")
+       
+        const fishhaven = towns.filter (x =>x.name == "Fish Haven");
+        const preston = towns.filter (x => x.name === "Preston");
+        const sodasprings = towns.filter (x => x.name === "Soda Springs");
+        const sort = [];
+        sort.push (...fishhaven, ...preston, ...sodasprings)
+        console.log(sort);
 
-        const card = document.querySelector('div.home');
-
-        towns.forEach(town => {
-            let home = document.createElement('section');
+        sort.forEach(town => {
+            let home = document.createElement('div');
             let name = document.createElement ('h2');
             let motto = document.createElement ('h3');
             let founded = document.createElement ('p');
@@ -23,18 +26,19 @@ fetch(requestURL)
 
             name.textContent = `${town.name}`;
             motto.textContent = `${town.motto}`;
-            founded.textContent = "Founded:" +`${town.yearFounded}`;
-            population.textContent = "Population" +`${town.currentPopulation}`;
-            rainfall.textContent = "Rainfall/Year" + `${town.averageRainfall}`;
+            founded.textContent = "Founded: " +`${town.yearFounded}`;
+            population.textContent = "Population: " +`${town.currentPopulation}`;
+            rainfall.textContent = "Rainfall/Year: " + `${town.averageRainfall}`;
             img.src = `images/${town.photo}`;
 
-            card.appendChild(name);
-            card.appendChild(home);
-            card.appendChild(motto);
-            card.appendChild(founded);
-            card.appendChild(population);
-            card.appendChild(rainfall);
-            card.appendChild(img);
-
+            
+            
+            home.appendChild(name);
+            home.appendChild(motto);
+            home.appendChild(founded);
+            home.appendChild(population);
+            home.appendChild(rainfall);
+            home.appendChild(img);
+            document.querySelector('.home').appendChild(home);
         });
     })
