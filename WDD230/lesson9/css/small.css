@@ -175,10 +175,11 @@ footer img {
 /*Storm Center*/
 
 .storm {
-    padding:15px;
+    padding: 15px;
 }
 
-.personal, .storminfo {
+.personal,
+.storminfo {
     display: flex;
     flex-direction: column;
     padding: 10px;
@@ -186,13 +187,14 @@ footer img {
     color: #131200;
     margin: auto;
     max-width: 750px;
-    border:#456990 solid 2px;
+    border: #456990 solid 2px;
     border-radius: 5px;
     font-family: 'PT Sans', sans-serif;
-    background-color:#A8D5E2;
+    background-color: #A8D5E2;
 }
 
-.personal label, .storminfo label {
+.personal label,
+.storminfo label {
     display: none;
     padding: 5px;
     font-weight: bold;
@@ -211,13 +213,13 @@ h3 {
 
 /*home page*/
 
-.home  {
+.home {
     display: grid;
     margin: auto;
     padding: 5px;
     align-items: center;
     justify-items: center;
-    
+
 }
 
 .home h2 {
@@ -230,14 +232,29 @@ h3 {
     margin: auto;
 }
 
-.home p{
-    padding:2px;
-    margin-left:25px;
+.home p {
+    padding: 2px;
+    margin-left: 25px;
     align-self: center;
     /*border: #EAC435 dotted 5px;*/
 }
+.headings, .bar, .socialmedia {
+    border: none;
 
-.home img{
+}
+section {
+    display: inline;
+    border: solid #456990 5px;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+}
+
+section p {
+    text-align: center;
+}
+
+.home img {
     width: 300px;
     height: auto;
     margin: auto;
@@ -246,9 +263,9 @@ h3 {
 }
 
 
-.windarticle img{
+.windarticle img {
     width: 300px;
-    height:auto;
+    height: auto;
     margin: auto;
     padding: 5px;
 

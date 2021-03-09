@@ -1,6 +1,8 @@
 /* 64em is also 1028px when basefont is 16px */
 @media only screen and (min-width: 64rem) {
 
+    
+
     .pics {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -14,12 +16,17 @@
 
     /*home page*/
 
-    div {
+    .home {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-
+    section {
+        display: inline;
+        border: solid #456990 5px;
+        border-radius: 10px;
+        padding: 5px;
+        margin: 5px;
 
     .windarticle {
         display: flex;

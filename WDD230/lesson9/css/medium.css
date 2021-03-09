@@ -143,17 +143,17 @@
     /*home page*/
 
 
-    div {
+    section {
         display: flex;
         flex-direction: row;
     }
 
-    div:nth-child(odd) {
+    section:nth-child(odd) {
         flex-direction: row-reverse;
     }
     
-    div h2, div h3, div p {
-        display: block;
+    section h2,  section h3, section p {
+        display: inline;
     }
     img {
         width: 400px;

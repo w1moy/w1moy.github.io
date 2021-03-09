@@ -16,7 +16,7 @@ fetch(requestURL)
         console.log(sort);
 
         sort.forEach(town => {
-            let home = document.createElement('div');
+            let home = document.createElement('section');
             let name = document.createElement ('h2');
             let motto = document.createElement ('h3');
             let founded = document.createElement ('p');
