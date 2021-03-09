@@ -28,7 +28,7 @@ fetch(requestURL)
             motto.textContent = `${town.motto}`;
             founded.textContent = "Founded: " +`${town.yearFounded}`;
             population.textContent = "Population: " +`${town.currentPopulation}`;
-            rainfall.textContent = "Rainfall/Year: " + `${town.averageRainfall}`;
+            rainfall.textContent = "Rainfall/Year: " + `${town.averageRainfall}`+"in";
             img.src = `images/${town.photo}`;
 
             

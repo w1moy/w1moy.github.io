@@ -266,12 +266,12 @@ section img {
     padding: 0;
 }
 
-/*.home img {
+.home img {
     width: 300px;
     height: auto;
     margin: auto;
     padding: 0px;
-    justify-self: center;*/
+    justify-self: center;
 }
 
 
@@ -282,6 +282,4 @@ section img {
     padding: 5px;
     align-self: center;
     justify-self: center;
-
-
 }
