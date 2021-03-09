@@ -142,14 +142,6 @@
 
     /*home page*/
 
-    section .hpage {
-        max-width: 600px;
-        margin: .5rem auto;
-        border: #456990 1px solid;
-        background-color: #A8D5E2;
-        display: flex;
-        flex-wrap: wrap;
-    }
 
     div {
         display: flex;
@@ -159,9 +151,9 @@
     div:nth-child(odd) {
         flex-direction: row-reverse;
     }
+    
 
     img {
-        border: 1px solid #000080;
         width: 400px;
         height: auto;
     }
