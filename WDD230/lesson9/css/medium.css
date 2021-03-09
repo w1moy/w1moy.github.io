@@ -146,6 +146,7 @@
     section {
         display: flex;
         flex-direction: row;
+        
     }
 
     section:nth-child(odd) {

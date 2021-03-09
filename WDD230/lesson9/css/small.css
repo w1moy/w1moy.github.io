@@ -254,6 +254,11 @@ section p {
     text-align: center;
 }
 
+section img {
+    justify-self: center;
+    border-radius: 20px;
+}
+
 .home img {
     width: 300px;
     height: auto;
