@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <span id = "prestonPancakes"></span>
+    <span id="prestonPancakes"></span>
     <header>
         <img src="images/weather-logo.png" alt="weathered future logo" />
         <section class="headings">
@@ -38,54 +38,50 @@
     <main class="clearfix">
         <section class="hero">
             <picture class="heroimg">
-                <source srcset="images/heroMed600.jpg" media="(min-width:500px) and (max-width: 799px)">
-                <source srcset="images/heroLarge1100.jpg" media="(min-width:800px)">
-                <img src="images/heroSmall400.jpg" alt="View of mountain range near Preston ID">
+                <img src="images/hero.jpg" alt="View of mountain range near Preston ID">
             </picture>
             <div class="summary">
                 <h3>Summary</h3>
                 <ul>
-                    <li>Currently: Sunny</li>
-                    <li>Temperature: <span id="temp">45</span>&#176;F</li>
+                    <li>Currently: <span id=current></span></li>
+                    <li>Temperature: <span id="temp"></span>&#176;F</li>
                     <li>Wind Chill: <span id="chill"></span>&#176;F</li>
-                    <li>Humidyity: 2%</li>
-                    <li>Percipitation: 0 inches</li>
-                    <li>Wind Speed: <span id="speed">10</span>mph</li>
+                    <li>Humidity: <span id="humidity"></span>&#37;</li>
+                    <li>Wind Speed: <span id="speed"></span>mph</li>
                 </ul>
             </div>
         </section>
 
         <h2>Preston, Idaho</h2>
 
-        <h3 class="forecast">Five Day Forecast</h3>
-        <section class="forecast">
-            <container>
-                <p class="day">Wed</p>
-                <img class="weathericon" src="images/sun:cloud.svg">
-                <p class="temp">43°</p>
-            </container>
-            <container>
-                <p class="day">Thurs</p>
-                <img class="weathericon" src="images/wind.svg">
-                <p class="temp">30°</p>
-            </container>
-            <container>
-                <p class="day">Fri</p>
-                <img class="weathericon" src="images/snow.svg">
-                <p class="temp">29°</p>
-            </container>
-            <container>
-                <p class="day">Sat</p>
-                <img class="weathericon" src="images/sun:cloud.svg">
-                <p class="temp">35°</p>
-            </container>
-            <container>
-                <p class="day">Sun</p>
-                <img class="weathericon" src="images/cloudy.svg">
-                <p class="temp">32°</p>
-            </container>
-        </section>
-
+        <div id=fiveday>
+            <h3 class="forecast">Five Day Forecast</h3>
+            <div class="forecast">
+                <span id="dayofweek1"></span>
+                <img id="icon" src="" alt=""/>
+                <span id="temperature1"></span>
+            </div>
+            <div class="forecast">
+                <span id="dayofweek2"></span>
+                <img id="icon" src="" alt=""/>
+                <span id="temperature2"></span>
+            </div>
+            <div class="forecast">
+                <span id="dayofweek3"></span>
+                <img id="icon" src="" alt=""/>
+                <span id="temperature3"></span>
+            </div>
+            <div class="forecast">
+                <span id="dayofweek4"></span>
+                <img id="icon" src="" alt=""/>
+                <span id="temperature4"></span>
+            </div>
+            <div class="forecast">
+                <span id="dayofweek5"></span>
+                <img id="icon" src="" alt=""/>
+                <span id="temperature5"></span>
+            </div>
+        </div>
         <section class="article">
             <h3>Article Title</h3>
             <img class="picnic" src="images/prestonimg.jpg" alt="picnic">
@@ -121,7 +117,7 @@
     <script src="js/scripts.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="js/font.js"></script>
-    <script src="js/forcast.js"></script>
+    <script src="js/forcast1.js"></script>
 </body>
 
 </html>
