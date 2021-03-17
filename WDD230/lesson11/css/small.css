@@ -1,0 +1,171 @@
+header {
+    background-color: #A8D5E2;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+header img {
+    width: 80px;
+    height: auto;
+    padding: 5px;
+    margin: 5px;
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+h1 {
+    padding: 5px;
+    margin: 0;
+    color: #131200;
+    font-family: 'Francois One', sans-serif;
+    font-size: 16pt;
+}
+
+.moto {
+    padding: 0;
+    margin: 0;
+    color: #131200;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 10pt;
+    text-align: center;
+}
+
+#navigation {
+    background-color: #EAC435;
+    max-width: 760px;
+    margin: 0 auto;
+    font-family: 'PT Sans', sans-serif;
+}
+
+nav ul {
+    margin: 0;
+    padding: 5px;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: #131200;
+}
+
+nav ul li a:hover {
+    background-color: #456990;
+    color: #EAC435;
+}
+
+nav ul.hide {
+    display: none;
+}
+
+nav button {
+    padding: 10px;
+    padding-left: 75px;
+    padding-right: 75px;
+    margin: 10px;
+    margin-left: 50px;
+    justify-content: center;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h2 {
+    font-family: 'Francois One', sans-serif;
+    color: #131200;
+    text-align: center;
+    font-size: 14pt;
+    margin: 0;
+    padding: 5px;
+}
+
+.summary {
+    background-color: #EAC435;
+    text-align: left;
+    margin: auto;
+}
+
+.summary p,
+h3 {
+    padding: 10px;
+    margin: 10px;
+}
+
+.forecast {
+    display: none;
+}
+
+.article {
+    width: fit-content;
+    height: auto;
+}
+
+.article img {
+    width: 250px;
+    height: auto;
+    padding: 5px;
+    margin: 5px;
+}
+
+p {
+    font-family: 'PT Sans', sans-serif;
+    color: #131200;
+}
+
+.pics {
+    padding: 5px;
+    margin: auto;
+    display: grid;
+    grid-column: 1;
+    justify-content: center;
+}
+
+figure img[data-src] {
+    filter: blur(.02em);
+}
+
+figure img {
+    filter: blur(0em);
+    transition: (.5s);
+}
+
+.gal {
+    padding: 5px;
+    margin: 5px;
+}
+
+figcaption {
+    font-family: 'PT Sans', sans-serif;
+}
+
+footer {
+    background-color: #A8D5E2;
+    text-align: center;
+    padding: 20px;
+    font-family: 'PT Sans', sans-serif;
+    width: 100%;
+    margin: auto;
+}
+
+footer img {
+    width: 250px;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+}
+
+.socialmedia img {
+    width: 50px;
+    height: auto;
+    margin: 5px;
+    padding: 5px;
+}
