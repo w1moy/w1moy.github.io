@@ -1,5 +1,9 @@
-/* 35em is also 560px when basefont is 16px */
-@media only screen and (min-width: 35rem) {
+@media only screen and (min-width: 768px) {
+
+    #prestonPancakes{
+        background-color:#EAC435;
+        color: #456990;
+    }
 
     nav button {
         display: none;
@@ -40,6 +44,11 @@
         position: relative;
     }
 
+    .heroimg {
+        max-width: 993px;
+        margin: auto;
+    }
+
     .summary {
         position: absolute;
         top: 20px;
@@ -47,7 +56,7 @@
         opacity: .80;
         box-shadow: 0 0 20px #456990;
         padding: 20px;
-        list-style-type:none;
+        list-style-type: none;
     }
 
     .forecast {
@@ -106,6 +115,8 @@
         grid-template-columns: 1fr 1fr;
     }
 
+/*Footer*/
+
     footer img {
         grid-column: 1/2;
         grid-row: 1;
@@ -127,5 +138,25 @@
         margin: 0;
         padding: 0;
     }
+
+    /*home page*/
+    section {
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+    section:nth-child(odd) {
+        flex-direction: row-reverse;
+    }
+    
+    section h2,  section h3, section p {
+        display: inline;
+    }
+    img {
+        width: 400px;
+        height: auto;
+    }
+}
 
     /*end medium */

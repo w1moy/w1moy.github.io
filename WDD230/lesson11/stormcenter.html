@@ -16,7 +16,6 @@
 </head>
 
 <body>
-    <span id="prestonPancakes"></span>
     <header>
         <img src="images/weather-logo.png" alt="weathered future logo" />
         <section class="headings">
@@ -27,12 +26,12 @@
     <nav class="clearfix" id="navigation">
         <button onclick="toggleMenu()">&#9776; Menu</button>
         <ul id="primaryNav" class="hide">
-            <li class="menu"><a href="#">Home</a></li>
-            <li><a href="preston-5.html">Preston</a></li>
-            <li><a href="#">Soda Springs </a></li>
-            <li><a href="#">Fish Haven</a></li>
-            <li><a href="#">Storm Center </a></li>
-            <li><a href="gallery-7.html">Gallery</a></li>
+            <li class="menu"><a href="index.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="sodasprings.html">Soda Springs </a></li>
+            <li><a href="fishhaven.html">Fish Haven</a></li>
+            <li><a class="active" href="stormcenter.html">Storm Center </a></li>
+            <li><a href="gallery.html">Gallery</a></li>
         </ul>
     </nav>
     <main class="clearfix">
@@ -59,23 +58,40 @@
                 <fieldset class="storminfo">
                     <legend>Enter Storm Information</legend>
                     <label for="sdate">Date</label>
-                    <input type="number" id="date" name="date" placeholder="date">
+                    <input type="date" id="date" name="date" placeholder="date">
 
                     <label for="stormtype">Storm Type</label>
-                    <input list="stormtype" id="stormtype" name="stormtype">
+                    <input list="typestorm" id="stormtype" name="stormtype">
 
-                    <datalist id="stormtype">
+                    <datalist id="typestorm">
                         <option value="Thunderstorm">
-                        <option value="Flooding">
+                        <option value="Flash Flood">
                         <option value="High Winds">
                         <option value="Tornado">
-                        <option value="Hail Storm">
+                        <option value="Hail">
                         <option value="Ice Storm">
                         <option value="Snow Storm">
+                        <option value="Hurricane">
                     </datalist>
 
-                    <label for="severity">Storm Severity</lable>
-                        <input type="range" id="severity" name="stromseverity" min="0" max="10">
+                    <label class="range">Storm Severity <span id="ratingvalue"></span>
+                        <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks"
+                            name="stromseverity" min="0" max="10">
+                        <!-- oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">-->
+                        <datalist id="tickmarks">
+                            <option value="0">
+                            <option value="1">
+                            <option value="2">
+                            <option value="3">
+                            <option value="4">
+                            <option value="5">
+                            <option value="6">
+                            <option value="7">
+                            <option value="8">
+                            <option value="9">
+                            <option value="10">
+                        </datalist>
+                        </lable>
 
                         <label for="region">Region</label>
                         <select id="region" name="region">
@@ -88,22 +104,23 @@
                         <div class="danger">
                             <legend>Are you in Danger?</legend>
                             <div>
-                                <label for="yes">yes</label>
                                 <input type="radio" id="yes" name="yes" value="yes">
+                                <label for="yes">yes</label>
                             </div>
                             <div>
-                                <label for="maybe">maybe</label>
                                 <input type="radio" id="maybe" name="maybe" value="maybe">
+                                <label for="maybe">maybe</label>
                             </div>
 
                             <div>
-                                <label for="no">no</label>
                                 <input type="radio" id="no" name="no" vlaue="no">
+                                <label for="no">no</label>
                             </div>
 
                         </div>
 
-                        <label for="comment">Additional Information</label>
+                        <label for="comment">Additional Information</label><br>
+                        
                         <textarea id="comment" name="comment" rows="5" cols="45"></textarea>
                         <div class="button">
                             <input type="submit" value="Report">
@@ -139,6 +156,7 @@
     <script src="js/scripts.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="js/font.js"></script>
+    <script src="js/range.js"></script>
 </body>
 
 </html>
