@@ -29,7 +29,7 @@
     
     }
 
-    section {
+    .home section {
         display: inline;
         border: solid #456990 3px;
         border-radius: 10px;
@@ -37,7 +37,7 @@
         margin: 5px;
     }
 
-    section img {
+    .home section img {
         border-radius: 20px;
     }
 

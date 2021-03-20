@@ -1,5 +1,6 @@
 @media only screen and (min-width: 768px) {
 
+    /*Banner*/
     #prestonPancakes {
         display: block;
         width: 100%;
@@ -9,7 +10,7 @@
         font-family: 'PT Sans', sans-serif;
         padding: 5px;
     }
-
+    /*navigation*/
     nav button {
         display: none;
     }
@@ -31,7 +32,7 @@
     nav a {
         text-align: center;
     }
-
+    /*header*/
     h1 {
         font-size: 36pt;
     }
@@ -41,6 +42,7 @@
         text-align: center;
     }
 
+    /*hero*/
     h2 {
         font-size: 24pt;
     }
@@ -49,10 +51,12 @@
         position: relative;
     }
 
-    .heroimg {
+    main .heroimg {
         max-width: 993px;
-        margin: auto;
+        margin: 0;
     }
+
+
 
     .summary {
         position: absolute;
@@ -63,9 +67,10 @@
         padding: 20px;
         list-style-type: none;
     }
-
+    /*forcast*/
     .forecast {
         display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         flex: inherit;
         color: #131200;
         font-family: 'PT Sans', sans-serif;
@@ -97,7 +102,7 @@
         margin: 10px;
         padding: 5px;
     }
-
+/*articles*/
     .article {
         padding: 5px;
         margin: 5px;
@@ -151,16 +156,18 @@
         display: flex;
         flex-direction: row;
 
+
     }
 
     .home section:nth-child(odd) {
         flex-direction: row-reverse;
     }
 
-    .home section h2,
-    section h3,
-    section p {
-        display: inline;
+    .home  section h2,
+     section h3,
+     section p {
+        align-items: center;
+        justify-items: center;
     }
 
     .home img {
