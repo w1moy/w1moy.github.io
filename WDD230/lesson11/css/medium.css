@@ -1,5 +1,5 @@
 @media only screen and (min-width: 768px) {
-   
+
     #prestonPancakes {
         display: block;
         width: 100%;
@@ -7,7 +7,7 @@
         background-color: #EAC435;
         color: #456990;
         font-family: 'PT Sans', sans-serif;
-        padding:5px;
+        padding: 5px;
     }
 
     nav button {
@@ -65,36 +65,36 @@
     }
 
     .forecast {
-        display: flex;
+        display: grid;
         color: #131200;
         font-family: 'PT Sans', sans-serif;
         font-size: 20px;
         margin: 0 auto;
-        justify-content: space-evenly;
+        justify-content: center;
         width: fit-content;
         border: solid #456990;
         padding: 5px;
+
     }
 
     .day {
         background-color: #A8D5E2;
-        border: solid #456990 2px;
         color: #131200;
-        margin: auto;
+        margin: 0 auto;
         padding: .5rem;
         text-align: center;
     }
 
     .temp {
         background-color: #A8D5E2;
-        border: solid #456990 2px;
         color: #131200;
         margin: auto;
         padding: .5rem;
         text-align: center;
     }
 
-    .weathericon {
+    .icon {
+
         width: fit-content;
         margin: 10px;
         padding: 5px;
@@ -172,7 +172,8 @@
 
     /*storm page*/
 
-    .personal, .storminfo {
+    .personal,
+    .storminfo {
         display: flex;
         flex-direction: column;
         padding: 10px;
@@ -180,12 +181,14 @@
         color: #131200;
         margin: auto;
         max-width: 750px;
-        border:#456990 solid 2px;
+        border: #456990 solid 2px;
         border-radius: 5px;
         font-family: 'PT Sans', sans-serif;
-        background-color:#A8D5E2;
+        background-color: #A8D5E2;
     }
-    .personal label, .storminfo label {
+
+    .personal label,
+    .storminfo label {
         display: flex;
         flex-direction: column;
         padding: 5px;
