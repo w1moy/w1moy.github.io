@@ -68,10 +68,11 @@
         list-style-type: none;
     }
     /*forcast*/
+
     .forecast {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        flex: inherit;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr  ;
         color: #131200;
         font-family: 'PT Sans', sans-serif;
         font-size: 20px;
@@ -82,22 +83,42 @@
         border-radius: 10px;
     }
 
+    #day1, #temperature1, #icon1 {
+        grid-column: 1/2;
+    }
+    
+    #day2, #temperature2, #icon2 {grid-column: 2/3;
+    grid-template-rows: 1/2;}
+
+    #day3, #temperature3, #icon3 {grid-column: 3/4;
+        grid-template-rows: 1/2}
+
+    #day4, #temperature4, #icon4 {grid-column: 4/5;
+        grid-template-rows: 1/2;}
+    #day5, #temperature5, #icon5 {grid-column: 5/6;
+        grid-template-rows: 1/2}
+        
     .day {
-        height: 30px;
+        grid-row: 1;
+        height: 40px;
         background-color: #A8D5E2;
         color: #131200;
         text-align: center;
+        padding-top: 20px;
     }
 
     .temp {
+        grid-row: 3;
         height: 30px;
         background-color: #A8D5E2;
         color: #131200;
         text-align: center;
+        padding: 20px;
     }
 
     .icon {
-
+        grid-row: 2;
+        height: auto;
         width: fit-content;
         margin: 10px;
         padding: 5px;
