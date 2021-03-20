@@ -36,9 +36,12 @@ h1 {
     text-align: center;
 }
 
+#prestonPancakes {
+    display: none;
+}
+
 #navigation {
     background-color: #EAC435;
-    /*max-width: 760px;*/
     margin: 0 auto;
     font-family: 'PT Sans', sans-serif;
 }
@@ -245,7 +248,8 @@ h3 {
     background-color: #A8D5E2;
 
 }
-section {
+
+.home section {
     display: inline;
     border: solid #456990 5px;
     border-radius: 15px;
@@ -254,12 +258,12 @@ section {
     background-color: #456990;
 }
 
-section p, section h2, section h3 {
+.home section p, section h2, section h3 {
     text-align: center;
     color: #A8D5E2;
 }
 
-section img {
+.home section img {
     width: 300px;
     height: auto;
     border-radius: 15px;

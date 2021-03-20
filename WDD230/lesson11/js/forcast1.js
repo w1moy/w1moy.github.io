@@ -18,10 +18,13 @@ fetch(apiURL)
         //console.log(fiveday);
         let day = 0;
         const dayofweek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thur', 'Fri', 'Sat'];
-        fiveday.forEach ((x) =>{
+        fiveday.forEach (x =>{
             let d = new Date(x.dt_txt);
-            document.getElementById(`day${day+1}`).textContent = dayofweek[d.getDay()];
-            document.getElementById(`temperature${day+1}`).textContent = x.main.temp;
+            console.log(d);
+            document.getElementById(`dayofweek${day+1}`).textContent = dayofweek[d.getDay()];
+
+            document.getElementById(`temperature${day+1}`).innerHTML = (x.main.temp);
+
             const imagesrc = `http://openweathermap.org/img/w/${fiveday.weather[0].icon}.png`;
             const desc = fiveday.weather[0].description;
             document.getElementById(`icon${day+1}`).setAttribute('src', imagesrc);

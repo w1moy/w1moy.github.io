@@ -30,6 +30,7 @@ fetch(requestURL)
             population.textContent = "Population: " +`${town.currentPopulation}`;
             rainfall.textContent = "Rainfall/Year: " + `${town.averageRainfall}`+"in";
             img.src = `images/${town.photo}`;
+            img.alt = `${town.name}`;
 
             
             
