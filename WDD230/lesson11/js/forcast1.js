@@ -18,17 +18,18 @@ fetch(apiURL)
         //console.log(fiveday);
         let day = 0;
         const dayofweek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thur', 'Fri', 'Sat'];
+
         fiveday.forEach (x =>{
             let d = new Date(x.dt_txt);
-            console.log(d);
-            document.getElementById(`dayofweek${day+1}`).textContent = dayofweek[d.getDay()];
+            //console.log(d);
+            document.getElementById(`day${day+1}`).textContent = dayofweek[d.getDay()];
 
-            document.getElementById(`temperature${day+1}`).innerHTML = (x.main.temp);
+            document.getElementById(`temperature${day+1}`).innerHTML = Math.round(x.main.temp) + "&#176;F";
 
-            const imagesrc = `http://openweathermap.org/img/w/${fiveday.weather[0].icon}.png`;
-            const desc = fiveday.weather[0].description;
-            document.getElementById(`icon${day+1}`).setAttribute('src', imagesrc);
-            document.getElementById(`icon${day+1}`).setAttribute('alt', desc);
+            const src = 'https://openweathermap.org/img/wn/' + x.weather[0].icon + "@2x.png";
+            const alt = x.weather[0].description;
+            document.getElementById(`icon${day+1}`).setAttribute('src', src);
+            document.getElementById(`icon${day+1}`).setAttribute('alt', alt);
             day++;
         });
         });
