@@ -11,7 +11,7 @@ fetch(requestURL)
         const preston = towns.filter (x => x.name === "Preston");
         const sort = [];
         sort.push (...preston)
-        console.log(sort);
+        //console.log(sort);
 
         sort.forEach(town => {
            let event = document.createElement('div');

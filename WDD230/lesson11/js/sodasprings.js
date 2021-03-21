@@ -1,4 +1,4 @@
-/*five day forcast*/
+/*five day forcast-*/
 const apiURL = "http://api.openweathermap.org/data/2.5/forecast?id=5607916&appid=5ccb56d01530a63b1c9276906281171d&id=5604473&units=imperial";
 //console.log (apiURL)
 
@@ -49,7 +49,7 @@ fetch(requestURL)
         const sodasprings = towns.filter (x => x.name === "Soda Springs");
         const sort = [];
         sort.push (...sodasprings)
-        console.log(sort);
+        //console.log(sort);
 
         sort.forEach(town => {
            let event = document.createElement('div');

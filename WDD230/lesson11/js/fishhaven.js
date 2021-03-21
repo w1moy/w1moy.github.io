@@ -1,11 +1,11 @@
-/*five day forcast*/
+/*five day forcast - 5585000*/
 const apiURL = "http://api.openweathermap.org/data/2.5/forecast?id=5585000&appid=5ccb56d01530a63b1c9276906281171d&id=5604473&units=imperial";
 //console.log (apiURL)
 
 fetch(apiURL)
     .then((response) => response.json())
     .then((jsObject) => {
-        console.log (jsObject);
+        //console.log (jsObject);
 
         //summary
         document.getElementById("current").textContent = jsObject.list[0].weather[0].description;
@@ -14,7 +14,7 @@ fetch(apiURL)
         document.getElementById("speed").textContent = jsObject.list[0].wind.speed;
         //console.log(jsObject);
 
-        //Five Day Forcast
+       //Five Day Forcast
         const fiveday = jsObject.list.filter((x) => x.dt_txt.includes("18:00:00"));
         //console.log(fiveday);
         let day = 0;
