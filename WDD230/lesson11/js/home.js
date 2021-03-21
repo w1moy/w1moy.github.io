@@ -13,7 +13,7 @@ fetch(requestURL)
         const sodasprings = towns.filter (x => x.name === "Soda Springs");
         const sort = [];
         sort.push (...fishhaven, ...preston, ...sodasprings)
-        console.log(sort);
+        //console.log(sort);
 
         sort.forEach(town => {
             let home = document.createElement('section');

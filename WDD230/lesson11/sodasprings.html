@@ -16,6 +16,8 @@
 </head>
 
 <body>
+    <!--Header-->
+    <span id="prestonPancakes"></span>
     <header>
         <img src="images/weather-logo.png" alt="weathered future logo" />
         <section class="headings">
@@ -23,17 +25,21 @@
             <div class="moto">Out with the storm, in with the rainbow!</div>
         </section>
     </header>
+
+    <!--Navaigation-->
     <nav class="clearfix" id="navigation">
         <button onclick="toggleMenu()">&#9776; Menu</button>
         <ul id="primaryNav" class="hide">
             <li class="menu"><a href="index.html">Home</a></li>
-            <li><a href="preston.html">Preston</a></li>
-            <li><a class="active" href="sodasprings.html">Soda Springs </a></li>
+            <li><a class="active" href="preston.html">Preston</a></li>
+            <li><a href="sodasprings.html">Soda Springs </a></li>
             <li><a href="fishhaven.html">Fish Haven</a></li>
             <li><a href="stormcenter.html">Storm Center </a></li>
             <li><a href="gallery.html">Gallery</a></li>
         </ul>
     </nav>
+
+    <!--Main-->
     <main class="clearfix">
         <div class="hero">
             <picture class="heroimg">
@@ -51,47 +57,61 @@
             </div>
         </div>
 
-        <h2>Soda Springs, ID</h2>
+        <h2>Preston, Idaho</h2>
 
         <div id=fiveday>
             <h3 class=>Five Day Forecast</h3>
-            <div class="forecast">
+            <div class=fdcontainer>
+            <div class="forecast" >
                 <span class="day" id="day1"></span>
                 <img class="icon" id="icon1" src="" alt="" />
                 <span class="temp" id="temperature1"></span>
             </div>
-            <div class="forecast">
+            <div class="forecast" >
                 <span class="day" id="day2"></span>
                 <img class="icon" id="icon2" src="" alt="" />
                 <span class="temp" id="temperature2"></span>
             </div>
-            <div class="forecast">
+            <div class="forecast" >
                 <span class="day" id="day3"></span>
                 <img class="icon" id="icon3" src="" alt="" />
                 <span class="temp" id="temperature3"></span>
             </div>
-            <div class="forecast">
+            <div class="forecast" >
                 <span class="day" id="day4"></span>
                 <img class="icon" id="icon4" src="" alt="" />
                 <span class="temp" id="temperature4"></span>
             </div>
-            <div class="forecast">
+            <div class="forecast" >
                 <span class="day" id="day5"></span>
                 <img class="icon" id="icon5" src="" alt="" />
                 <span class="temp" id="temperature5"></span>
             </div>
         </div>
+        </div>
+
+        <div class="event">
+            <h3>Town Events</h3>
+        </div>
+
         <div class="article">
-            <h3>Article Title</h3>
+            <h3>Picnic in the Park</h3>
             <img class="picnic" src="images/prestonimg.jpg" alt="picnic">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, aperiam tempore? Eum dicta
                 reiciendis officiis delectus, numquam qui? Fugit quae, quam assumenda magni vero eaque, earum modi odit
                 pariatur tenetur numquam. Cumque nulla id non consequuntur ipsam expedita asperiores atque laudantium
+                hic quam sapiente quasi culpa suscipit, provident minus maiores.Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, aperiam tempore? Eum dicta
+                reiciendis officiis delectus, numquam qui? Fugit quae, quam assumenda magni vero eaque, earum modi odit
+                pariatur tenetur numquam. Cumque nulla id non consequuntur ipsam expedita asperiores atque laudantium
+                hic quam sapiente quasi culpa suscipit, provident minus maiores.Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, aperiam tempore? Eum dicta
+                reiciendis officiis delectus, numquam qui? Fugit quae, quam assumenda magni vero eaque, earum modi odit
+                pariatur tenetur numquam. Cumque nulla id non consequuntur ipsam expedita asperiores atque laudantium
                 hic quam sapiente quasi culpa suscipit, provident minus maiores.</p>
-            </div>
+        </div>
 
     </main>
 
+    <!--Footer-->
     <footer>
         <div class=container>
             <img src="images/prestonIDmap.jpg" alt="Preston, ID Map">
@@ -117,6 +137,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="js/font.js"></script>
     <script src="js/forcast1.js"></script>
+    <script src="js/event.js"></script>
 </body>
 
 </html>
