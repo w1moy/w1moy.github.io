@@ -9,6 +9,7 @@
         color: #456990;
         font-family: 'PT Sans', sans-serif;
         padding: 5px;
+        text-align: center;
     }
     /*navigation*/
     nav button {
@@ -55,9 +56,9 @@
         max-width: 993px;
         margin: 0;
     }
-
-
-
+    ul.summary {
+        list-style-type: none;
+    }
     .summary {
         position: absolute;
         top: 20px;
@@ -65,64 +66,43 @@
         opacity: .80;
         box-shadow: 0 0 20px #456990;
         padding: 20px;
-        list-style-type: none;
     }
+    
     /*forcast*/
-
-    .forecast {
+    #fiveday {
+        display: block;
+    }
+    .fdcontainer {
         display: grid;
-        grid-template-rows: 1fr;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr  ;
+        grid-template-columns: repeat(auto-fit, minmax(10px, 1fr));
+        max-width: 580px;
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;
+    }
+    .forecast {
+        display: block;
         color: #131200;
         font-family: 'PT Sans', sans-serif;
         font-size: 20px;
-        margin: 0 auto;
-        justify-content: center;
-        width: fit-content;
+        text-align: center;
         border: solid #456990 4px;
-        border-radius: 10px;
+        border-radius: 5px;
+        margin: 2px;
     }
 
-    #day1, #temperature1, #icon1 {
-        grid-column: 1/2;
-    }
-    
-    #day2, #temperature2, #icon2 {grid-column: 2/3;
-    grid-template-rows: 1/2;}
-
-    #day3, #temperature3, #icon3 {grid-column: 3/4;
-        grid-template-rows: 1/2}
-
-    #day4, #temperature4, #icon4 {grid-column: 4/5;
-        grid-template-rows: 1/2;}
-    #day5, #temperature5, #icon5 {grid-column: 5/6;
-        grid-template-rows: 1/2}
-        
-    .day {
-        grid-row: 1;
-        height: 40px;
-        background-color: #A8D5E2;
+    .day, .temp {
         color: #131200;
-        text-align: center;
-        padding-top: 20px;
-    }
-
-    .temp {
-        grid-row: 3;
-        height: 30px;
-        background-color: #A8D5E2;
-        color: #131200;
-        text-align: center;
-        padding: 20px;
+        margin-top: 25px;
+        font-weight: bold;
     }
 
     .icon {
-        grid-row: 2;
         height: auto;
         width: fit-content;
-        margin: 10px;
-        padding: 5px;
+        background-color: #A8D5E2;
     }
+
 /*articles*/
     .article {
         padding: 5px;
