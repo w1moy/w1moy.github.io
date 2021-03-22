@@ -90,13 +90,11 @@ nav button {
     clear: both;
 }
 
-.home h3{
-    width: 220px;
-}
+
 
 main #home {
     margin: 0 auto;
-    border: red dashed 15px;
+
 }
 
 .sun {
@@ -278,17 +276,17 @@ h3 {
     padding: 5px;
     margin: auto;
 }
-
-.home h3 {
+.home h3{
+    width: 220px;
     padding: 2px;
     margin: auto;
 }
+
 
 .home p {
     padding: 2px;
     margin-left: 25px;
     align-self: center;
-    /*border: #EAC435 dotted 5px;*/
 }
 .headings, .bar, .socialmedia {
     border: none;
@@ -298,16 +296,16 @@ h3 {
 
 .home section {
     display: inline;
-    border: solid #456990 5px;
+    border: solid #A8D5E2 5px;
     border-radius: 15px;
     padding: 5px;
     margin: 5px;
-    background-color: #456990;
+    background-color: #A8D5E2;
 }
 
 .home section p, section h2, section h3 {
     text-align: center;
-    color: #A8D5E2;
+    color: #131200;
 }
 
 .home section img {
