@@ -90,6 +90,21 @@ nav button {
     clear: both;
 }
 
+.home h3{
+    width: 220px;
+}
+
+main #home {
+    margin: 0 auto;
+    border: red dashed 15px;
+}
+
+.sun {
+max-width: 100%; 
+display:block; 
+height: auto;
+}
+
 h2 {
     font-family: 'Francois One', sans-serif;
     color: #131200;
@@ -97,6 +112,14 @@ h2 {
     font-size: 14pt;
     margin: 0;
     padding: 5px;
+}
+
+.summary ul {
+    list-style-type: none;
+    text-align: left;
+    padding: 5px;
+    margin-top: 0;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .summary {
@@ -107,24 +130,45 @@ h2 {
 
 .summary p,
 h3 {
-    padding: 10px;
-    margin: 10px;
+    padding: 5px;
+    margin: 5px;
 }
 
 #fiveday {
     display: none;
 }
 
+/*events*/
+.event {
+    border: solid #456990 6px;
+    border-radius: 15px;
+    padding: 5px;
+    padding: 7px;
+    margin: 10px;
+    display: block;
+}
+
+.event p {
+    padding: 5px;
+}
+
 .article {
     width: fit-content;
     height: auto;
+    border: solid #456990 6px;
+    border-radius: 15px;
+    /*background-color: #A8D5E2;*/
+    padding: 7px;
+    margin: 10px;
 }
 
 .article img {
+    display: block;
     width: 250px;
     height: auto;
     padding: 5px;
-    margin: auot;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 p {
@@ -163,7 +207,7 @@ footer {
     text-align: center;
     padding: 20px;
     font-family: 'PT Sans', sans-serif;
-    width: 100%;
+    width: 360;
     margin: auto;
 }
 
@@ -270,7 +314,6 @@ h3 {
     width: 300px;
     height: auto;
     border-radius: 15px;
-    border:#A8D5E2 solid 2px;
     margin: 0;
     padding: 0;
 }

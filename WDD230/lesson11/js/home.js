@@ -22,7 +22,9 @@ fetch(requestURL)
             let founded = document.createElement ('p');
             let population = document.createElement ('p');
             let rainfall = document.createElement ('p');
+            let div = document.createElement ('div');
             let img = document.createElement ('img');
+
 
             name.textContent = `${town.name}`;
             motto.textContent = `${town.motto}`;
@@ -34,12 +36,15 @@ fetch(requestURL)
 
             
             
-            home.appendChild(name);
-            home.appendChild(motto);
-            home.appendChild(founded);
-            home.appendChild(population);
-            home.appendChild(rainfall);
+            div.appendChild(name);
+            div.appendChild(motto);
+            div.appendChild(founded);
+            div.appendChild(population);
+            div.appendChild(rainfall);
             home.appendChild(img);
+            home.appendChild(div);
+
+    
             document.querySelector('.home').appendChild(home);
         });
     })

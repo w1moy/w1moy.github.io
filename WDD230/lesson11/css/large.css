@@ -32,18 +32,13 @@
     .home section {
         display: inline;
         border: solid #456990 3px;
-        border-radius: 10px;
+        border-radius: 15px;
         padding: 5px;
         margin: 5px;
     }
 
     .home section img {
-        border-radius: 20px;
-    }
-
-    .windarticle {
-        display: flex;
-        flex-wrap: wrap;
+        border-radius: 15px;
     }
 
 }
