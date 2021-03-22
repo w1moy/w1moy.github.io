@@ -11,6 +11,7 @@
         padding: 5px;
         text-align: center;
     }
+
     /*navigation*/
     nav button {
         display: none;
@@ -33,6 +34,7 @@
     nav a {
         text-align: center;
     }
+
     /*header*/
     h1 {
         font-size: 36pt;
@@ -56,10 +58,12 @@
         max-width: 993px;
         margin: 0;
     }
+
     .summary ul {
         list-style-type: none;
         text-align: left;
     }
+
     .summary {
         position: absolute;
         top: 20px;
@@ -68,11 +72,12 @@
         box-shadow: 0 0 20px #456990;
         padding: 20px;
     }
-    
+
     /*forcast*/
     #fiveday {
         display: block;
     }
+
     .fdcontainer {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(10px, 1fr));
@@ -81,6 +86,7 @@
         text-align: center;
         align-items: center;
     }
+
     .forecast {
         display: block;
         color: #131200;
@@ -92,7 +98,8 @@
         margin: 2px;
     }
 
-    .day, .temp {
+    .day,
+    .temp {
         color: #131200;
         margin-top: 25px;
         font-weight: bold;
@@ -104,7 +111,7 @@
         background-color: #A8D5E2;
     }
 
-/*article*/
+    /*article*/
     .article {
         padding: 5px;
         margin: 5px;
@@ -114,9 +121,13 @@
 
     .artimg {
         float: right;
+        box-shadow: 0 0 20px #456990;
+        padding: 5px;
+        margin: 5px;;
 
     }
-/*Footer*/
+
+    /*Footer*/
     .container {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -155,9 +166,9 @@
     .home section {
         display: flex;
         flex-direction: row;
-        max-width: 100%; 
+        max-width: 100%;
         height: auto;
-        margin-right:auto;
+        margin-right: auto;
         margin-left: auto;
     }
 

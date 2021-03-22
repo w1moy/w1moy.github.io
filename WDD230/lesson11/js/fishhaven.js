@@ -1,5 +1,5 @@
 /*five day forcast - 5585000*/
-const apiURL = "http://api.openweathermap.org/data/2.5/forecast?id=5585000&appid=5ccb56d01530a63b1c9276906281171d&id=5604473&units=imperial";
+const apiURL = "https://api.openweathermap.org/data/2.5/forecast?id=5585000&appid=5ccb56d01530a63b1c9276906281171d&id=5604473&units=imperial";
 //console.log (apiURL)
 
 fetch(apiURL)
