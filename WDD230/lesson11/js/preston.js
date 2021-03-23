@@ -19,7 +19,7 @@ fetch(apiURL)
         let day = 0;
         const dayofweek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thur', 'Fri', 'Sat'];
 
-        fiveday.forEach (x =>{
+        fiveday.forEach(x => {
             let d = new Date(x.dt_txt);
             //console.log(d);
             document.getElementById(`day${day+1}`).textContent = dayofweek[d.getDay()];
@@ -32,32 +32,42 @@ fetch(apiURL)
             document.getElementById(`icon${day+1}`).setAttribute('alt', alt);
             day++;
         });
-        });
+    });
 
 /*events*/
 const requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
 
 fetch(requestURL)
-    .then(function(response){
+    .then(function (response) {
         return response.json();
     })
-    .then(function (jsonObject){
+    .then(function (jsonObject) {
         //console.table(jsonObject);
         const towns = jsonObject['towns'];
-       
-        const preston = towns.filter (x => x.name === "Preston");
+
+        const preston = towns.filter(x => x.name === "Preston");
         const sort = [];
-        sort.push (...preston)
+        sort.push(...preston)
         //console.log(sort);
 
         sort.forEach(town => {
-           let event = document.createElement('div');
-           let events = document.createElement('p');
+            let event = document.createElement('div');
+            let events = document.createElement('p');
 
-           events.textContent = `${town.events}`;
-            
-           event.appendChild(events);
-            
-           document.querySelector('.event').appendChild(event);
+            events.textContent = `${town.events}`;
+
+            event.appendChild(events);
+
+            document.querySelector('.event').appendChild(event);
         });
+
+        //pancake banner//
+        var date = new Date();
+        var day = date.getDay();
+        if (day == 5) {
+            var ban = "Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion."
+            document.getElementById("prestonPancakes").innerHTML = ban;
+        } else {
+            document.getElementById("prestonPancakes").style.display = "none";
+        }
     })
