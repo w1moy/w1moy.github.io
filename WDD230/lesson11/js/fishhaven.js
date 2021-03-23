@@ -49,7 +49,7 @@ fetch(requestURL)
         const fishhaven = towns.filter (x => x.name === "Fish Haven");
         const sort = [];
         sort.push (...fishhaven)
-        console.log(sort);
+        //console.log(sort);
 
         sort.forEach(town => {
            let event = document.createElement('div');
