@@ -41,71 +41,137 @@
     </nav>
     <!--Main-->
     <main>
-        <div class="nonProfit"></div>
-        <div class="bronze"></div>
-        <div class="silver"></div>
-        <div class="gold"></div>
+        <h2>Join the Chamber</h2>
 
+        <p>We would love for you to join our community. Becoming a member is simple. Just fill out the form below and
+            you will be contacted the next bussiness day.
+            Thank you for your time. We are looking forward to having you in our community. </p>
+
+        <section class="level">
+            <h3>Membership Levels</h3>
+            <div class="nonProfit">
+                <p></p>
+            </div>
+                <div class="bronze"></div>
+                <div class="silver"></div>
+                <div class="gold"></div>
+        </section>
         <div class="join">
-            <h2>Join the Chamber</h2>
+            <h3>Membership Form</h3>
             <form method="get" action="thanks.html">
                 <fieldset class="personal">
-                    <legend>Enter Contact Information</legend>
+                    <legend>Enter your Contact Information</legend>
 
                     <label for="fname">Full Name</label>
-                    <input type="text" id="fname" name="fullname" placeholder="First and Last Name" required="required">
+                    <input type="text" id="fname" name="fullname" placeholder="First & Last Name" required="required">
 
                     <label for="title">Title</label>
                     <input type="text" id="title" name="title" placeholder="Title">
 
                     <label for="email">email</label>
-                    <input type="email" id="email" name="email" placeholder="name@email.com">
+                    <input type="email" id="email" name="email" placeholder="name@email.com" required="required">
 
                     <label for="phone">Cell Phone Number</label>
                     <input type="tel" id="phone" name="phone" placeholder="Cell Phone number">
+                </fieldset>
 
+                <fieldset class="bussiness">
+                    <legend>Enter your Business Information</legend>
                     <label for="bname">Business Name</label>
                     <input type="text" id="bname" name="businessname" placeholder="Business Name" required="required">
-
-
-
+                    <label for="address">Address Line 1</label>
+                    <input type="text" id="address" name="address" placeholder="Address Line 1">
+                    <label for="address">Address Line 2</label>
+                    <input type="text" id="address" name="address" placeholder="Address Line 2">
+                    <label for="city"> City</label>
+                    <input type="text" id="city" name="city" placeholder=" city">
+                    <label for="state">State</label>
+                    <select id="state" name="state">
+                        <option selected disabled>state</option>
+                        <option value="ak">AK</option>
+                        <option value="al">AL</option>
+                        <option value="ak">AR</option>
+                        <option value="az">AZ</option>
+                        <option value="ca">CA</option>
+                        <option value="co">CO</option>
+                        <option value="ct">CT</option>
+                        <option value="de">DE</option>
+                        <option value="fl">FL</option>
+                        <option value="ga">GA</option>
+                        <option value="hi">HI</option>
+                        <option value="ia">IA</option>
+                        <option value="id">ID</option>
+                        <option value="il">IL</option>
+                        <option value="in">IN</option>
+                        <option value="ks">KS</option>
+                        <option value="ky">KY</option>
+                        <option value="la">LA</option>
+                        <option value="ma">MA</option>
+                        <option value="md">MD</option>
+                        <option value="me">ME</option>
+                        <option value="mi">MI</option>
+                        <option value="mn">MN</option>
+                        <option value="mo">MO</option>
+                        <option value="ms">MS</option>
+                        <option value="mt">MT</option>
+                        <option value="nc">NC</option>
+                        <option value="nd">ND</option>
+                        <option value="ne">NE</option>
+                        <option value="nh">NH</option>
+                        <option value="nj">NJ</option>
+                        <option value="nm">NM</option>
+                        <option value="nv">NV</option>
+                        <option value="ny">NY</option>
+                        <option value="oh">OH</option>
+                        <option value="ok">OK</option>
+                        <option value="or">OR</option>
+                        <option value="pa">PA</option>
+                        <option value="ri">RI</option>
+                        <option value="sc">SC</option>
+                        <option value="sd">SD</option>
+                        <option value="tn">TN</option>
+                        <option value="tx">TX</option>
+                        <option value="ut">UT</option>
+                        <option value="va">VA</option>
+                        <option value="vt">VT</option>
+                        <option value="wa">WA</option>
+                        <option value="wi">WI</option>
+                        <option value="wv">WV</option>
+                        <option value="wy">WY</option>
+                    </select>
                     <label for="zipcode">Zip Code</label>
                     <input type="number" id="zipcode" name="zipcode" placeholder="Zip Code" required="required">
-                    <label for="homepage">Add your Homepage</label>
+                    <label for="homepage">Business Website</label>
                     <input type="url" id="homepage" name="homepage">
-        </div>
-        <label for="comment">Additional Information</label><br>
+                    <label for="comment">Business Description</label><br>
+                    <textarea id="comment" name="comment" rows="5" cols="75"></textarea>
+                </fieldset>
 
-        <textarea id="comment" name="comment" rows="5" cols="45"></textarea>
-        <div class="button">
-            <input type="submit" value="Join">
-        </div>
-        </fieldset>
+                <fieldset class="membership">
+                    <legend>Choose a Membership Level</legend>
+                    <div>
+                        <input type="radio" id="nonprofit" name="nonprofit" value="nonprofit">
+                        <label for="yes">Non-Profit</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="bronze" name="bronze" value="bronze" >
+                        <label for="bronze">Bronze</label>
+                    </div>
 
-        <fieldset class="level">
-            <legend>Choose a Membership Level</legend>
+                    <div>
+                        <input type="radio" id="silver" name="silver" vlaue="silver">
+                        <label for="silver">Silver</label>
+                    </div>
 
-            <label for="membership">Membership Level</label>
-            <select id="membership" name="memebership">
-                <option selected disabled>Select a Membership Level</option>
-                <option value="nonprofit">Nonprofit - $100</option>
-                <option value="bronze">Bronze - $200</option>
-                <option vlaue="silver">Silver - $300</option>
-                <option vlaue="gold">Gold - $400</option>
-            </select>
-
-
-            </div>
-            <label for="comment">Additional Information</label><br>
-
-            <textarea id="comment" name="comment" rows="5" cols="45"></textarea>
-            <div class="button">
-                <input type="submit" value="Join">
-            </div>
-        </fieldset>
-
-        </form>
-
+                    <div>
+                        <input type="radio" id="gold" name="gold" vlaue="gold">
+                        <label for="gold">Gold</label>
+                    </div>
+                </fieldset>
+                <div class="button">
+                    <input type="submit" value="Join">
+                </div>
+            </form>
         </div>
 
     </main>
