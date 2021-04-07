@@ -135,7 +135,7 @@ figure img[data-src] {
 
 figure img {
     filter: blur(0em);
-    transition: (.5s);
+    transition: 0.5s;
 }
 
 .gal {
