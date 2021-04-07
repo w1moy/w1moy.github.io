@@ -125,7 +125,7 @@ p {
     padding: 5px;
     margin: auto;
     display: grid;
-    grid-column: 1;
+    /*grid-column: 1;*/
     justify-content: center;
 }
 
