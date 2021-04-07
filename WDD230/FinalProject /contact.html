@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="utf=8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Louisivlle, CO Chamber of Commerce</title>
+    <meta name="Description"
+        content="website detailing the benefits of the chamber of commerce and wonders of Louisville colorado">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Kaushan+Script&family=Manrope:wght@200;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="shortcut icon" href="favicon.ico">
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+        <img src="images/LCC_logo.png" alt="Louisville CO Logo" />
+        <section class="headings">
+            <h1>Louisville CO</h1>
+            <h1>Chamber of Commerce</h1>
+            <div class="moto">Strengthening, Supporting & Promoting our Community</div>
+        </section>
+    </header>
+    <!--Navigation-->
+    <nav class="clearfix" id="navigation">
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="primaryNav" class="hide">
+            <li class="menu"><a class="active" href="#">Home</a></li>
+            <li><a href="city.html">Louisvilli, CO</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <!--Main-->
+    <main>
+        <div class="hero">
+            <img class="" src="images/.jpg" alt="Welcome to Louisville Sign">
+        </div>
+        <div>
+            <h2>Contact the Chamber</h2>
+            We are here to support the community. <br>
+            We would love to hear from you!
+        </div>
+        <div class="contact">
+            <ul>
+                <li>Phone Number: 303-666-5747</li>
+                <li>Fax Number: 303-666-4285</li>
+                <li>Physical Address: 901 Main Street Louisville, CO 80027</li>
+                <li>Email: info@louisvillechamber.com</li>
+                <li>Office Hours: Because our small staff is always on the go and also telecommutes from time to time,
+                    please make an appointment with the appropriate staff person.</li>
+            </ul>
+        </div>
+        <form method="get" action="thanks.html">
+            <fieldset class="personal">
+                <legend>Contact Information</legend>
+
+                <label for="fname">Full Name</label>
+                <input type="text" id="fname" name="fullname" placeholder="First and Last Name" required="required">
+
+                <label for="bname">Business Name</label>
+                <input type="text" id="bname" name="businessname" placeholder="Business Name" required="required">
+
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="Phone number" required="required">
+
+                <label for="email">email</label>
+                <input type="email" id="email" name="email" placeholder="name@email.com">
+            </fieldset>
+
+            <label for="comment">Your Message</label><br>
+
+            <textarea id="comment" name="comment" rows="5" cols="45"></textarea>
+            <div class="button">
+                <input type="submit" value="SEND">
+            </div>
+        </form>
+        <div class="board"></div>
+
+
+
+
+    </main>
+    <!--Footer-->
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>

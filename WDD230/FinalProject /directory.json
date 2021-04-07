@@ -1,0 +1,80 @@
+{
+    "business": [
+        {
+            "name": "Sweet Cow",
+            "phone": "303-666-4269",
+            "address": "637 Front St., Louisville, CO 80027",
+            "website": "https://www.sweetcowicecream.com",
+            "logo": "https://www.sweetcowicecream.com/wp-content/themes/sweetcow/images/sweet-cow-logo.png"
+        },
+        {
+            "name": "The Huckleberry",
+            "phone": "303-666-8020",
+            "address": "700 Main Street Louisville, CO 80027",
+            "website": "https://www.thehuckleberry.com",
+            "logo": "https://images.squarespace-cdn.com/content/5cd603f4c3b7930001edc80a/1557936820594-9NYE6DXY5JPKDBOJAOK4/huck-website-logo-03.png?content-type=image%2Fpng"
+        },
+        {
+            "name": "Hairendipity",
+            "phone": "720-675-8698",
+            "address": "908 Main St Louisville, CO 80027",
+            "website": "http://www.hairendipitydowntown.com",
+            "logo": "" 
+        },
+        {
+            "name": "LaMar's Donuts & Coffee",
+            "phone": "720-890-3875",
+            "address": "133 McCaslin Blvd. Louisville, CO 80027",
+            "website": "http://www.lamars.com",
+            "logo": "" 
+        },
+
+        {
+            "name": "Premier Members Credit Union",
+            "phone": "303-657-7000",
+            "address": "800 Coal Creek Circle, Louisville, CO 80027",
+            "website": "https://www.pmcu.org",
+            "logo": "" 
+        },
+
+        {
+            "name": "Parma Trattoria & Mozzarella Bar",
+            "phone": "303-284-2741",
+            "address": "1132-1 West Dillon Road, Louisville, Colorado 80027",
+            "website": "https://www.parmamozzarellabar.com/",
+            "logo": "https://www.parmamozzarellabar.com/wp-content/uploads/2015/05/parma-trans.png" 
+        },
+
+        {
+            "name": "Runners Roost",
+            "phone": "303-926-7653",
+            "address": "459 S. McCaslin Blvd., Louisville, CO 80027",
+            "website": "https://runnersroost.com/runners-roost-louisville/",
+            "logo": "https://secureservercdn.net/198.71.233.19/e53.a59.myftpupload.com/wp-content/uploads/2016/11/RR_Logo.png" 
+        },
+
+        {
+            "name": "Wildwood Guitars",
+            "phone": "303-665-7733",
+            "address": "500 S Arthur Ave, Suite 700, Louisville, CO 80027",
+            "website": "https://wildwoodguitars.com",
+            "logo": "https://wildwoodguitars.com/wp-content/themes/wildwood-guitars-2016/dist/images/logo-wildwood-vector.svg" 
+        },
+
+        {
+            "name": "Louisville Cyclery",
+            "phone": "303-665-6343",
+            "address": "1032 E South Boulder Rd, Louisville, CO 80027",
+            "website": "https://www.louisvillecyclery.com/",
+            "logo": "https://static.wixstatic.com/media/60aa3b_b56e6aac7e5d41a6b9cc7ed01320449e~mv2.png/v1/fill/w_208,h_206,al_c,q_85,usm_0.66_1.00_0.01/Logo%2520Blue_edited.webp" 
+        },
+
+        {
+            "name": "Coal Creek Gold Course",
+            "phone": "303-666-7888",
+            "address": "585 West Dillon Road, Louisville, CO 80027",
+            "website": "https://www.coalcreekgolf.com/",
+            "logo": "https://www.coalcreekgolf.com/images/default/logo2020-m.jpg" 
+        }
+    ]
+}

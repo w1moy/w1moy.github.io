@@ -1,0 +1,70 @@
+{
+    "board": [
+        {
+            "name": "Shelley Angell",
+            "title": "Executive Director",
+            "phone": "303-666-747",
+            "email": "director@louisvillechamber.com"
+        },
+        {
+            "name": "Elayne Oligschlaeger",
+            "title": "Director",
+            "phone": "303-926-7682",
+            "email": "cookingwithelayne@comcast.net"
+        },
+        {
+            "name": "Bob McCool",
+            "title": "Past President",
+            "phone": "303-415-0266",
+            "email": "bob@arielmis.com"
+        },
+        {
+            "name": "Gillian Millar",
+            "title": "President",
+            "phone": "720-470-8810",
+            "email": "info@biglittlesound.com"
+        },
+        {
+            "name": "Cameron Dunford",
+            "title": "Treasurer",
+            "phone": "303-665-2822",
+            "email": "cameron@varrafinancial.com"
+        },
+        {
+            "name": "Marc Sisler",
+            "title": "Director",
+            "phone": "303-993-6067",
+            "email": "marc@teamsisler.com"
+        },
+        {
+            "name": "Dan Flynn",
+            "title": "Director",
+            "phone": "303-665-0660",
+            "email": "dan@djflynnlaw.com"
+        },
+        {
+            "name": "Amy O’Neill",
+            "title": "Marketing & Event Coordinator",
+            "phone": "303-666-5747",
+            "email": "coordinator@louisvillechamber.com"
+        },
+        {
+            "name": "Tom Horst",
+            "title": "Vice President",
+            "phone": "303-665-8888",
+            "email": "info@crystalspringsbrewing.com"
+        },
+        {
+            "name": "Ryan Schrock",
+            "title": "Director",
+            "phone": "303-386-3696",
+            "email": "drryan@lifealivechiro.com"
+        },
+        {
+            "name": "Steve Jeffers",
+            "title": "Director",
+            "phone": "720-726-3670",
+            "email": "sjeffers@lyonsgaddis.com"
+        }
+    ]
+}
