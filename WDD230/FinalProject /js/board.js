@@ -1,10 +1,11 @@
+const requestURL = "https://my-json-server.typicode.com/w1moy/boardjson/directors";
 
-fetch("./board.json")
-  .then(function (response) {
-    return response.json();
-  })
-  .then(function (jsonObject) {
-    console.table(jsonObject);  // temporary checking for valid response and data parsing
+fetch(requestURL)
+    .then(function(response){
+        return response.json();
+    })
+    .then(function (jsonObject){
+        console.table(jsonObject);})  // temporary checking for valid response and data parsing
     /*const prophets = jsonObject['prophets'];
 
     const cards = document.querySelector('div.cards');
@@ -36,4 +37,3 @@ fetch("./board.json")
 
     });*/
 
-  });
