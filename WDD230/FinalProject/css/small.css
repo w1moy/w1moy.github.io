@@ -1,14 +1,12 @@
-font-family: 'Kaushan Script', cursive;
-font-family: 'Manrope', sans-serif;
-font-family: 'Roboto', sans-serif;
+font-family: 'Kaushan Script',
+cursive;
+font-family: 'Manrope',
+sans-serif;
+font-family: 'Roboto',
+sans-serif;
 
-Primary: #1C7C54 – Spanish Viridian
-Secondary: #9AD4D6 – Powder Blue, #B86F52 – Brown Sugar
-Accent: #242F40 - Gunmetal
-Text: #363636 - Jet
-
-
- html {
+Primary: #1C7C54 – Spanish Viridian Secondary: #9AD4D6 – Powder Blue,
+#B86F52 – Brown Sugar Accent: #242F40 - Gunmetal Text: #363636 - Jet html {
     overflow-x: hidden;
 }
 
@@ -18,7 +16,7 @@ header {
     align-items: center;
     justify-content: center;
 }
- 
+
 h1 {
     font-family: 'Kaushan Script', cursive;
     font-size: 16pt;
@@ -99,12 +97,14 @@ nav button {
     border: #B86F52 solid 3px;
     align-items: center;
     justify-content: center;
-    
+
     margin: auto;
     padding: 0 5px;
 }
 
-h2, h3, h4 {
+h2,
+h3,
+h4 {
     font-family: 'Roboto', sans-serif;
     color: #1C7C54;
     font-size: 14pt;
@@ -112,7 +112,7 @@ h2, h3, h4 {
 
 p {
     font-family: 'Manrope', sans-serif;
-    color:#363636;
+    color: #363636;
     font-size: 12pt;
 }
 
@@ -147,10 +147,14 @@ footer img {
 /*join*/
 
 .level {
-    font-family:'Manrope', sans-serif;
+    font-family: 'Manrope', sans-serif;
 }
 
-.core, .nonProfit, .bronze, .silver, .gold {
+.core,
+.nonProfit,
+.bronze,
+.silver,
+.gold {
     border: #1C7C54 solid 5px;
     border-radius: 5px;
     padding: 5px;
@@ -163,7 +167,9 @@ footer img {
 }
 
 .personal,
-.business, .membership {
+.business,
+.membership,
+.message {
     display: flex;
     flex-direction: column;
     padding: 10px;
@@ -179,8 +185,7 @@ footer img {
 }
 
 .personal label,
-.business label 
- {
+.business label {
     display: none;
     padding: 5px;
     font-weight: bold;
@@ -192,9 +197,9 @@ legend {
     color: #1C7C54;
 }
 
- .fbutton {
+.fbutton {
     font-size: 10px;
-    color:#363636;
+    color: #363636;
     padding: 5px 25px;
     margin: 10px;
     background-color: #1C7C54;
@@ -208,9 +213,34 @@ input {
     padding: 2px;
     margin: 5px;
 }
+
 /*directory*/
 
 /*contact*/
+.contact h3 {
+    text-align: left;
+    padding: 10px;
+    margin: auto;
+}
+
+.contact li {
+    list-style-type: none;
+    font-family: 'Manrope', sans-serif;
+}
+
+.directors{
+    border: solid #B86F52 2px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.map {
+    width:fit-content;
+    height: auto;
+    justify-content: center;
+    padding: 5px;
+    margin: 0 auto;
+}
 
 /*thanks*/
 h3 {

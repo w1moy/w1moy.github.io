@@ -32,11 +32,11 @@
     <nav class="clearfix" id="navigation">
         <button onclick="toggleMenu()">&#9776; Menu</button>
         <ul id="primaryNav" class="hide">
-            <li class="menu"><a class="active" href="#">Home</a></li>
+            <li class="menu"><a href="#">Home</a></li>
             <li><a href="city.html">Louisvilli, CO</a></li>
             <li><a href="join.html">Join</a></li>
             <li><a href="directory.html">Directory</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
+            <li><a class="active" href="contact.html">Contact Us</a></li>
         </ul>
     </nav>
     <!--Main-->
@@ -50,6 +50,7 @@
             We would love to hear from you!</p>
         </div>
         <div class="contact">
+            <h3>Contact Information for the Chamber</h3>
             <ul>
                 <li>Phone Number: 303-666-5747</li>
                 <li>Fax Number: 303-666-4285</li>
@@ -61,7 +62,7 @@
         </div>
         <form method="get" action="thanks.html">
             <fieldset class="personal">
-                <legend>Contact Information</legend>
+                <legend>Your Contact Information</legend>
 
                 <label for="fname">Full Name</label>
                 <input type="text" id="fname" name="fullname" placeholder="First and Last Name" required="required">
@@ -75,13 +76,14 @@
                 <label for="email">email</label>
                 <input type="email" id="email" name="email" placeholder="name@email.com">
             </fieldset>
-
+            <fieldset class="message">
             <label for="comment">Your Message</label><br>
 
             <textarea id="comment" name="comment" rows="5" cols="45"></textarea>
             <div class="button">
                 <input type="submit" value="SEND">
             </div>
+             </fieldset>
         </form>
 
         <div class="directors"></div>
@@ -93,7 +95,8 @@
     <!--Footer-->
     <footer>
         <div class=container>
-            <p>901 Main Street <br>
+            <p>Louisville, CO Chamber of Commerce <br>
+                901 Main Street <br>
                 Louisville, CO 80027<br>
                 &#9743; 303.666.5747<br>
                 &#9993; info@louisvillechamber.com<br>
