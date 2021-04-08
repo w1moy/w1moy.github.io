@@ -153,6 +153,13 @@ footer img {
 .history {
     border: #B86F52 solid 2px;
 }
+
+.events, .chamberevents {
+    background-color: #9AD4D6;
+    border: #B86F52 solid 2px;
+    padding: 5px;
+    margin: 5px;
+}
 /*join*/
 
 .level {
