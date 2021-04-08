@@ -2,6 +2,91 @@ font-family: 'Kaushan Script', cursive;
 font-family: 'Manrope', sans-serif;
 font-family: 'Roboto', sans-serif;
 
- h1 {
+Primary: #1C7C54 – Spanish Viridian
+Secondary: #9AD4D6 – Powder Blue, #B86F52 – Brown Sugar
+Accent: #242F40 - Gunmetal
+Text: #363636 - Jet
+
+
+ html {
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+h1 {
     font-family: 'Kaushan Script', cursive;
+    font-size: 16pt;
+    padding: 0;
+    margin: 0;
+    color: #1C7C54;
+}
+
+header img {
+    width: 80px;
+    height: auto;
+    padding: 10px;
+    margin: 5px;
+}
+
+.moto {
+    padding: 0;
+    margin: 0;
+    color: #363636;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12pt;
+    text-align: center;
+}
+
+/*navigation*/
+
+#navigation {
+    background-color: #9AD4D6;
+    margin: 0 auto;
+    font-family: 'PT Sans', sans-serif;
+}
+
+nav ul {
+    margin: 0;
+    padding: 5px;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: #363636;
+}
+
+nav ul li a:hover {
+    background-color: #B86F52;
+    color: #242F40;
+}
+
+nav ul li a.active {
+    background-color: #A8D5E2;
+    color: #131200;
+}
+
+nav ul.hide {
+    display: none;
+}
+
+nav button {
+    padding: 10px;
+    padding-left: 75px;
+    padding-right: 75px;
+    margin: 10px;
+    margin-left: 50px;
+    justify-content: center;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
 }
