@@ -143,7 +143,16 @@ footer img {
 /*home*/
 
 /*city*/
+.demographics {
+    background-color: #9AD4D6;
+    border: #B86F52 solid 2px;
+    font-family: 'Manrope',
+    sans-serif;
+}
 
+.history {
+    border: #B86F52 solid 2px;
+}
 /*join*/
 
 .level {
