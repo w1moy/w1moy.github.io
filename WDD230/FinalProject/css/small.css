@@ -142,6 +142,52 @@ footer img {
 
 /*home*/
 
+.tpics {
+    display: grid;
+    grid-template-columns: 1fr,1fr;
+}
+.town{
+    grid-column: 1;
+    max-width: 100%;
+}
+
+.sunset {
+    grid-column: 2;
+    max-width: 100%;
+}
+
+.flat, .trail, .garden {
+    display: none;
+}
+
+.action {
+    display: flex;
+    max-width: 100%;
+    height: 45px;
+    background-color: #1C7C54;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+}
+
+.haction{
+    width: 150px;
+    height: auto;
+    margin: 0 auto;
+    padding: 5px;
+    font-family:'Manrope',
+    sans-serif;
+    color: #363636;
+}
+
+.purpose {
+    border: solid #B86F52 2px;
+}
+
+.purpose h4 {
+    text-align: center;
+}
+
 /*city*/
 .demographics {
     background-color: #9AD4D6;
@@ -160,6 +206,7 @@ footer img {
     padding: 5px;
     margin: 5px;
 }
+
 /*join*/
 
 .level {
