@@ -1,4 +1,4 @@
-font-family: 'Kaushan Script',
+/*font-family: 'Kaushan Script',
 cursive;
 font-family: 'Manrope',
 sans-serif;
@@ -8,7 +8,7 @@ sans-serif;
 Primary: #1C7C54 – Spanish Viridian Secondary: #9AD4D6 – Powder Blue,
 #B86F52 – Brown Sugar Accent: #242F40 - Gunmetal Text: #363636 - Jet html {
     overflow-x: hidden;
-}
+}*/
 
 /*header*/
 header {
@@ -144,7 +144,7 @@ footer img {
 
 .tpics {
     display: grid;
-    grid-template-columns: 1fr,1fr;
+    grid-template-columns: 1fr 1fr;
 }
 .town{
     grid-column: 1;
@@ -181,11 +181,47 @@ footer img {
 }
 
 .purpose {
-    border: solid #B86F52 2px;
+    border: solid #B86F52 5px;
 }
 
 .purpose h4 {
     text-align: center;
+}
+
+.purpose p {
+    padding: 5px;
+}
+
+.spotlight {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.advertisement {
+    border: #B86F52 solid 2px;
+    border-radius: 3px;
+    display: block;
+    background-color: #9AD4D6;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    max-width: 100%;
+}
+
+.huck, .stage, .bike {
+    width: 75px;
+    height: auto;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+.coming {
+    border: #B86F52 solid 5px;
+    border-radius: 5px;
+    padding:5px;
+    margin: 5px;
 }
 
 /*city*/
