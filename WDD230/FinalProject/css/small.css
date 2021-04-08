@@ -74,7 +74,7 @@ nav ul li a:hover {
 
 nav ul li a.active {
     background-color: #A8D5E2;
-    color: #131200;
+    color: #363636;
 }
 
 nav ul.hide {
@@ -123,27 +123,29 @@ footer img {
 /*city*/
 
 /*join*/
-.storm {
+.join {
     padding: 15px;
 }
 
 .personal,
-.storminfo {
+.business, .membership {
     display: flex;
     flex-direction: column;
     padding: 10px;
-    font-size: 10px;
-    color: #131200;
+    font-size: 12px;
+    font-weight: bold;
+    color: #363636;
     margin: auto;
     max-width: 750px;
-    border: #456990 solid 2px;
+    border: #B86F52 solid 2px;
     border-radius: 5px;
-    font-family: 'PT Sans', sans-serif;
-    background-color: #A8D5E2;
+    font-family: 'Manrope', sans-serif;
+    background-color: #9AD4D6;
 }
 
 .personal label,
-.storminfo label {
+.business label 
+ {
     display: none;
     padding: 5px;
     font-weight: bold;
@@ -152,6 +154,7 @@ footer img {
 legend {
     font-size: 12px;
     font-weight: bolder;
+    color: #1C7C54;
 }
 /*directory*/
 
