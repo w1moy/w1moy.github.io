@@ -13,22 +13,16 @@ fetch(apiURL)
         //console.log(jsObject);
 
           //Three Day Forcast
-        const threeday = jsObject.list.filter((x) => x.dt_txt.includes("18:00:00"));
-        //console.log(fiveday);
+        const threeday = jsObject.daily.filter((x) => x.dt_text);
+        //console.log(threeday);
         let day = 0;
         const dayofweek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thur', 'Fri', 'Sat'];
 
         threeday.forEach (x =>{
             let d = new Date(x.dt_txt);
             //console.log(d);
-            document.getElementById(`day${day+1}`).textContent = dayofweek[d.getDay()];
-
-            document.getElementById(`temperature${day+1}`).innerHTML = Math.round(x.main.temp) + "&#176;F";
-
-            const src = 'https://openweathermap.org/img/wn/' + x.weather[0].icon + "@2x.png";
-            const alt = x.weather[0].description;
-            document.getElementById(`icon${day+1}`).setAttribute('src', src);
-            document.getElementById(`icon${day+1}`).setAttribute('alt', alt);
+            document.getElementById(`day${day}`).textContent = dayofweek[d.getDay()];
+            document.getElementById(`temperature${day}`).innerHTML = Math.round(x.daily.temp.day) + "&#176;F";
             day++;
         });
         });
