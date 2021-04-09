@@ -196,7 +196,7 @@ footer img {
     display: flex;
 }
 
-.current {
+.current, #threeday {
     border: #B86F52 solid 2px;
     display: block;
 }
@@ -332,6 +332,7 @@ input {
 }
 
 /*directory*/
+
 
 /*contact*/
 .contact h3 {
