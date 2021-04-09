@@ -96,6 +96,7 @@
     }
 
     .garden {
+        display: block;
         grid-column: 3;
         max-width: 100%;
     }
