@@ -132,6 +132,31 @@
         margin: 5px;
     }
 
+    /*city*/
+    .info{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        padding: 5px;
+    }
+
+    .demographics {
+        grid-column: 1;
+        width: 100%;
+    }
+
+    .demographics li {
+        padding: 5px;
+    }
+
+    .history {
+        grid-column: 2;
+        width: 100%;
+    }
+
+    .history p{
+        padding: 7px;
+    }
+
     /*join*/
     .personal,
     .storminfo {
