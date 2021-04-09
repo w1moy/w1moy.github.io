@@ -192,6 +192,24 @@ footer img {
     padding: 5px;
 }
 
+.weather{
+    display: flex;
+}
+
+.current {
+    border: #B86F52 solid 2px;
+    display: block;
+}
+
+.current li {
+    list-style-type: none;
+    font-family: 'Manrope',
+    sans-serif;
+    margin: 5px;
+    padding: 5px;
+    text-align: left;
+}
+
 .spotlight {
     display: flex;
     flex-direction: row;
