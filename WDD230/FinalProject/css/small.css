@@ -325,7 +325,34 @@ input {
 }
 
 /*directory*/
+.directory {
+    display: block;
+    box-shadow: 5px 5px 5px 5px grey;
+    padding: 10px;
+    border: #1C7C54 solid 5px;
+}
 
+.directory section {
+    justify-content: center;
+    text-align: center;
+    background-color: #9AD4D6;
+    border: 2px solid #B86F52;
+}
+
+.directory h2 {
+    text-align: center;
+    color: #1C7C54;
+    padding-bottom: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.directory p {
+    text-align: center;
+    color: #363636;
+    padding: 0;
+    margin: 0;
+}
 
 /*contact*/
 .contact h3 {
@@ -354,12 +381,10 @@ input {
 }
 
 .cards {
-    display: grid;
-    grid-template-columns: auto;
-    grid-gap: 7px;
+    display: block;
     box-shadow: 5px 5px 5px 5px grey;
     padding: 10px;
-    border: red dashed 5px;
+    border: #1C7C54;
 }
 
 .cards section {

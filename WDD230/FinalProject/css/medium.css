@@ -205,6 +205,11 @@
     }
 
     /*directory*/
+    .directory {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 7px;
+    }
 
     /*contact*/
     .contact {
@@ -219,6 +224,12 @@
         grid-column: 2;
         max-width: 100%;
         padding: 5px; 
+    }
+    .cards {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 7px;
+
     }
 
     /*thanks*/
