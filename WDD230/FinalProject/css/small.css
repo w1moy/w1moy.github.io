@@ -224,7 +224,6 @@ footer {
     margin: 5px;
 }
 
-
 .coming {
     border: #B86F52 solid 5px;
     border-radius: 5px;
@@ -288,7 +287,7 @@ footer {
     font-weight: bold;
     color: #363636;
     margin: auto;
-    max-width: 750px;
+    max-width: 350px;
     border: #B86F52 solid 2px;
     border-radius: 5px;
     font-family: 'Manrope', sans-serif;
