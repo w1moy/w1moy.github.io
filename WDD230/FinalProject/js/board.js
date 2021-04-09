@@ -1,39 +1,34 @@
 const requestURL = "https://my-json-server.typicode.com/w1moy/boardjson/directors";
 
 fetch(requestURL)
-    .then(function(response){
+    .then(function (response) {
         return response.json();
     })
-    .then(function (jsonObject){
-        console.table(jsonObject);})  // temporary checking for valid response and data parsing
-    /*const prophets = jsonObject['prophets'];
+    .then(function (jsonObject) {
+        //console.table(jsonObject);})  // temporary checking for valid response and data parsing
+        const directors = jsonObject['directors'];
 
-    const cards = document.querySelector('div.cards');
-
-
-    prophets.forEach(prophet => {
-      let card = document.createElement('section');
-      let h2 = document.createElement('h2');
-      let p = document.createElement('p');
-      let p2 = document.createElement('p');
-      let img = document.createElement('img');
-
-      //template literals
-      h2.innerHTML = `${prophet.name}
-      ${prophet.lastname}`;
-      p.textContent = "Date of Birth: " + `${prophet.birthdate}` 
-      p2.textContent = "Place of Birth: "  + `${prophet.birthplace}`;
-      img.src = `${prophet.imageurl}`;
-      img.alt = `${prophet.name}` + `${prophet.lastname}`;
-
-      card.appendChild(h2);
-      cards.appendChild(card);
-      card.appendChild(p);
-      card.appendChild(p2);
-      card.appendChild(img);
-  
-      
+        const cards = document.querySelector('div.cards');
 
 
-    });*/
+        directors.forEach(director => {
+            let card = document.createElement('section');
+            let name = document.createElement('h2');
+            let title = document.createElement('p');
+            let phone = document.createElement('p');
+            let email = document.createElement('p');
 
+
+            //template literals
+            name.textContent = `${director.name}`;
+            title.textContent = "Title: " + `${director.title}`;
+            phone.textContent = "Phone: " + `${director.phone}`;
+            email.textContent = "Email: " + `${director.email}`;
+
+            div.appendChild(name);
+            cards.appendChild(card);
+            div.appendChild(title);
+            div.appendChild(phone);
+            div.appendChild(email);
+        });
+    });
