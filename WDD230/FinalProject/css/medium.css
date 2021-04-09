@@ -207,7 +207,21 @@
     /*directory*/
 
     /*contact*/
-    
+    .contact {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .loucc{
+        grid-column: 1;
+    }
+    .map {
+        grid-column: 2;
+        max-width: 100%;
+        padding: 5px; 
+    }
+
+    /*thanks*/
 }
 
 /*end*/

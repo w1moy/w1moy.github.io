@@ -41,17 +41,15 @@
     </nav>
     <!--Main-->
     <main>
-        <div class="hero">
-            <!--<img class="" src="images/.jpg" alt="Welcome to Louisville Sign">-->
-        </div>
+        
         <div class="hero">
             <h2>Contact the Chamber</h2>
             <p>We are here to support the community. <br>
-            We would love to hear from you!</p>
+                We would love to hear from you!</p>
         </div>
         <div class="contact">
             <h3>Contact Information for the Chamber</h3>
-            <ul>
+            <ul class="loucc">
                 <li>Phone Number: 303-666-5747</li>
                 <li>Fax Number: 303-666-4285</li>
                 <li>Physical Address: 901 Main Street Louisville, CO 80027</li>
@@ -59,7 +57,12 @@
                 <li>Office Hours: Because our small staff is always on the go and also telecommutes from time to time,
                     please make an appointment with the appropriate staff person.</li>
             </ul>
+            <iframe class="map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48924.313358228566!2d-105.18369364769366!3d39.96890401257706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876b8b4f6511c9b9%3A0xa0bf353220cfe248!2sLouisville%2C%20CO!5e0!3m2!1sen!2sus!4v1617774949765!5m2!1sen!2sus"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
+
+        <h4>Send the Chamber a Message</h4>
         <form method="get" action="thanks.html">
             <fieldset class="personal">
                 <legend>Your Contact Information</legend>
@@ -77,18 +80,16 @@
                 <input type="email" id="email" name="email" placeholder="name@email.com">
             </fieldset>
             <fieldset class="message">
-            <label for="comment">Your Message</label><br>
+                <label for="comment">Your Message</label><br>
 
-            <textarea id="comment" name="comment" rows="5" cols="45"></textarea>
-            <div class="button">
-                <input type="submit" value="SEND">
-            </div>
-             </fieldset>
+                <textarea id="comment" name="comment" rows="5" cols="45"></textarea>
+                <div class="button">
+                    <input type="submit" value="SEND">
+                </div>
+            </fieldset>
         </form>
 
         <div class="directors"></div>
-
-        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48924.313358228566!2d-105.18369364769366!3d39.96890401257706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876b8b4f6511c9b9%3A0xa0bf353220cfe248!2sLouisville%2C%20CO!5e0!3m2!1sen!2sus!4v1617774949765!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
     </main>
 
@@ -119,7 +120,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="js/fonts.js"></script>
     <script src="js/nav.js"></script>
-    
+
 </body>
 
 </html>
