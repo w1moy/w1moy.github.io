@@ -108,6 +108,7 @@ h4 {
     font-family: 'Roboto', sans-serif;
     color: #1C7C54;
     font-size: 14pt;
+    text-align: center;
 }
 
 p {
@@ -184,9 +185,6 @@ footer {
     padding: 5px;
 }
 
-.weather{
-    display: flex;
-}
 
 .current, #threeday {
     border: #B86F52 solid 2px;

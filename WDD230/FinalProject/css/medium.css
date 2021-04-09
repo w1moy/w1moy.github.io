@@ -105,6 +105,33 @@
         display: none;
     }
 
+    .action{
+        height: 75px;
+    }
+
+    .haction {
+        width: 700px;
+        height: 40px;
+        font-size: 18pt;
+        text-align: center;
+    }
+
+    .purpose {
+        border: solid #B86F52 7px;
+    }
+
+    .weather{
+        display: flex;
+    }
+
+    .huck, .stage, .bike {
+        display: block;
+        width: 200px;
+        height: auto;
+        padding: 5px;
+        margin: 5px;
+    }
+
     /*join*/
     .personal,
     .storminfo {
