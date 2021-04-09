@@ -172,8 +172,9 @@
         border: #B86F52 solid 2px;
     }
 
-    .art, .fair, .farmer {
+    .art, .fair, .farmer, .taste, .golf, .park {
         width: 300px;
+        padding: 5px;
     }
 
 
