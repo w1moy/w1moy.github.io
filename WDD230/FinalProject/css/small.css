@@ -1,14 +1,15 @@
-/*font-family: 'Kaushan Script',
-cursive;
-font-family: 'Manrope',
-sans-serif;
-font-family: 'Roboto',
-sans-serif;
+/*font-family: 'Kaushan Script', cursive;
+font-family: 'Manrope',sans-serif;
+font-family: 'Roboto',sans-serif;
 
-Primary: #1C7C54 – Spanish Viridian Secondary: #9AD4D6 – Powder Blue,
-#B86F52 – Brown Sugar Accent: #242F40 - Gunmetal Text: #363636 - Jet html {
+Primary: #1C7C54 – Spanish Viridian 
+Secondary: #9AD4D6 – Powder Blue,#B86F52 – Brown Sugar 
+Accent: #242F40 - Gunmetal 
+Text: #363636 - Jet */
+
+html {
     overflow-x: hidden;
-}*/
+}
 
 /*header*/
 header {
@@ -361,7 +362,3 @@ input {
 }
 
 /*thanks*/
-h3 {
-    text-align: center;
-    font-family: 'Francois One', sans-serif;
-}
