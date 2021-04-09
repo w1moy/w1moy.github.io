@@ -1,3 +1,41 @@
 @media only screen and (min-width: 992px){
     
+    
+    .tpics {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+    .town{
+        grid-column: 1/2;
+        max-width: 100%;
+        grid-row: 1;
+    }
+    
+    .sunset {
+        grid-column: 2/3;
+        max-width: 100%;
+        grid-row: 1;
+    }
+    .garden {
+        grid-column: 3/4;
+        max-width: 100%;
+        grid-row: 1;
+    }
+    
+    .flat {
+        grid-column: 4/5;
+        max-width: 100%;
+        display:block;
+        grid-row: 1;
+    }
+     .trail{
+        
+        grid-column: 5/6;
+        max-width: 100%;
+        display:block;
+        grid-row: 1;
+    }
+     
+    
 }

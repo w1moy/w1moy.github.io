@@ -163,8 +163,6 @@
 
     .events,
     .chamberevents {
-        background-color: none;
-        border: none;
         padding: 5px;
         margin: 5px;
     }
