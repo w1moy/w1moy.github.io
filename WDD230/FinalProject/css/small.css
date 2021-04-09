@@ -251,6 +251,10 @@ footer {
     margin: 5px;
 }
 
+.art, .fair, .farmer {
+    max-width: 100%;
+}
+
 /*join*/
 
 .level {

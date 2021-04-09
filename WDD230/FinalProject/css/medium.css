@@ -157,6 +157,28 @@
         padding: 7px;
     }
 
+    .events, .chamberevents {
+        background-color: none;
+        border: none;
+        padding: 5px;
+        margin: 5px;
+    }
+
+    .fun{
+        display: flex;
+        padding: 10px;
+        margin: 10px;
+        background-color: #9AD4D6;
+        border: #B86F52 solid 2px;
+    }
+
+    .art, .fair, .farmer {
+        width: 300px;
+    }
+
+
+
+
     /*join*/
     .personal,
     .storminfo {
