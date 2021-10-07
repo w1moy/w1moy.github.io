@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+header {
+  background-color: #6495ed;
+  text-align: right; }
+
+nav ul {
+  list-style: none;
+  padding: 5px;
+  margin: 5px; }
+  nav ul li {
+    padding: 5px; }
+    nav ul li a {
+      color: #faebd7;
+      text-decoration: none; }
+      nav ul li a:visited {
+        color: #faebd7;
+        text-decoration: none; }
+      nav ul li a:hover {
+        color: white;
+        text-decoration: underline; }
+      nav ul li a:active {
+        color: #deb887; }
+
+h1 a {
+  font-family: "Lora", serif;
+  color: #faebd7;
+  text-decoration: none;
+  padding: 5px; }
+
+main {
+  background-color: #faebd7;
+  padding: 10px;
+  margin: 0; }
+
+article {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 3px 3px 3px 3px grey;
+  padding: 25px 25px;
+  margin: 25px 25px;
+  background-color: white; }
+
+figure img {
+  align-content: center;
+  max-width: 100%; }
+
+h2 a {
+  font-family: "Lora", serif;
+  color: black;
+  text-decoration: none; }
+  h2 a:hover {
+    color: #6495ed;
+    text-decoration: underline; }
+  h2 a:active {
+    color: #deb887;
+    text-decoration: none; }
+
+p {
+  font-family: Helvetica, Arial, sans-serif; }
+  p a {
+    color: #6495ed;
+    text-decoration: none; }
+    p a:visited {
+      color: #6495ed;
+      text-decoration: none; }
+    p a:hover {
+      text-decoration: underline; }
+    p a:active {
+      color: #deb887;
+      text-decoration: none; }
+
+@media only screen and (min-width: 768px) {
+  div {
+    display: grid;
+    grid-template-columns: 1fr 3fr; }
+
+  header {
+    grid-column: 1 / 2; }
+
+  main {
+    grid-column: 2 / 3; } }
+
+/*# sourceMappingURL=styles.css.map */

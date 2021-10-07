@@ -1,0 +1,24 @@
+/*colors*/
+/*media*/
+body {
+  background-color: darkblue; }
+
+#contactform {
+  background-color: #00000c; }
+  #contactform input,
+  #contactform textarea {
+    background-color: white;
+    flex: 2; }
+  @media (min-width: 100%) {
+    #contactform {
+      width: 90%;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto; }
+    #contactform {
+      width: 70%;
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto; } }
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+//colors
+$header: #6495ed;
+$background: #faebd7;
+$active: #deb887;
+
+//text
+$font-stack: Helvetica,
+Arial,
+sans-serif;
+
+@mixin card {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 3px 3px 3px 3px grey;
+    padding: 25px 25px;
+    margin: 25px 25px;
+    background-color: white;
+}
+
+header {
+    background-color: $header;
+    text-align: right;
+}
+
+nav ul {
+    list-style: none;
+    padding: 5px;
+    margin: 5px;
+
+    & li {
+        padding: 5px;
+
+        & a {
+            color: $background;
+            text-decoration: none;
+
+            &:visited {
+                color: $background;
+                text-decoration: none;
+            }
+
+            &:hover {
+                color: white;
+                text-decoration: underline;
+            }
+
+            &:active {
+                color: $active;
+            }
+        }
+    }
+}
+
+h1 a {
+    font-family: "Lora", serif;
+    color: $background;
+    text-decoration: none;
+    padding: 5px;
+}
+
+main {
+    background-color: $background;
+    padding: 10px;
+    margin: 0;
+}
+
+article {
+    @include card;
+}
+
+figure img {
+    align-content: center;
+    max-width: 100%;
+}
+
+h2 a {
+    font-family: "Lora", serif;
+    color: black;
+    text-decoration: none;
+
+    &:hover {
+        color: $header;
+        text-decoration: underline;
+    }
+
+    &:active {
+        color: $active;
+        text-decoration: none;
+    }
+}
+
+p {
+    font-family: $font-stack;
+
+    & a {
+        color: $header;
+        text-decoration: none;
+
+        &:visited {
+            color: $header;
+            text-decoration: none;
+        }
+
+        &:hover {
+            text-decoration: underline;
+        }
+
+        &:active {
+            color: $active;
+            text-decoration: none;
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    div {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+    }
+
+    header {
+        grid-column: 1 / 2;
+    }
+
+    main {
+        grid-column: 2 / 3;
+    }
+}
