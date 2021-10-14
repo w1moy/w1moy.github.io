@@ -229,8 +229,8 @@ xButtons
     }
   }
 
-  &.btn-alert {
-    background: $alert;
+  /*&.btn-alert {
+    background: $alert;*/
 
     .no-touch &:hover {
       background: lighten($alert, 5%);
