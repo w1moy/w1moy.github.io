@@ -221,8 +221,8 @@ xButtons
     background: lighten($color-1, 5%);
   }
 
-  &.btn-success {
-    background: $success;
+ /* &.btn-success {
+    background: $success;*/
 
     .no-touch &:hover {
       background: lighten($success, 5%);
