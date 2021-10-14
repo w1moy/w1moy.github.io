@@ -200,7 +200,7 @@ xButtons
 
 -------------------------------- */
 
-.btn {
+/* .btn {
   border: none;
   box-shadow: none;
   border-radius: 0.25em;
@@ -222,7 +222,7 @@ xButtons
   }
 
  /* &.btn-success {
-    background: $success;*/
+    background: $success;
 
     .no-touch &:hover {
       background: lighten($success, 5%);
@@ -230,7 +230,7 @@ xButtons
   }
 
   /*&.btn-alert {
-    background: $alert;*/
+    background: $alert;
 
     .no-touch &:hover {
       background: lighten($alert, 5%);
@@ -254,10 +254,9 @@ xButtons
 
 
 .cd-buttons .cd-box:nth-of-type(2) span {
-  /* CSS class name color */
+  /* CSS class name color 
   color: $color-1;
-}
-
+}*/
 /* -------------------------------- 
 
 xIcons 
