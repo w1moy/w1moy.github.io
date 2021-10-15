@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" href="scss/style-guide.scss" />
+  <link rel="stylesheet" href="11a54e647e37814b135a6f0ff22b5f24">
   <!-- Resource style -->
-  <script src="js/modernizr.js"></script>
+  <script src="932d90d3eeeec95f906d78b52546ca5e"></script>
   <!-- Modernizr -->
   <title>Style Guide | CodyHouse</title>
 </head>
 <body>
   <header>
-    <div class="cd-logo"><img src="assets/zg_logo.svg" alt="Logo" /></div>
+    <div class="cd-logo"><img src="2eefb3763d88f4038a988aac107e1fee" alt="Logo"></div>
 
     <nav>
       <ul class="cd-main-nav">
@@ -27,9 +27,7 @@
       <!-- cd-main-nav -->
     </nav>
 
-    <a href="assets/assets-download-file.zip" class="cd-download"
-      ><span>Download assets</span></a
-    >
+    <a href="0c1ad1e7b10aa4131796b0da0453a5c6" class="cd-download"><span>Download assets</span></a>
     <a href="#0" class="cd-nav-trigger">Menu<span></span></a>
   </header>
 
@@ -55,19 +53,19 @@
 
       <ul>
         <li class="cd-box">
-          <img src="assets/branding/zg_logo.jpg" alt="Logo version 1" />
+          <img src="28c32e68b1842ede657d01cba4a8c9ef" alt="Logo version 1">
         </li>
       </ul>
 
       <ul>
         <li>
-          <img src="assets/branding/touch-icon-1.jpg" alt="Touch Icon 1" />
+          <img src="612528cc737e70cec6726a14463599fe" alt="Touch Icon 1">
         </li>
         <li>
-          <img src="assets/branding/touch-icon-2.jpg" alt="Touch Icon 2" />
+          <img src="afaf977833663d57e10fed9071fc27d2" alt="Touch Icon 2">
         </li>
-        <li><img src="assets/branding/favicon-1.jpg" alt="Favicon 1" /></li>
-        <li><img src="assets/branding/favicon-2.jpg" alt="Favicon 2" /></li>
+        <li><img src="15fc8f67b176cd374ea9d9db0093a507" alt="Favicon 1"></li>
+        <li><img src="6ed3491aae4ca1b8e886911c84742078" alt="Favicon 2"></li>
       </ul>
     </section>
 
@@ -144,17 +142,17 @@
       <h2>Wireframes</h2>
       <div class="cd-box">
         <figure>
-          <img src="assets/Homepage-Small-resize.png" alt="Small screen wireframe" />
+          <img src="a876f5c0435ccda37070f3a46ffc05a0" alt="Small screen wireframe">
           <figcaption>Small screen</figcaption>
         </figure>
         <figure>
-          <img src="assets/Homepage-Big-resize.png" alt="Large screen wireframe" />
+          <img src="d45d667effd61ecd590703efe2f99350" alt="Large screen wireframe">
           <figcaption>Large screen</figcaption>
         </figure>
       </div>
     </section>
   </main>
 
-  <script src="js/main.js"></script>
+  <script src="109840a1dc8a9cfb9428801d6c53805a"></script>
 </body>
 </html>
