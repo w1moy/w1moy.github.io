@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap');
+// color palette - these colors will be the color swatches of the Colors section
+
+$color-1: #0000FF; // Blue
+$color-2: #000000; // Black
+$color-3: #FFF600; // Yellow
+$color-4: #E30022; // Red
+$color-5: #FFFFFF; // White
+
+// additional colors
+
+$success: #6fce72; // green
+$alert: $color-4; // red
+
+// fonts
+$primary-font: 'Raleway', sans-serif;
+$secondary-font: 'Montserrat', sans-serif;
