@@ -1,4 +1,4 @@
-/* CSS HEX 
+/* CSS HEX
 --saffron: #eac435ff;
 --light-blue: #a8d5e2ff;
 --queen-blue: #456990ff;
@@ -9,25 +9,25 @@
 font-family: 'PT Sans', sans-serif;*/
 
 header {
-    background-color: #EAC435;
-    text-align: center;
+background-color: #eac435;
+text-align: center;
 }
 
 nav {
-    font-size: 1.5rem;
-    font-family: PT Sans, sans-serif;
-    display: block;
-    background-color: #eac435;
-    padding: 5px;
-    margin: 5px;
-    align-items: center;
+font-size: 1.5rem;
+font-family: PT Sans, sans-serif;
+display: block;
+background-color: #eac435;
+padding: 5px;
+margin: 5px;
+align-items: center;
 }
 
 nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
 }
 
 nav ul li a {
@@ -35,46 +35,49 @@ nav ul li a {
     color: #131200;
     text-align: center;
     padding: 5px;
-    font-size: 0.95rem;}
+    font-size: 0.95rem;
+}
 
-h1, h2, h3 {
-        font-family: Francois One, sans-serif;
-        color: #131200;
-        padding: 5px;
-        margin: 5px;
-    }
+h1,
+h2,
+h3 {
+    font-family: Francois One, sans-serif;
+    color: #131200;
+    padding: 5px;
+    margin: 5px;
+}
 
-    h2 {
-        text-align: center;
-        border: solid #637081;
-        padding: 5px;
-    }
+h2 {
+    text-align: center;
+    border: solid #637081;
+    padding: 5px;
+}
 
-    main {
-        background-color: #A8D5E2;
-        padding: 5px;
-    }
+main {
+    background-color: #A8D5E2;
+    padding: 5px;
+}
 
-    p {
-        font-family: PT Sans, sans-serif;
-        padding: 5px;
-        margin: 5px;
-    }
+p {
+    font-family: PT Sans, sans-serif;
+    padding: 5px;
+    margin: 5px;
+}
 
-    img {
-        width: 400px;
-        height: auto;
-        padding:5px;
-        border: solid #637081;
-    }
+img {
+    width: 400px;
+    height: auto;
+    padding: 5px;
+    border: solid #637081;
+}
 
-    .audi {
-        width: 250px;
-        height: auto;
-    }
+.audi {
+    width: 250px;
+    height: auto;
+}
 
-    footer {
-        background-color: #EAC435;
-        text-align: center;
-        padding: 5px;
-    }
+footer {
+    background-color: #EAC435;
+    text-align: center;
+    padding: 5px;
+}
