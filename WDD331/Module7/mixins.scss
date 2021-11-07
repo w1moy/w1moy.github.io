@@ -1,3 +1,5 @@
+@import "variables";
+
 @mixin col($span-num) {
     flex: 0 0 calc($one-column * $span-num);
 }

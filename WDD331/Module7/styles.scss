@@ -2,7 +2,6 @@
 @import "mixins";
 @import "cardgrid";
 
-
 *,
 *:before,
 *:after {
@@ -26,9 +25,6 @@
     padding: .5em;
 }
 
-
-
-
 //set icon size
 .icon {
     width: $icon-size;
@@ -38,8 +34,9 @@
 .number {
     text-align: center;
     font-size: $font-size-number;
-  //an icon that is part of a number should be half the normal size
-    & > .icon {
+
+    //an icon that is part of a number should be half the normal size
+    &>.icon {
         width: $icon-size * .5;
         height: $icon-size *.5;
     }
