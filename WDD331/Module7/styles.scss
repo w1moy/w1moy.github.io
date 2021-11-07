@@ -1,8 +1,7 @@
-//variables to setup basic size and shape of the card and pips
-$card-width: 40vw;
-$card-height: $card-width*1.4;
-$font-size-number: $card-width * 0.1;
-$icon-size: $card-width / 5;
+@import "variables";
+@import "mixins";
+@import "cardgrid";
+
 
 *,
 *:before,
@@ -27,6 +26,9 @@ $icon-size: $card-width / 5;
     padding: .5em;
 }
 
+
+
+
 //set icon size
 .icon {
     width: $icon-size;
@@ -47,13 +49,3 @@ $icon-size: $card-width / 5;
 .rotate {
     transform: rotate(180deg);
 }
-
-.row {
-    display: flex;
-    flex-flow: row wrap;
-}
-
-.cell {
-    flex: 1;
-    text-align: center;
-  }

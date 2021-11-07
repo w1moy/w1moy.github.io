@@ -30,8 +30,4 @@
 .rotate {
   transform: rotate(180deg); }
 
-.row {
-  display: flex;
-  flex-flow: row wrap; }
-
-/*# sourceMappingURL=card-front.css.map */
+/*# sourceMappingURL=styles.css.map */

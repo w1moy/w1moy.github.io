@@ -1,0 +1,9 @@
+//variables
+$card-width: 40vw;
+$card-height: calc($card-width * 1.4);
+$font-size-number: calc($card-width * 0.1);
+$icon-size: calc($card-width / 5);
+$num-columns : 8;
+$one-column : calc(100% / $num_columns);
+$loop-start: 1;
+$loop-end: calc($num-columns +1);

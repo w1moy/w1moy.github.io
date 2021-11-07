@@ -1,0 +1,29 @@
+@mixin col($span-num) {
+    flex: 0 0 calc($one-column * $span-num);
+}
+
+@mixin offset($offset-num) {
+    margin-left: calc($one-column * $offset-num);
+}
+
+
+
+/*columns
+@mixin col($span-num) {
+    flex: 0 0 12.5% * $span-num;
+}
+@mixin col($span-num) {
+    flex: 0 0 25% * $span-num;
+}
+@mixin col($span-num) {
+    flex: 0 0 100% * $span-num;
+}
+
+//offsets
+@mixin offset($offset-num) {
+    margin-left: 25%;
+}
+
+@mixin offset($offset-num) {
+    margin-left: 12.5%;
+}*/
