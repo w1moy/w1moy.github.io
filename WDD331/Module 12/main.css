@@ -2,3 +2,23 @@
   text-align: center;
   background: none;
 }
+
+.sectionLight{
+  background-color: #eceeef;
+  padding: 2em;
+}
+
+.sectionDark {
+  background-color: #cccc;
+  padding: 2rem;
+}
+
+.coolStufWrapper{
+  margin-top: 20px;
+}
+button.coolStuffBtn {
+  background-color: red;
+  color: #ffff;
+  display: block;
+  margin: auto;
+}
