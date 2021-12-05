@@ -3,7 +3,7 @@
   background: none;
 }
 
-.sectionLight{
+.sectionLight {
   background-color: #eceeef;
   padding: 2em;
 }
@@ -13,9 +13,10 @@
   padding: 2rem;
 }
 
-.coolStufWrapper{
+.coolStufWrapper {
   margin-top: 20px;
 }
+
 button.coolStuffBtn {
   background-color: red;
   color: #ffff;
@@ -27,19 +28,43 @@ button.coolStuffBtn {
   margin: auto;
 }
 
-.modalFormWrapper{
+.modalFormWrapper {
   padding: 2rem;
 }
 
-.imgCenter{
+.imgCenter {
   display: block;
   margin: auto;
 }
 
-.btnCenter{
+.btnCenter {
   display: block;
   margin: auto;
   margin-top: 15px;
   margin-bottom: 20px;
-  width: 90%;
+  width: 80%;
+}
+
+.footerImg {
+  padding: 15px;
+}
+
+.socialWrapper {
+  margin: auto;
+}
+
+.fab {
+  margin: 10px;
+}
+
+.fa-facebook-square {
+  color: #3b5998;
+}
+
+.fa-google-plus-square {
+  color: #c32f10;
+}
+
+.fa-instagram {
+  color: white;
 }
